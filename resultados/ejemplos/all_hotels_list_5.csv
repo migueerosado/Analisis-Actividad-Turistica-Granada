@@ -1,0 +1,651 @@
+total_capacity,checkin_date,checkout_date,adults,children,hotel,price,score,avg review,reviews count
+97%,,,,,,,,,
+,2024-02-24,2024-02-27,2,0,Porcel Navas,US$298,8.7,Excellent,"2,108"
+,2024-02-24,2024-02-27,2,0,Vincci Albayzin,US$359,8.5,Very Good,"5,244"
+,2024-02-24,2024-02-27,2,0,Room Mate Leo,US$358,8.8,Excellent,"4,205"
+,2024-02-24,2024-02-27,2,0,Catalonia Granada,US$314,8.9,Excellent,"3,969"
+,2024-02-24,2024-02-27,2,0,Porcel Alixares,US$292,8.4,Very Good,"9,184"
+,2024-02-24,2024-02-27,2,0,Gran Hotel Luna de Granada,US$400,8.5,Very Good,"9,332"
+,2024-02-24,2024-02-27,2,0,Hotel Macià Real De La Alhambra,US$294,8.5,Very Good,"5,002"
+,2024-02-24,2024-02-27,2,0,Porcel Sabica,US$308,8.3,Very Good,"4,372"
+,2024-02-24,2024-02-27,2,0,YIT Casablanca,US$283,7.5,Good,"3,780"
+,2024-02-24,2024-02-27,2,0,Hotel Granada Center,US$472,9.1,Wonderful,"8,214"
+,2024-02-24,2024-02-27,2,0,Sercotel Palacio de los Gamboa,US$436,8.6,Excellent,"4,783"
+,2024-02-24,2024-02-27,2,0,Hotel Tent Granada,US$387,8.4,Very Good,"4,615"
+,2024-02-24,2024-02-27,2,0,Hotel Andalucía Center,US$371,8.8,Excellent,"7,104"
+,2024-02-24,2024-02-27,2,0,Occidental Granada,US$409,8.7,Excellent,"3,058"
+,2024-02-24,2024-02-27,2,0,NH Collection Victoria,US$484,8.7,Excellent,"1,292"
+,2024-02-24,2024-02-27,2,0,Las Nieves,US$313,8.4,Very Good,"2,307"
+,2024-02-24,2024-02-27,2,0,Hotel Boutique Las Almenas,US$373,8.4,Very Good,"1,814"
+,2024-02-24,2024-02-27,2,0,Hotel Macià Cóndor,US$275,7.7,Good,"1,801"
+,2024-02-24,2024-02-27,2,0,Hotel La Casa de Los Mosaicos,US$487,8.4,Very Good,"1,985"
+,2024-02-24,2024-02-27,2,0,Boutique Hotel Luna Granada Centro,US$455,9.1,Wonderful,988
+,2024-02-24,2024-02-27,2,0,Barceló Granada Congress,US$422,8.5,Very Good,"4,966"
+,2024-02-24,2024-02-27,2,0,La Casa de la Trinidad,US$488,8.7,Excellent,"2,381"
+,2024-02-24,2024-02-27,2,0,Allegro Granada,US$418,8.6,Excellent,"4,094"
+,2024-02-24,2024-02-27,2,0,Apartamentos Turísticos Las Nieves,US$396,8.7,Excellent,909
+,2024-02-24,2024-02-27,2,0,Barceló Carmen Granada,US$377,9.1,Wonderful,"1,052"
+98%,,,,,,,,,
+,2024-02-24,2024-02-27,2,2,Hospes Palacio de los Patos,"US$1,900",8.6,Excellent,"1,254"
+,2024-02-24,2024-02-27,2,2,Occidental Granada,US$767,8.7,Excellent,"3,058"
+,2024-02-24,2024-02-27,2,2,Hi Granada Suite A,US$498,8.8,Excellent,5
+,2024-02-24,2024-02-27,2,2,Alojamientos Rurales Las Eras,US$292,8.8,Excellent,56
+,2024-02-24,2024-02-27,2,2,Alhambra Palace Hotel,"US$2,637",8.7,Excellent,"1,465"
+,2024-02-24,2024-02-27,2,2,Morayma House Terrace with views to Alhambra,"US$2,273",9.5,Exceptional,4
+,2024-02-24,2024-02-27,2,2,Biznaga Nevada,"US$1,336",-,-,-
+,2024-02-24,2024-02-27,2,2,Hotel Casa Palacete Tablas,"US$1,115",8.9,Excellent,23
+,2024-02-24,2024-02-27,2,2,Catalonia Granada,US$628,8.9,Excellent,"3,969"
+,2024-02-24,2024-02-27,2,2,Vincci Albayzin,US$718,8.5,Very Good,"5,244"
+,2024-02-24,2024-02-27,2,2,Hotel Macià Real De La Alhambra,US$589,8.5,Very Good,"5,002"
+,2024-02-24,2024-02-27,2,2,Hotel Andalucía Center,US$779,8.8,Excellent,"7,104"
+,2024-02-24,2024-02-27,2,2,Room Mate Leo,US$826,8.8,Excellent,"4,205"
+,2024-02-24,2024-02-27,2,2,Hotel Granada Center,US$944,9.1,Wonderful,"8,214"
+,2024-02-24,2024-02-27,2,2,Hotel Tent Granada,US$775,8.4,Very Good,"4,615"
+,2024-02-24,2024-02-27,2,2,Sercotel Palacio de los Gamboa,US$872,8.6,Excellent,"4,783"
+,2024-02-24,2024-02-27,2,2,Hotel Los Girasoles,US$565,6.8,Review score,"2,185"
+,2024-02-24,2024-02-27,2,2,NH Collection Victoria,US$967,8.7,Excellent,"1,292"
+,2024-02-24,2024-02-27,2,2,Barceló Carmen Granada,"US$1,187",9.1,Wonderful,"1,052"
+,2024-02-24,2024-02-27,2,2,Princesa Ana,US$628,7.7,Good,"1,055"
+,2024-02-24,2024-02-27,2,2,Allegro Granada,US$898,8.6,Excellent,"4,094"
+,2024-02-24,2024-02-27,2,2,Hotel La Casa de Los Mosaicos,US$974,8.4,Very Good,"1,985"
+,2024-02-24,2024-02-27,2,2,Reino de Granada,US$637,8.2,Very Good,674
+,2024-02-24,2024-02-27,2,2,Barceló Granada Congress,"US$1,380",8.5,Very Good,"4,966"
+,2024-02-24,2024-02-27,2,2,La Casa de la Trinidad,"US$1,016",8.7,Excellent,"2,381"
+98%,,,,,,,,,
+,2024-02-24,2024-02-27,5,0,Porcel Alixares,US$876,8.4,Very Good,"9,184"
+,2024-02-24,2024-02-27,5,0,Occidental Granada,"US$1,023",8.7,Excellent,"3,058"
+,2024-02-24,2024-02-27,5,0,Vincci Albayzin,"US$1,077",8.5,Very Good,"5,244"
+,2024-02-24,2024-02-27,5,0,Gran Hotel Luna de Granada,"US$1,199",8.5,Very Good,"9,332"
+,2024-02-24,2024-02-27,5,0,Catalonia Granada,US$909,8.9,Excellent,"3,969"
+,2024-02-24,2024-02-27,5,0,Hotel Macià Real De La Alhambra,US$953,8.5,Very Good,"5,002"
+,2024-02-24,2024-02-27,5,0,Allegro Granada,US$982,8.6,Excellent,"4,094"
+,2024-02-24,2024-02-27,5,0,Hotel Tent Granada,"US$1,117",8.4,Very Good,"4,615"
+,2024-02-24,2024-02-27,5,0,Barceló Granada Congress,"US$1,380",8.5,Very Good,"4,966"
+,2024-02-24,2024-02-27,5,0,NH Collection Victoria,"US$1,451",8.7,Excellent,"1,292"
+,2024-02-24,2024-02-27,5,0,Sercotel Palacio de los Gamboa,"US$1,357",8.6,Excellent,"4,783"
+,2024-02-24,2024-02-27,5,0,"Hotel Palacio de Santa Paula, Autograph Collection","US$1,722",8.4,Very Good,580
+,2024-02-24,2024-02-27,5,0,Hotel Granada Center,"US$1,593",9.1,Wonderful,"8,214"
+,2024-02-24,2024-02-27,5,0,La Casa de la Trinidad,"US$1,650",8.7,Excellent,"2,381"
+,2024-02-24,2024-02-27,5,0,Alhambra Palace Hotel,"US$3,566",8.7,Excellent,"1,465"
+,2024-02-24,2024-02-27,5,0,Reino de Granada,US$572,8.2,Very Good,674
+,2024-02-24,2024-02-27,5,0,Hotel Los Girasoles,US$842,6.8,Review score,"2,185"
+,2024-02-24,2024-02-27,5,0,Barceló Carmen Granada,"US$1,346",9.1,Wonderful,"1,052"
+,2024-02-24,2024-02-27,5,0,Alojamientos Rurales Las Eras,US$487,8.8,Excellent,56
+,2024-02-24,2024-02-27,5,0,Morayma House Terrace with views to Alhambra,"US$2,273",9.5,Exceptional,4
+,2024-02-24,2024-02-27,5,0,Princesa Ana,US$941,7.7,Good,"1,055"
+,2024-02-24,2024-02-27,5,0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$4,565",9.5,Exceptional,216
+,2024-02-24,2024-02-27,5,0,Biznaga Nevada,"US$2,225",-,-,-
+,2024-02-24,2024-02-27,5,0,Villa Aguas de Víznar,"US$2,597",-,-,-
+,2024-02-24,2024-02-27,5,0,Hotel Granada Palace,"US$1,834",8.4,Very Good,755
+98%,,,,,,,,,
+,2024-02-24,2024-02-27,4,3,Occidental Granada,"US$1,331",8.7,Excellent,"3,058"
+,2024-02-24,2024-02-27,4,3,Vincci Albayzin,"US$1,436",8.5,Very Good,"5,244"
+,2024-02-24,2024-02-27,4,3,Hotel Macià Real De La Alhambra,"US$1,368",8.5,Very Good,"5,002"
+,2024-02-24,2024-02-27,4,3,Hotel Tent Granada,"US$1,534",8.4,Very Good,"4,615"
+,2024-02-24,2024-02-27,4,3,Hotel Granada Center,"US$2,065",9.1,Wonderful,"8,214"
+,2024-02-24,2024-02-27,4,3,Sercotel Palacio de los Gamboa,"US$1,842",8.6,Excellent,"4,783"
+,2024-02-24,2024-02-27,4,3,"Hotel Palacio de Santa Paula, Autograph Collection","US$2,511",8.4,Very Good,580
+,2024-02-24,2024-02-27,4,3,Alhambra Palace Hotel,"US$4,563",8.7,Excellent,"1,465"
+,2024-02-24,2024-02-27,4,3,Hotel Los Girasoles,US$877,6.8,Review score,"2,185"
+,2024-02-24,2024-02-27,4,3,Alojamientos Rurales Las Eras,US$487,8.8,Excellent,56
+,2024-02-24,2024-02-27,4,3,Morayma House Terrace with views to Alhambra,"US$2,435",9.5,Exceptional,4
+,2024-02-24,2024-02-27,4,3,Barceló Carmen Granada,"US$1,995",9.1,Wonderful,"1,052"
+,2024-02-24,2024-02-27,4,3,Princesa Ana,"US$1,255",7.7,Good,"1,055"
+,2024-02-24,2024-02-27,4,3,Barceló Granada Congress,"US$2,140",8.5,Very Good,"4,966"
+,2024-02-24,2024-02-27,4,3,Biznaga Nevada,"US$1,970",-,-,-
+,2024-02-24,2024-02-27,4,3,"Palacio Gran Vía, a Royal Hideaway Hotel","US$13,153",9.5,Exceptional,216
+,2024-02-24,2024-02-27,4,3,Villa Aguas de Víznar,"US$2,597",-,-,-
+,2024-02-24,2024-02-27,4,3,Hotel Granada Palace,"US$2,651",8.4,Very Good,755
+,2024-02-24,2024-02-27,4,3,Chalet Rural Vistas a Granada,US$652,9.6,Exceptional,23
+,2024-02-24,2024-02-27,4,3,Villa de la Acacia,"US$1,753",9.7,Exceptional,9
+,2024-02-24,2024-02-27,4,3,El cortijo del abuelo pepe,"US$1,532",10,Exceptional,1
+,2024-02-24,2024-02-27,4,3,Hotel Corona de Atarfe,US$650,7.7,Good,465
+,2024-02-24,2024-02-27,4,3,Hotel Lindaraja,US$628,5.3,Review score,44
+,2024-02-24,2024-02-27,4,3,CORTIJO HOYA MESA,US$690,-,-,-
+,2024-02-24,2024-02-27,4,3,Kampaoh Sierra Nevada,US$527,8.7,Excellent,224
+98%,,,,,,,,,
+,2024-02-24,2024-02-27,7,0,Vincci Albayzin,"US$1,436",8.5,Very Good,"5,244"
+,2024-02-24,2024-02-27,7,0,Morayma House Terrace with views to Alhambra,"US$2,435",9.5,Exceptional,4
+,2024-02-24,2024-02-27,7,0,Porcel Alixares,"US$1,168",8.4,Very Good,"9,184"
+,2024-02-24,2024-02-27,7,0,Gran Hotel Luna de Granada,"US$1,675",8.5,Very Good,"9,332"
+,2024-02-24,2024-02-27,7,0,Reino de Granada,US$825,8.2,Very Good,674
+,2024-02-24,2024-02-27,7,0,Occidental Granada,"US$1,406",8.7,Excellent,"3,058"
+,2024-02-24,2024-02-27,7,0,Hotel Macià Real De La Alhambra,"US$1,368",8.5,Very Good,"5,002"
+,2024-02-24,2024-02-27,7,0,Hotel Los Girasoles,"US$1,154",6.8,Review score,"2,185"
+,2024-02-24,2024-02-27,7,0,Hotel Tent Granada,"US$1,569",8.4,Very Good,"4,615"
+,2024-02-24,2024-02-27,7,0,Alojamientos Rurales Las Eras,US$584,8.8,Excellent,56
+,2024-02-24,2024-02-27,7,0,Barceló Carmen Granada,"US$2,030",9.1,Wonderful,"1,052"
+,2024-02-24,2024-02-27,7,0,Hotel Granada Center,"US$2,065",9.1,Wonderful,"8,214"
+,2024-02-24,2024-02-27,7,0,Sercotel Palacio de los Gamboa,"US$1,842",8.6,Excellent,"4,783"
+,2024-02-24,2024-02-27,7,0,Princesa Ana,"US$1,255",7.7,Good,"1,055"
+,2024-02-24,2024-02-27,7,0,Barceló Granada Congress,"US$2,330",8.5,Very Good,"4,966"
+,2024-02-24,2024-02-27,7,0,"Hotel Palacio de Santa Paula, Autograph Collection","US$2,511",8.4,Very Good,580
+,2024-02-24,2024-02-27,7,0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$8,468",9.5,Exceptional,216
+,2024-02-24,2024-02-27,7,0,Biznaga Nevada,"US$2,874",-,-,-
+,2024-02-24,2024-02-27,7,0,Alhambra Palace Hotel,"US$4,440",8.7,Excellent,"1,465"
+,2024-02-24,2024-02-27,7,0,Villa Aguas de Víznar,"US$2,597",-,-,-
+,2024-02-24,2024-02-27,7,0,Hotel Granada Palace,"US$2,651",8.4,Very Good,755
+,2024-02-24,2024-02-27,7,0,Chalet Rural Vistas a Granada,US$652,9.6,Exceptional,23
+,2024-02-24,2024-02-27,7,0,Villa de la Acacia,"US$1,753",9.7,Exceptional,9
+,2024-02-24,2024-02-27,7,0,El cortijo del abuelo pepe,"US$1,532",10,Exceptional,1
+,2024-02-24,2024-02-27,7,0,Hotel Corona de Atarfe,US$650,7.7,Good,465
+Commission,,,,,,,,,
+,2024-02-27,2024-02-29,2,0,tuGuest Station 2 apartment,US$250,8.3,Very Good,75
+,2024-02-27,2024-02-29,2,0,Apartamentos Caballerizas Granada con parking gratuito en pleno centro,US$251,9.1,Wonderful,723
+,2024-02-27,2024-02-29,2,0,Granada City Center,US$286,9.4,Wonderful,159
+,2024-02-27,2024-02-29,2,0,Áurea Catedral by Eurostars Hotel Company,US$247,9.2,Wonderful,"5,531"
+,2024-02-27,2024-02-29,2,0,Catalonia Granada,US$152,8.9,Excellent,"3,969"
+,2024-02-27,2024-02-29,2,0,Vincci Albayzin,US$179,8.5,Very Good,"5,244"
+,2024-02-27,2024-02-29,2,0,Crisol Guadalupe,US$117,8.5,Very Good,"4,583"
+,2024-02-27,2024-02-29,2,0,Eurostars Gran Via,US$236,8.6,Excellent,"2,124"
+,2024-02-27,2024-02-29,2,0,Gran Hotel Luna de Granada,US$173,8.5,Very Good,"9,332"
+,2024-02-27,2024-02-29,2,0,Hotel Granada Center,US$193,9.1,Wonderful,"8,214"
+,2024-02-27,2024-02-29,2,0,Hotel Monasterio Granada - Adults Only,US$90,6.9,Review score,"3,823"
+,2024-02-27,2024-02-29,2,0,Barceló Carmen Granada,US$139,9.1,Wonderful,"1,052"
+,2024-02-27,2024-02-29,2,0,Hotel Colón Centro,US$190,8.4,Very Good,"2,384"
+,2024-02-27,2024-02-29,2,0,Eurostars Puerta Real,US$225,8.9,Excellent,"4,039"
+,2024-02-27,2024-02-29,2,0,Áurea Washington Irving by Eurostars Hotel Company,US$290,8.9,Excellent,"2,579"
+,2024-02-27,2024-02-29,2,0,Porcel Alixares,US$138,8.4,Very Good,"9,184"
+,2024-02-27,2024-02-29,2,0,Hospes Palacio de los Patos,US$387,8.6,Excellent,"1,254"
+,2024-02-27,2024-02-29,2,0,Hotel Macià Monasterio de los Basilios,US$143,8.1,Very Good,"2,644"
+,2024-02-27,2024-02-29,2,0,Hotel Andalucía Center,US$136,8.8,Excellent,"7,104"
+,2024-02-27,2024-02-29,2,0,Casa Vestali,US$133,9.0,Wonderful,437
+,2024-02-27,2024-02-29,2,0,Porcel Navas,US$141,8.7,Excellent,"2,108"
+,2024-02-27,2024-02-29,2,0,Abadía Hotel,US$146,8.5,Very Good,"4,139"
+,2024-02-27,2024-02-29,2,0,Room Mate Leo,US$210,8.8,Excellent,"4,205"
+,2024-02-27,2024-02-29,2,0,limehome Granada Calle Santa Ana,US$145,8.8,Excellent,"1,728"
+,2024-02-27,2024-02-29,2,0,Hotel Macià Granada Five Senses Rooms & Suites,US$182,8.6,Excellent,"4,603"
+Commission,,,,,,,,,
+,2024-02-27,2024-02-29,2,2,Apartamentos Caballerizas Granada con parking gratuito en pleno centro,US$257,9.1,Wonderful,723
+,2024-02-27,2024-02-29,2,2,Granada City Center,US$286,9.4,Wonderful,159
+,2024-02-27,2024-02-29,2,2,Luxury Alhambra Penthouse Collection,US$226,8.6,Excellent,622
+,2024-02-27,2024-02-29,2,2,BnS Dauro Suites,US$167,9.1,Wonderful,224
+,2024-02-27,2024-02-29,2,2,Porcel Alixares,US$218,8.4,Very Good,"9,184"
+,2024-02-27,2024-02-29,2,2,Porcel Navas,US$211,8.7,Excellent,"2,108"
+,2024-02-27,2024-02-29,2,2,Casa Palacio López Daza,US$214,9.0,Wonderful,374
+,2024-02-27,2024-02-29,2,2,Central Deluxe Apartments by Apolo Homes,US$302,9.0,Wonderful,107
+,2024-02-27,2024-02-29,2,2,Smart Suites Albaicin,US$222,9.2,Wonderful,"5,851"
+,2024-02-27,2024-02-29,2,2,Pension Venecia Gomerez,US$165,8.4,Very Good,978
+,2024-02-27,2024-02-29,2,2,Genteel Home Zacatín,US$213,9.1,Wonderful,520
+,2024-02-27,2024-02-29,2,2,Domus Apartamentos Granada con parking gratuito en pleno centro,US$264,9.4,Wonderful,"1,433"
+,2024-02-27,2024-02-29,2,2,ADANAR-Apartamentos Muralla Zirí,US$250,8.6,Excellent,228
+,2024-02-27,2024-02-29,2,2,APN Hatabin,US$148,8.7,Excellent,524
+,2024-02-27,2024-02-29,2,2,Apartamentos Mirador Alhambra,US$159,8.3,Very Good,257
+,2024-02-27,2024-02-29,2,2,BiBo Suites Oro del Darro,US$281,9.3,Wonderful,"2,483"
+,2024-02-27,2024-02-29,2,2,Anacapri,US$292,8.7,Excellent,"3,517"
+,2024-02-27,2024-02-29,2,2,Porcel Sabica,US$211,8.3,Very Good,"4,372"
+,2024-02-27,2024-02-29,2,2,Sercotel Granada Suites,US$346,9.2,Wonderful,"1,780"
+,2024-02-27,2024-02-29,2,2,EnjoyGranada PLAZA NUEVA HOMES,US$207,9.0,Wonderful,117
+,2024-02-27,2024-02-29,2,2,Palacio Cabrera - Lillo,US$223,9.1,Wonderful,"2,332"
+,2024-02-27,2024-02-29,2,2,tuGuest San Gil Apartments,US$314,8.9,Excellent,288
+,2024-02-27,2024-02-29,2,2,Hostal Sonia Granada,US$184,8.0,Very Good,"2,372"
+,2024-02-27,2024-02-29,2,2,Casa Miravalle Catedral,US$292,9.2,Wonderful,"1,110"
+,2024-02-27,2024-02-29,2,2,Boutique Hotel Luna Granada Centro,US$351,9.1,Wonderful,988
+73%,,,,,,,,,
+,2024-02-27,2024-02-29,5,0,Granada City Center,US$286,9.4,Wonderful,159
+,2024-02-27,2024-02-29,5,0,Pepa Home,US$273,8.9,Excellent,581
+,2024-02-27,2024-02-29,5,0,Apartamentos Correo Viejo de Granada,US$331,8.5,Very Good,790
+,2024-02-27,2024-02-29,5,0,Apartamentos Turísticos Mauror,US$439,9.4,Wonderful,718
+,2024-02-27,2024-02-29,5,0,Granada Home Centro,US$308,8.3,Very Good,378
+,2024-02-27,2024-02-29,5,0,Arte Vida Suites & Spa,US$284,8.7,Excellent,"1,130"
+,2024-02-27,2024-02-29,5,0,Elegante piso reformado a 1km del centro,US$197,-,-,-
+,2024-02-27,2024-02-29,5,0,Casa de la Alegría,US$173,9.0,Wonderful,721
+,2024-02-27,2024-02-29,5,0,Domus Apartamentos Granada con parking gratuito en pleno centro,US$338,9.4,Wonderful,"1,433"
+,2024-02-27,2024-02-29,5,0,ISA Granada,US$356,8.6,Excellent,"2,545"
+,2024-02-27,2024-02-29,5,0,BiBo Suites Gran Vía,US$319,9.0,Wonderful,"3,271"
+,2024-02-27,2024-02-29,5,0,Carmen Vistas de la Alhambra,US$217,7.7,Good,911
+,2024-02-27,2024-02-29,5,0,Imeda Apartamentos Escudo del Carmen 19,US$286,9.0,Wonderful,375
+,2024-02-27,2024-02-29,5,0,BiBo Suites Plaza Nueva,US$340,9.2,Wonderful,"2,862"
+,2024-02-27,2024-02-29,5,0,BiBo Suites Oro del Darro,US$366,9.3,Wonderful,"2,483"
+,2024-02-27,2024-02-29,5,0,BiBo Suites Real Chancilleria,US$420,9.5,Exceptional,"1,973"
+,2024-02-27,2024-02-29,5,0,APARTAMENTO GARDEN ART IV,US$225,9.5,Exceptional,64
+,2024-02-27,2024-02-29,5,0,Genteel Home Recogidas,US$348,9.3,Wonderful,142
+,2024-02-27,2024-02-29,5,0,tuGuest Clave de Sol Apartment,US$302,8.6,Excellent,64
+,2024-02-27,2024-02-29,5,0,"Plaza Nueva's House ""El Consul""",US$379,8.4,Very Good,49
+,2024-02-27,2024-02-29,5,0,Apartamentos Ilíberis,US$303,8.8,Excellent,339
+,2024-02-27,2024-02-29,5,0,tuGuest El Rincón de Felisa,US$216,9.1,Wonderful,21
+,2024-02-27,2024-02-29,5,0,Toc Hostel Granada,US$401,9.1,Wonderful,"3,656"
+,2024-02-27,2024-02-29,5,0,Chapizhome,US$298,8.3,Very Good,549
+,2024-02-27,2024-02-29,5,0,Apartamentos de Isabella,US$267,8.6,Excellent,845
+83%,,,,,,,,,
+,2024-02-27,2024-02-29,4,3,Chezmoihomes Glow and elegant 4 BR apartment in the heart of granada parking free,US$379,9.1,Wonderful,79
+,2024-02-27,2024-02-29,4,3,tuGuest El Rincón de Felisa,US$216,9.1,Wonderful,21
+,2024-02-27,2024-02-29,4,3,Arte Vida Suites & Spa,US$300,8.7,Excellent,"1,130"
+,2024-02-27,2024-02-29,4,3,Apartamentos Turísticos Mauror,US$648,9.4,Wonderful,718
+,2024-02-27,2024-02-29,4,3,Casa Mirador Alquería,US$232,8.8,Excellent,4
+,2024-02-27,2024-02-29,4,3,tuGuest Gran Via 42 Apartment,US$340,8.0,Very Good,67
+,2024-02-27,2024-02-29,4,3,Chezmoihomes Alhambra Penthouse,US$514,9.4,Wonderful,119
+,2024-02-27,2024-02-29,4,3,GRAN VÍA DELUXE,US$450,9.3,Wonderful,24
+,2024-02-27,2024-02-29,4,3,BiBo Suites Plaza Nueva,US$431,9.2,Wonderful,"2,862"
+,2024-02-27,2024-02-29,4,3,Apartamentos Granata,US$317,8.7,Excellent,299
+,2024-02-27,2024-02-29,4,3,BENDITA CASA,US$498,9.1,Wonderful,105
+,2024-02-27,2024-02-29,4,3,Chapizhome,US$298,8.3,Very Good,549
+,2024-02-27,2024-02-29,4,3,Grace Apartments - 3 bedroom City Centre,US$428,9.7,Exceptional,182
+,2024-02-27,2024-02-29,4,3,Impresionante apartamento Palacio de Congresos,US$401,9.2,Wonderful,57
+,2024-02-27,2024-02-29,4,3,"City Castle, Granada center, casa completa",US$313,9.7,Exceptional,55
+,2024-02-27,2024-02-29,4,3,"House&Cave Parking and Terrace, in the city",US$557,9.5,Exceptional,25
+,2024-02-27,2024-02-29,4,3,tuGuest S. Jerónimo Apartment,US$438,9.2,Wonderful,61
+,2024-02-27,2024-02-29,4,3,FAMILY CATEDRAL CENTRO,US$384,8.2,Very Good,53
+,2024-02-27,2024-02-29,4,3,Zahira Suites,US$290,7.0,Good,235
+,2024-02-27,2024-02-29,4,3,Apartamento Góngora,US$332,8.8,Excellent,46
+,2024-02-27,2024-02-29,4,3,Casa Jardin Alhambra,US$619,9.5,Exceptional,51
+,2024-02-27,2024-02-29,4,3,tuGuest Station 2 apartment,US$341,8.3,Very Good,75
+,2024-02-27,2024-02-29,4,3,Apartamento centro de Granada 2,US$234,9.3,Wonderful,14
+,2024-02-27,2024-02-29,4,3,Chezmoihomes The Best Ultimate Luxury Penthouse,US$378,8.1,Very Good,65
+,2024-02-27,2024-02-29,4,3,tuGuest San Agustin II Apartment,US$304,-,-,-
+82%,,,,,,,,,
+,2024-02-27,2024-02-29,7,0,tuGuest El Rincón de Felisa,US$243,9.1,Wonderful,21
+,2024-02-27,2024-02-29,7,0,BENDITA CASA,US$498,9.1,Wonderful,105
+,2024-02-27,2024-02-29,7,0,Chezmoihomes Alhambra Penthouse,US$514,9.4,Wonderful,119
+,2024-02-27,2024-02-29,7,0,"City Castle, Granada center, casa completa",US$637,9.7,Exceptional,55
+,2024-02-27,2024-02-29,7,0,tuGuest Gran Via 42 Apartment,US$391,8.0,Very Good,67
+,2024-02-27,2024-02-29,7,0,Apartamentos Turísticos Mauror,US$648,9.4,Wonderful,718
+,2024-02-27,2024-02-29,7,0,Impresionante apartamento Palacio de Congresos,US$401,9.2,Wonderful,57
+,2024-02-27,2024-02-29,7,0,"House&Cave Parking and Terrace, in the city",US$557,9.5,Exceptional,25
+,2024-02-27,2024-02-29,7,0,Apartamentos la Mariana,US$541,9.5,Exceptional,122
+,2024-02-27,2024-02-29,7,0,GRAN VÍA DELUXE,US$495,9.3,Wonderful,24
+,2024-02-27,2024-02-29,7,0,Grace Apartments - 3 bedroom City Centre,US$428,9.7,Exceptional,182
+,2024-02-27,2024-02-29,7,0,FAMILY CATEDRAL CENTRO,US$384,8.2,Very Good,53
+,2024-02-27,2024-02-29,7,0,POWER HOME,US$400,8.8,Excellent,41
+,2024-02-27,2024-02-29,7,0,"Casa Limon, Patio y Parking.",US$587,9.6,Exceptional,31
+,2024-02-27,2024-02-29,7,0,Apartamento centro de Granada 2,US$234,9.3,Wonderful,14
+,2024-02-27,2024-02-29,7,0,Riad Puertas del Albaicín,US$319,7.4,Good,414
+,2024-02-27,2024-02-29,7,0,Casa Jardin Alhambra,US$649,9.5,Exceptional,51
+,2024-02-27,2024-02-29,7,0,tuGuest San Agustin II Apartment,US$304,-,-,-
+,2024-02-27,2024-02-29,7,0,Apartamento Casa Inés,US$326,8.8,Excellent,27
+,2024-02-27,2024-02-29,7,0,Chezmoihomes Glow and elegant 4 BR apartment in the heart of granada parking free,US$591,9.1,Wonderful,79
+,2024-02-27,2024-02-29,7,0,Apartamento Góngora,US$384,8.8,Excellent,46
+,2024-02-27,2024-02-29,7,0,BiBo Suites Plaza Nueva,US$465,9.2,Wonderful,"2,862"
+,2024-02-27,2024-02-29,7,0,Chapizhome,US$360,8.3,Very Good,549
+,2024-02-27,2024-02-29,7,0,Casa de 3 habitaciones y 2 baños centrico,US$438,8.2,Very Good,61
+,2024-02-27,2024-02-29,7,0,tuGuest S. Jerónimo Apartment,US$543,9.2,Wonderful,61
+76%,,,,,,,,,
+,2024-03-01,2024-03-04,2,0,tuGuest Chueca Apartment,US$410,8.8,Excellent,29
+,2024-03-01,2024-03-04,2,0,APARTAMENTO CRiSTO DE LA YEDRA CON PARKING,US$359,8.2,Very Good,133
+,2024-03-01,2024-03-04,2,0,Oleti Studio Granada,US$482,8.7,Excellent,273
+,2024-03-01,2024-03-04,2,0,Room Mate Leo,US$389,8.8,Excellent,"4,205"
+,2024-03-01,2024-03-04,2,0,Gran Hotel Luna de Granada,US$323,8.5,Very Good,"9,332"
+,2024-03-01,2024-03-04,2,0,Vincci Albayzin,US$380,8.5,Very Good,"5,244"
+,2024-03-01,2024-03-04,2,0,Pension Castil,US$175,8.4,Very Good,712
+,2024-03-01,2024-03-04,2,0,Hotel Macià Monasterio de los Basilios,US$315,8.1,Very Good,"2,644"
+,2024-03-01,2024-03-04,2,0,Barceló Carmen Granada,US$292,9.1,Wonderful,"1,052"
+,2024-03-01,2024-03-04,2,0,Porcel Alixares,US$308,8.4,Very Good,"9,184"
+,2024-03-01,2024-03-04,2,0,Eurostars Puerta Real,US$421,8.9,Excellent,"4,039"
+,2024-03-01,2024-03-04,2,0,Abadía Hotel,US$331,8.5,Very Good,"4,139"
+,2024-03-01,2024-03-04,2,0,Occidental Granada,US$307,8.7,Excellent,"3,058"
+,2024-03-01,2024-03-04,2,0,Áurea Catedral by Eurostars Hotel Company,US$500,9.2,Wonderful,"5,531"
+,2024-03-01,2024-03-04,2,0,Hotel Saray,US$309,8.4,Very Good,"9,513"
+,2024-03-01,2024-03-04,2,0,Catalonia Granada,US$346,8.9,Excellent,"3,969"
+,2024-03-01,2024-03-04,2,0,Atenas Granada,US$253,7.7,Good,"3,973"
+,2024-03-01,2024-03-04,2,0,ISA Granada,US$377,8.6,Excellent,"2,545"
+,2024-03-01,2024-03-04,2,0,Eurostars Gran Via,US$495,8.6,Excellent,"2,124"
+,2024-03-01,2024-03-04,2,0,Porcel Navas,US$396,8.7,Excellent,"2,108"
+,2024-03-01,2024-03-04,2,0,Hotel Monasterio Granada - Adults Only,US$251,6.9,Review score,"3,823"
+,2024-03-01,2024-03-04,2,0,Hotel Comfort Dauro 2,US$343,8.6,Excellent,"3,544"
+,2024-03-01,2024-03-04,2,0,Apartamentos Reyes Católicos,US$388,9.0,Wonderful,"1,280"
+,2024-03-01,2024-03-04,2,0,Hotel Granada Centro,US$271,8.5,Very Good,"4,180"
+,2024-03-01,2024-03-04,2,0,Hotel Macià Plaza,US$313,8.3,Very Good,"1,633"
+82%,,,,,,,,,
+,2024-03-01,2024-03-04,2,2,APARTAMENTO CRiSTO DE LA YEDRA CON PARKING,US$359,8.2,Very Good,133
+,2024-03-01,2024-03-04,2,2,Gran Hotel Luna de Granada,US$481,8.5,Very Good,"9,332"
+,2024-03-01,2024-03-04,2,2,Apartamentos Reyes Católicos,US$441,9.0,Wonderful,"1,280"
+,2024-03-01,2024-03-04,2,2,Tina Home,US$488,8.9,Excellent,490
+,2024-03-01,2024-03-04,2,2,Hotel Carlos V,US$386,8.3,Very Good,"3,429"
+,2024-03-01,2024-03-04,2,2,GLORIA SUITES,US$410,7.9,Good,450
+,2024-03-01,2024-03-04,2,2,ADANAR-Apartamentos Muralla Zirí,US$594,8.6,Excellent,228
+,2024-03-01,2024-03-04,2,2,Porcel Navas,US$625,8.7,Excellent,"2,108"
+,2024-03-01,2024-03-04,2,2,Suites Gran Vía 44,US$443,9.0,Wonderful,"1,073"
+,2024-03-01,2024-03-04,2,2,BiBo Suites Gran Vía,US$500,9.0,Wonderful,"3,271"
+,2024-03-01,2024-03-04,2,2,Hotel Saray,US$580,8.4,Very Good,"9,513"
+,2024-03-01,2024-03-04,2,2,Esencias de la Alhambra,US$356,9.2,Wonderful,17
+,2024-03-01,2024-03-04,2,2,BiBo Suites Oro del Darro,US$600,9.3,Wonderful,"2,483"
+,2024-03-01,2024-03-04,2,2,Elvira Suites,US$525,8.9,Excellent,769
+,2024-03-01,2024-03-04,2,2,Apartamentos Correo Viejo de Granada,US$638,8.5,Very Good,790
+,2024-03-01,2024-03-04,2,2,Hostal Sonia Granada,US$460,8.0,Very Good,"2,372"
+,2024-03-01,2024-03-04,2,2,Sercotel Granada Suites,US$734,9.2,Wonderful,"1,780"
+,2024-03-01,2024-03-04,2,2,Loft Homelike,US$486,9.2,Wonderful,16
+,2024-03-01,2024-03-04,2,2,Apartamentos Turísticos Centro,US$429,8.7,Excellent,301
+,2024-03-01,2024-03-04,2,2,BiBo Suites Plaza Nueva,US$553,9.2,Wonderful,"2,862"
+,2024-03-01,2024-03-04,2,2,Suites 18,US$687,9.2,Wonderful,29
+,2024-03-01,2024-03-04,2,2,La Perla Granada Suites,US$403,8.1,Very Good,"3,192"
+,2024-03-01,2024-03-04,2,2,Central Deluxe Apartments by Apolo Homes,US$966,9.0,Wonderful,107
+,2024-03-01,2024-03-04,2,2,Palacio Cabrera - Lillo,US$567,9.1,Wonderful,"2,332"
+,2024-03-01,2024-03-04,2,2,Palacio Almagra,US$457,8.8,Excellent,575
+85%,,,,,,,,,
+,2024-03-01,2024-03-04,5,0,Apartamentos Correo Viejo de Granada,US$786,8.5,Very Good,790
+,2024-03-01,2024-03-04,5,0,Casa Asia,US$421,10,Exceptional,1
+,2024-03-01,2024-03-04,5,0,BiBo Suites Oro del Darro,US$719,9.3,Wonderful,"2,483"
+,2024-03-01,2024-03-04,5,0,Be Free Granada,US$477,8.2,Very Good,"3,242"
+,2024-03-01,2024-03-04,5,0,EnjoyGranada ELVIRA,US$513,7.7,Good,224
+,2024-03-01,2024-03-04,5,0,Carmen Vistas de la Alhambra,US$509,7.7,Good,911
+,2024-03-01,2024-03-04,5,0,BiBo Suites Plaza Nueva,US$752,9.2,Wonderful,"2,862"
+,2024-03-01,2024-03-04,5,0,Apartamentos Turísticos Centro,US$607,8.7,Excellent,301
+,2024-03-01,2024-03-04,5,0,Genteel Home Carmen San Ignacio,US$979,9.4,Wonderful,109
+,2024-03-01,2024-03-04,5,0,BiBo Suites Real Chancilleria,US$870,9.5,Exceptional,"1,973"
+,2024-03-01,2024-03-04,5,0,Espléndido Apartamento con Wifi,US$422,9.0,Wonderful,1
+,2024-03-01,2024-03-04,5,0,Zahira Suites,US$597,7.0,Good,235
+,2024-03-01,2024-03-04,5,0,tuGuest Chueca Apartment,US$459,8.8,Excellent,29
+,2024-03-01,2024-03-04,5,0,La casita de Real de Cartuja - Dúplex con parking,US$569,9.3,Wonderful,96
+,2024-03-01,2024-03-04,5,0,Apartamento Caleta,US$444,9.1,Wonderful,48
+,2024-03-01,2024-03-04,5,0,Local Granada Penthouse,US$500,10,Exceptional,5
+,2024-03-01,2024-03-04,5,0,Luninoso y práctico apartamento en el centro,US$535,-,-,-
+,2024-03-01,2024-03-04,5,0,Palacio Dorobe,US$771,8.2,Very Good,201
+,2024-03-01,2024-03-04,5,0,APARTAMENTO POETA ZORRILLA,US$551,8.4,Very Good,60
+,2024-03-01,2024-03-04,5,0,H&H Suite Palacio de Congresos,US$476,-,-,-
+,2024-03-01,2024-03-04,5,0,Pisito del gorrión,US$503,9.5,Exceptional,52
+,2024-03-01,2024-03-04,5,0,IMEDA Apartamentos Piedra Santa,US$679,8.9,Excellent,87
+,2024-03-01,2024-03-04,5,0,Preciosa casa soleada en mirador albaicin,US$517,8.0,Very Good,25
+,2024-03-01,2024-03-04,5,0,tuGuest House Albaicín,US$613,-,-,-
+,2024-03-01,2024-03-04,5,0,Casa Flor del Naranjo,US$680,8.4,Very Good,376
+90%,,,,,,,,,
+,2024-03-01,2024-03-04,4,3,Zahira Suites,US$597,7.0,Good,235
+,2024-03-01,2024-03-04,4,3,BiBo Suites Real Chancilleria,"US$1,299",9.5,Exceptional,"1,973"
+,2024-03-01,2024-03-04,4,3,Atenas Granada,US$814,7.7,Good,"3,973"
+,2024-03-01,2024-03-04,4,3,Apartamento Vacaciones Granada,US$455,8.7,Excellent,48
+,2024-03-01,2024-03-04,4,3,tuGuest House Albaicín,US$704,-,-,-
+,2024-03-01,2024-03-04,4,3,Cielo Granada,"US$1,135",8.9,Excellent,119
+,2024-03-01,2024-03-04,4,3,Plaza Trinidad-Cathedral,"US$1,136",8.6,Excellent,18
+,2024-03-01,2024-03-04,4,3,Smart Suites Albaicin,"US$1,382",9.2,Wonderful,"5,851"
+,2024-03-01,2024-03-04,4,3,Casa Flor del Naranjo,US$914,8.4,Very Good,376
+,2024-03-01,2024-03-04,4,3,tuGuest Halcón Apartment,US$712,9.1,Wonderful,62
+,2024-03-01,2024-03-04,4,3,"Atico Top Granada, Penthouse, 18-19th floor, City Centre, Views, Terrace, Free Parking","US$1,039",9.4,Wonderful,37
+,2024-03-01,2024-03-04,4,3,Villa Elisabeth,"US$1,039",9.4,Wonderful,32
+,2024-03-01,2024-03-04,4,3,Villa a los pies de la Alhambra,"US$2,078",8.4,Very Good,20
+,2024-03-01,2024-03-04,4,3,"LA CASA DE LOS PINTORES, junto al centro de Granada","US$1,079",9.5,Exceptional,96
+,2024-03-01,2024-03-04,4,3,COMPLEJO RURAL TORRES Y NAVAS,"US$1,190",9.2,Wonderful,61
+,2024-03-01,2024-03-04,4,3,Magdalena Apartament,US$493,-,-,-
+,2024-03-01,2024-03-04,4,3,Casa de la Ilusión,US$958,9.8,Exceptional,28
+,2024-03-01,2024-03-04,4,3,Alhambra Apartments,US$580,7.9,Good,21
+,2024-03-01,2024-03-04,4,3,Preciosa vivienda con gran terraza muy luminoso,US$754,8.5,Very Good,28
+,2024-03-01,2024-03-04,4,3,"Casa con piscina privada, Chimenea y Barbacoa","US$1,316",-,-,-
+,2024-03-01,2024-03-04,4,3,Bienvenidos a la Casa del Realejo,"US$1,158",9.5,Exceptional,11
+,2024-03-01,2024-03-04,4,3,"Neptuno Ático, con terraza",US$910,9.5,Exceptional,2
+,2024-03-01,2024-03-04,4,3,Alhambra Luxury Albaicin,US$980,-,-,-
+,2024-03-01,2024-03-04,4,3,Apartamento Con Parking Gratuito,US$584,7.1,Good,79
+,2024-03-01,2024-03-04,4,3,Villa GlorÏa,"US$1,319",10,Exceptional,3
+89%,,,,,,,,,
+,2024-03-01,2024-03-04,7,0,tuGuest House Albaicín,US$704,-,-,-
+,2024-03-01,2024-03-04,7,0,Apartamento Vacaciones Granada,US$455,8.7,Excellent,48
+,2024-03-01,2024-03-04,7,0,BiBo Suites Real Chancilleria,"US$1,299",9.5,Exceptional,"1,973"
+,2024-03-01,2024-03-04,7,0,Atenas Granada,US$814,7.7,Good,"3,973"
+,2024-03-01,2024-03-04,7,0,Plaza Trinidad-Cathedral,"US$1,136",8.6,Excellent,18
+,2024-03-01,2024-03-04,7,0,Cielo Granada,"US$1,135",8.9,Excellent,119
+,2024-03-01,2024-03-04,7,0,tuGuest Halcón Apartment,US$712,9.1,Wonderful,62
+,2024-03-01,2024-03-04,7,0,Magdalena Apartament,US$493,-,-,-
+,2024-03-01,2024-03-04,7,0,COMPLEJO RURAL TORRES Y NAVAS,"US$1,190",9.2,Wonderful,61
+,2024-03-01,2024-03-04,7,0,"LA CASA DE LOS PINTORES, junto al centro de Granada","US$1,079",9.5,Exceptional,96
+,2024-03-01,2024-03-04,7,0,Smart Suites Albaicin,"US$1,443",9.2,Wonderful,"5,851"
+,2024-03-01,2024-03-04,7,0,Alhambra Apartments,US$580,7.9,Good,21
+,2024-03-01,2024-03-04,7,0,Casa de la Ilusión,US$958,9.8,Exceptional,28
+,2024-03-01,2024-03-04,7,0,Casa Flor del Naranjo,US$914,8.4,Very Good,376
+,2024-03-01,2024-03-04,7,0,Villa a los pies de la Alhambra,"US$2,078",8.4,Very Good,20
+,2024-03-01,2024-03-04,7,0,Preciosa vivienda con gran terraza muy luminoso,US$754,8.5,Very Good,28
+,2024-03-01,2024-03-04,7,0,"Neptuno Ático, con terraza",US$910,9.5,Exceptional,2
+,2024-03-01,2024-03-04,7,0,Villa Elisabeth,"US$1,039",9.4,Wonderful,32
+,2024-03-01,2024-03-04,7,0,"Soleada, amplia y renovada vivienda",US$941,9.6,Exceptional,14
+,2024-03-01,2024-03-04,7,0,Vintage Granada,US$925,-,-,-
+,2024-03-01,2024-03-04,7,0,Alhambra Luxury Albaicin,US$980,-,-,-
+,2024-03-01,2024-03-04,7,0,Bienvenidos a la Casa del Realejo,"US$1,158",9.5,Exceptional,11
+,2024-03-01,2024-03-04,7,0,tuGuest Alhambra house,"US$1,191",8.5,Very Good,10
+,2024-03-01,2024-03-04,7,0,Apartamento centro,US$925,-,-,-
+,2024-03-01,2024-03-04,7,0,"Casa con piscina privada, Chimenea y Barbacoa","US$1,316",-,-,-
+Commission,,,,,,,,,
+,2024-03-09,2024-03-12,2,0,tuGuest Station 2 apartment,US$413,8.3,Very Good,75
+,2024-03-09,2024-03-12,2,0,Atenas Granada,US$206,7.7,Good,"3,973"
+,2024-03-09,2024-03-12,2,0,Gran Hotel Luna de Granada,US$273,8.5,Very Good,"9,332"
+,2024-03-09,2024-03-12,2,0,Hotel Monasterio Granada - Adults Only,US$196,6.9,Review score,"3,823"
+,2024-03-09,2024-03-12,2,0,Hotel Granada Centro,US$226,8.5,Very Good,"4,180"
+,2024-03-09,2024-03-12,2,0,Hotel Saray,US$267,8.4,Very Good,"9,513"
+,2024-03-09,2024-03-12,2,0,Porcel Alixares,US$263,8.4,Very Good,"9,184"
+,2024-03-09,2024-03-12,2,0,Hotel Cedran,US$227,7.8,Good,"2,062"
+,2024-03-09,2024-03-12,2,0,Pension Boutique Gomerez Gallegos,US$267,9.3,Wonderful,491
+,2024-03-09,2024-03-12,2,0,Hotel Andalucía Center,US$260,8.8,Excellent,"7,104"
+,2024-03-09,2024-03-12,2,0,Pensión Recogidas,US$193,8.5,Very Good,726
+,2024-03-09,2024-03-12,2,0,Pensión El Hidalgo,US$171,7.8,Good,921
+,2024-03-09,2024-03-12,2,0,Abadía Hotel,US$278,8.5,Very Good,"4,139"
+,2024-03-09,2024-03-12,2,0,Arte Vida Suites & Spa,US$300,8.7,Excellent,"1,130"
+,2024-03-09,2024-03-12,2,0,Hostal Sonia Granada,US$229,8.0,Very Good,"2,372"
+,2024-03-09,2024-03-12,2,0,Room Mate Leo,US$409,8.8,Excellent,"4,205"
+,2024-03-09,2024-03-12,2,0,ISA Granada,US$303,8.6,Excellent,"2,545"
+,2024-03-09,2024-03-12,2,0,Hotel Macià Monasterio de los Basilios,US$306,8.1,Very Good,"2,644"
+,2024-03-09,2024-03-12,2,0,Porcel Navas,US$330,8.7,Excellent,"2,108"
+,2024-03-09,2024-03-12,2,0,Porcel Sabica,US$263,8.3,Very Good,"4,372"
+,2024-03-09,2024-03-12,2,0,Apartamentos Luna Suites Granada,US$277,9.1,Wonderful,38
+,2024-03-09,2024-03-12,2,0,Palacio de Santa Inés,US$384,8.7,Excellent,"2,720"
+,2024-03-09,2024-03-12,2,0,Catalonia Granada,US$335,8.9,Excellent,"3,969"
+,2024-03-09,2024-03-12,2,0,Apartamentos Boutique Granada 3000,US$285,8.4,Very Good,"1,072"
+,2024-03-09,2024-03-12,2,0,Nest Style Granada,US$228,8.0,Very Good,"3,531"
+73%,,,,,,,,,
+,2024-03-09,2024-03-12,2,2,Gran Hotel Luna de Granada,US$425,8.5,Very Good,"9,332"
+,2024-03-09,2024-03-12,2,2,Casa Palacio López Daza,US$360,9.0,Wonderful,374
+,2024-03-09,2024-03-12,2,2,Sercotel Granada Suites,US$510,9.2,Wonderful,"1,780"
+,2024-03-09,2024-03-12,2,2,Apartamentos Boutique Granada 3000,US$352,8.4,Very Good,"1,072"
+,2024-03-09,2024-03-12,2,2,Luxury Alhambra Penthouse Collection,US$423,8.6,Excellent,622
+,2024-03-09,2024-03-12,2,2,Apartamentos Mirador Alhambra,US$295,8.3,Very Good,257
+,2024-03-09,2024-03-12,2,2,Tina Home,US$419,8.9,Excellent,490
+,2024-03-09,2024-03-12,2,2,Porcel Alixares,US$438,8.4,Very Good,"9,184"
+,2024-03-09,2024-03-12,2,2,ISA Granada,US$479,8.6,Excellent,"2,545"
+,2024-03-09,2024-03-12,2,2,Carmen en el Albaicín con Jardin y Vistas,US$558,9.5,Exceptional,83
+,2024-03-09,2024-03-12,2,2,BiBo Suites Gran Vía,US$412,9.0,Wonderful,"3,271"
+,2024-03-09,2024-03-12,2,2,Veronica Centro,US$302,8.4,Very Good,"2,934"
+,2024-03-09,2024-03-12,2,2,U-Sense Granada Centro,US$446,8.8,Excellent,"2,512"
+,2024-03-09,2024-03-12,2,2,tuGuest San Gil Apartments,US$539,8.9,Excellent,288
+,2024-03-09,2024-03-12,2,2,BiBo Suites Plaza Nueva,US$427,9.2,Wonderful,"2,862"
+,2024-03-09,2024-03-12,2,2,Apartamentos Correo Viejo de Granada,US$470,8.5,Very Good,790
+,2024-03-09,2024-03-12,2,2,Siloe Plaza,US$468,7.8,Good,726
+,2024-03-09,2024-03-12,2,2,Pension Boutique Gomerez Gallegos,US$519,9.3,Wonderful,491
+,2024-03-09,2024-03-12,2,2,Mosaiko Homes Catedral Granada,US$542,9.5,Exceptional,983
+,2024-03-09,2024-03-12,2,2,PATIOdeLUZ - Stylish apartments in Párraga 13,US$448,9.5,Exceptional,457
+,2024-03-09,2024-03-12,2,2,Eurostars Puerta Real,US$694,8.9,Excellent,"4,039"
+,2024-03-09,2024-03-12,2,2,GLORIA SUITES,US$362,7.9,Good,450
+,2024-03-09,2024-03-12,2,2,Nest Flats Granada,US$336,8.5,Very Good,"1,677"
+,2024-03-09,2024-03-12,2,2,Hostal Sonia Granada,US$390,8.0,Very Good,"2,372"
+,2024-03-09,2024-03-12,2,2,Be Free Granada,US$306,8.2,Very Good,"3,242"
+79%,,,,,,,,,
+,2024-03-09,2024-03-12,5,0,Casa Asia,US$380,10,Exceptional,1
+,2024-03-09,2024-03-12,5,0,Be Free Granada,US$358,8.2,Very Good,"3,242"
+,2024-03-09,2024-03-12,5,0,tuGuest Gran Vía Apartments,US$488,7.8,Good,138
+,2024-03-09,2024-03-12,5,0,BiBo Suites Gran Vía,US$570,9.0,Wonderful,"3,271"
+,2024-03-09,2024-03-12,5,0,Apartamentos Correo Viejo de Granada,US$602,8.5,Very Good,790
+,2024-03-09,2024-03-12,5,0,Luxury Alhambra Penthouse Collection,US$640,8.6,Excellent,622
+,2024-03-09,2024-03-12,5,0,GLORIA SUITES,US$474,7.9,Good,450
+,2024-03-09,2024-03-12,5,0,BiBo Suites Oro del Darro,US$625,9.3,Wonderful,"2,483"
+,2024-03-09,2024-03-12,5,0,Apartamento Granados,US$525,8.2,Very Good,97
+,2024-03-09,2024-03-12,5,0,"Plaza Nueva's House ""El Consul""",US$574,8.4,Very Good,49
+,2024-03-09,2024-03-12,5,0,Pension Boutique Gomerez Gallegos,US$622,9.3,Wonderful,491
+,2024-03-09,2024-03-12,5,0,BiBo Suites Plaza Nueva,US$632,9.2,Wonderful,"2,862"
+,2024-03-09,2024-03-12,5,0,EnjoyGranada PLAZA NUEVA HOMES,US$609,9.0,Wonderful,117
+,2024-03-09,2024-03-12,5,0,Chezmoihomes Plaza Nueva Luxury,US$644,8.5,Very Good,73
+,2024-03-09,2024-03-12,5,0,Apartamentos Mirador Alhambra,US$539,8.3,Very Good,257
+,2024-03-09,2024-03-12,5,0,EnjoyGranada ELVIRA,US$478,7.7,Good,224
+,2024-03-09,2024-03-12,5,0,tuGuest Gracia Apartments,US$394,7.7,Good,252
+,2024-03-09,2024-03-12,5,0,Elvira Suites,US$747,8.9,Excellent,769
+,2024-03-09,2024-03-12,5,0,Home Granada Trinidad,US$498,8.8,Excellent,"1,283"
+,2024-03-09,2024-03-12,5,0,Arabial Deluxe,US$397,8.7,Excellent,131
+,2024-03-09,2024-03-12,5,0,Luxury Suite de Conde Cifuentes,US$465,-,-,-
+,2024-03-09,2024-03-12,5,0,ARABIAL DELUXE II,US$397,9.0,Wonderful,155
+,2024-03-09,2024-03-12,5,0,tuGuest Station 2 apartment,US$437,8.3,Very Good,75
+,2024-03-09,2024-03-12,5,0,Chezmoihomes Apartment Cathedral 2 dormitorios,US$591,8.4,Very Good,84
+,2024-03-09,2024-03-12,5,0,Palacio Cabrera - Lillo,US$660,9.1,Wonderful,"2,332"
+88%,,,,,,,,,
+,2024-03-09,2024-03-12,4,3,tuGuest Station 2 apartment,US$437,8.3,Very Good,75
+,2024-03-09,2024-03-12,4,3,tuGuest Alhondiga Apartment,US$564,8.9,Excellent,118
+,2024-03-09,2024-03-12,4,3,Hotel Molinos,US$588,8.0,Very Good,"2,611"
+,2024-03-09,2024-03-12,4,3,Riad Puertas del Albaicín,US$495,7.4,Good,414
+,2024-03-09,2024-03-12,4,3,Apartamento Góngora,US$598,8.8,Excellent,46
+,2024-03-09,2024-03-12,4,3,Suite Alhambra Puerta Bib-Rambla,US$854,9.3,Wonderful,18
+,2024-03-09,2024-03-12,4,3,APARTAMENTO GRANADA CENTRO,US$498,8.3,Very Good,53
+,2024-03-09,2024-03-12,4,3,tuGuest Pool House Albaicin,US$918,7.9,Good,76
+,2024-03-09,2024-03-12,4,3,Zahira Suites,US$633,7.0,Good,235
+,2024-03-09,2024-03-12,4,3,Mirador de Siloé,"US$1,296",9.8,Exceptional,32
+,2024-03-09,2024-03-12,4,3,tuGuest Ronda Aparment,US$619,9.0,Wonderful,21
+,2024-03-09,2024-03-12,4,3,tuGuest El Rincón de Felisa,US$742,9.1,Wonderful,21
+,2024-03-09,2024-03-12,4,3,POWER HOME,US$855,8.8,Excellent,41
+,2024-03-09,2024-03-12,4,3,tuGuest House Albaicín,US$668,-,-,-
+,2024-03-09,2024-03-12,4,3,"Atico Top Granada, Penthouse, 18-19th floor, City Centre, Views, Terrace, Free Parking",US$936,9.4,Wonderful,37
+,2024-03-09,2024-03-12,4,3,Apart. en Puerta Real de Granada,US$969,9.5,Exceptional,39
+,2024-03-09,2024-03-12,4,3,Preciosa vivienda con gran terraza muy luminoso,US$583,8.5,Very Good,28
+,2024-03-09,2024-03-12,4,3,La morada del Príncipe,US$487,7.8,Good,5
+,2024-03-09,2024-03-12,4,3,Puro Albaycin,US$849,8.9,Excellent,96
+,2024-03-09,2024-03-12,4,3,Casa Flor del Naranjo,US$853,8.4,Very Good,376
+,2024-03-09,2024-03-12,4,3,Villa Elisabeth,US$996,9.4,Wonderful,32
+,2024-03-09,2024-03-12,4,3,"Granada centro, amplio, wifi y A/C",US$633,-,-,-
+,2024-03-09,2024-03-12,4,3,"Neptuno Ático, con terraza",US$756,9.5,Exceptional,2
+,2024-03-09,2024-03-12,4,3,Magdalena Apartament,US$493,-,-,-
+,2024-03-09,2024-03-12,4,3,Casa de la Ilusión,US$904,9.8,Exceptional,28
+86%,,,,,,,,,
+,2024-03-09,2024-03-12,7,0,tuGuest Station 2 apartment,US$437,8.3,Very Good,75
+,2024-03-09,2024-03-12,7,0,APARTAMENTO GRANADA CENTRO,US$498,8.3,Very Good,53
+,2024-03-09,2024-03-12,7,0,Suite Alhambra Puerta Bib-Rambla,US$854,9.3,Wonderful,18
+,2024-03-09,2024-03-12,7,0,Apartamento Góngora,US$676,8.8,Excellent,46
+,2024-03-09,2024-03-12,7,0,tuGuest House Albaicín,US$668,-,-,-
+,2024-03-09,2024-03-12,7,0,tuGuest Pool House Albaicin,"US$1,003",7.9,Good,76
+,2024-03-09,2024-03-12,7,0,Hotel Molinos,US$831,8.0,Very Good,"2,611"
+,2024-03-09,2024-03-12,7,0,tuGuest Ronda Aparment,US$619,9.0,Wonderful,21
+,2024-03-09,2024-03-12,7,0,POWER HOME,US$855,8.8,Excellent,41
+,2024-03-09,2024-03-12,7,0,tuGuest El Rincón de Felisa,US$742,9.1,Wonderful,21
+,2024-03-09,2024-03-12,7,0,Apart. en Puerta Real de Granada,US$969,9.5,Exceptional,39
+,2024-03-09,2024-03-12,7,0,Puro Albaycin,US$849,8.9,Excellent,96
+,2024-03-09,2024-03-12,7,0,Preciosa vivienda con gran terraza muy luminoso,US$583,8.5,Very Good,28
+,2024-03-09,2024-03-12,7,0,La morada del Príncipe,US$487,7.8,Good,5
+,2024-03-09,2024-03-12,7,0,Mirador de Siloé,"US$1,491",9.8,Exceptional,32
+,2024-03-09,2024-03-12,7,0,"Neptuno Ático, con terraza",US$756,9.5,Exceptional,2
+,2024-03-09,2024-03-12,7,0,tuGuest Plaza Pescaderia - Catedral,US$901,8.0,Very Good,34
+,2024-03-09,2024-03-12,7,0,Magdalena Apartament,US$493,-,-,-
+,2024-03-09,2024-03-12,7,0,Casa de la Ilusión,US$904,9.8,Exceptional,28
+,2024-03-09,2024-03-12,7,0,Casa Flor del Naranjo,US$853,8.4,Very Good,376
+,2024-03-09,2024-03-12,7,0,VILLA MERCEDES,"US$1,169",8.8,Excellent,5
+,2024-03-09,2024-03-12,7,0,Lightbooking Plaza de Toros Granada,US$657,8.4,Very Good,37
+,2024-03-09,2024-03-12,7,0,"Soleada, amplia y renovada vivienda",US$941,9.6,Exceptional,14
+,2024-03-09,2024-03-12,7,0,Vintage Granada,US$925,-,-,-
+,2024-03-09,2024-03-12,7,0,Villa Elisabeth,US$996,9.4,Wonderful,32
+Commission,,,,,,,,,
+,2024-03-16,2024-03-19,2,0,tuGuest Chueca Apartment,US$423,8.8,Excellent,29
+,2024-03-16,2024-03-19,2,0,La Perla Granada Suites,US$195,8.1,Very Good,"3,192"
+,2024-03-16,2024-03-19,2,0,Hotel Monasterio Granada - Adults Only,US$195,6.9,Review score,"3,823"
+,2024-03-16,2024-03-19,2,0,Gran Hotel Luna de Granada,US$273,8.5,Very Good,"9,332"
+,2024-03-16,2024-03-19,2,0,Hotel Granada Centro,US$241,8.5,Very Good,"4,180"
+,2024-03-16,2024-03-19,2,0,Hotel Cedran,US$216,7.8,Good,"2,062"
+,2024-03-16,2024-03-19,2,0,Hotel Andalucía Center,US$249,8.8,Excellent,"7,104"
+,2024-03-16,2024-03-19,2,0,Hotel Saray,US$275,8.4,Very Good,"9,513"
+,2024-03-16,2024-03-19,2,0,Hotel Macià Monasterio de los Basilios,US$297,8.1,Very Good,"2,644"
+,2024-03-16,2024-03-19,2,0,Barceló Carmen Granada,US$292,9.1,Wonderful,"1,052"
+,2024-03-16,2024-03-19,2,0,Hotel Macià Granada Five Senses Rooms & Suites,US$366,8.6,Excellent,"4,603"
+,2024-03-16,2024-03-19,2,0,Casa de la Alegría,US$227,9.0,Wonderful,721
+,2024-03-16,2024-03-19,2,0,Entre Dos Aguas,US$210,9.7,Exceptional,74
+,2024-03-16,2024-03-19,2,0,Hostal Sonia Granada,US$229,8.0,Very Good,"2,372"
+,2024-03-16,2024-03-19,2,0,Hotel Comfort Dauro 2,US$354,8.6,Excellent,"3,544"
+,2024-03-16,2024-03-19,2,0,Hotel Abades Recogidas,US$324,8.1,Very Good,"2,037"
+,2024-03-16,2024-03-19,2,0,Arteaga Hostal & Baños Arabes Elvira,US$216,8.6,Excellent,"1,649"
+,2024-03-16,2024-03-19,2,0,Barceló Granada Congress,US$290,8.5,Very Good,"4,966"
+,2024-03-16,2024-03-19,2,0,Hotel Boutique Puerta de las Granadas,US$336,8.7,Excellent,"1,581"
+,2024-03-16,2024-03-19,2,0,Porcel Navas,US$339,8.7,Excellent,"2,108"
+,2024-03-16,2024-03-19,2,0,Hotel Macià Plaza,US$318,8.3,Very Good,"1,633"
+,2024-03-16,2024-03-19,2,0,Pensión Recogidas,US$204,8.5,Very Good,726
+,2024-03-16,2024-03-19,2,0,Casa Vestali,US$381,9.0,Wonderful,437
+,2024-03-16,2024-03-19,2,0,Palacio de Santa Inés,US$435,8.7,Excellent,"2,720"
+,2024-03-16,2024-03-19,2,0,Barbieri Granada Pensión,US$203,8.0,Very Good,"1,001"
+75%,,,,,,,,,
+,2024-03-16,2024-03-19,2,2,Gran Hotel Luna de Granada,US$425,8.5,Very Good,"9,332"
+,2024-03-16,2024-03-19,2,2,Sercotel Granada Suites,US$525,9.2,Wonderful,"1,780"
+,2024-03-16,2024-03-19,2,2,Be Free Granada,US$294,8.2,Very Good,"3,242"
+,2024-03-16,2024-03-19,2,2,Porcel Alixares,US$877,8.4,Very Good,"9,184"
+,2024-03-16,2024-03-19,2,2,BiBo Suites San Agustín,US$410,9.4,Wonderful,915
+,2024-03-16,2024-03-19,2,2,Mosaiko Homes Catedral Granada,US$563,9.5,Exceptional,983
+,2024-03-16,2024-03-19,2,2,The Gallery - BOTANIC,US$385,9.3,Wonderful,172
+,2024-03-16,2024-03-19,2,2,Apartamentos Turísticos Centro,US$393,8.7,Excellent,301
+,2024-03-16,2024-03-19,2,2,U-Sense Granada Centro,US$493,8.8,Excellent,"2,512"
+,2024-03-16,2024-03-19,2,2,BiBo Suites Oro del Darro,US$575,9.3,Wonderful,"2,483"
+,2024-03-16,2024-03-19,2,2,Hotel Saray,US$540,8.4,Very Good,"9,513"
+,2024-03-16,2024-03-19,2,2,Nest Flats Granada,US$355,8.5,Very Good,"1,677"
+,2024-03-16,2024-03-19,2,2,BiBo Suites Gran Vía,US$491,9.0,Wonderful,"3,271"
+,2024-03-16,2024-03-19,2,2,Suites Gran Vía 44,US$447,9.0,Wonderful,"1,073"
+,2024-03-16,2024-03-19,2,2,Verona,US$363,8.9,Excellent,940
+,2024-03-16,2024-03-19,2,2,AMC Granada,US$421,8.1,Very Good,"1,241"
+,2024-03-16,2024-03-19,2,2,Hotel Macià Granada Five Senses Rooms & Suites,US$622,8.6,Excellent,"4,603"
+,2024-03-16,2024-03-19,2,2,Home Granada Trinidad,US$411,8.8,Excellent,"1,283"
+,2024-03-16,2024-03-19,2,2,limehome Granada Calle Santa Ana,US$479,8.8,Excellent,"1,728"
+,2024-03-16,2024-03-19,2,2,Apartamento El Duque,US$569,9.6,Exceptional,68
+,2024-03-16,2024-03-19,2,2,Allegro Granada,US$484,8.6,Excellent,"4,094"
+,2024-03-16,2024-03-19,2,2,Hotel Macià Cóndor,US$408,7.7,Good,"1,801"
+,2024-03-16,2024-03-19,2,2,Genteel Home Zacatín,US$600,9.1,Wonderful,520
+,2024-03-16,2024-03-19,2,2,Arteaga Hostal & Baños Arabes Elvira,US$376,8.6,Excellent,"1,649"
+,2024-03-16,2024-03-19,2,2,Granada Luxury Apartments by Apolo Homes,US$564,9.0,Wonderful,483
+80%,,,,,,,,,
+,2024-03-16,2024-03-19,5,0,Casa de la Alegría,US$325,9.0,Wonderful,721
+,2024-03-16,2024-03-19,5,0,Conde Alcalá Centro Parking Gratuito,US$594,9.2,Wonderful,87
+,2024-03-16,2024-03-19,5,0,Be Free Granada,US$346,8.2,Very Good,"3,242"
+,2024-03-16,2024-03-19,5,0,Apartamentos Correo Viejo de Granada,US$602,8.5,Very Good,790
+,2024-03-16,2024-03-19,5,0,BiBo Suites Gran Vía,US$594,9.0,Wonderful,"3,271"
+,2024-03-16,2024-03-19,5,0,BiBo Suites San Agustín,US$565,9.4,Wonderful,915
+,2024-03-16,2024-03-19,5,0,BiBo Suites Oro del Darro,US$666,9.3,Wonderful,"2,483"
+,2024-03-16,2024-03-19,5,0,Apartamento Jose Enrique,US$465,9.4,Wonderful,36
+,2024-03-16,2024-03-19,5,0,Grace Apartments - 3 bedroom City Centre,US$651,9.7,Exceptional,182
+,2024-03-16,2024-03-19,5,0,tuGuest Gracia Apartments,US$389,7.7,Good,252
+,2024-03-16,2024-03-19,5,0,tuGuest Gran Vía Apartments,US$600,7.8,Good,138
+,2024-03-16,2024-03-19,5,0,Home Granada Trinidad,US$498,8.8,Excellent,"1,283"
+,2024-03-16,2024-03-19,5,0,Piso en Palacio Quinta Alegre,US$411,9.0,Wonderful,33
+,2024-03-16,2024-03-19,5,0,BiBo Suites Plaza Nueva,US$723,9.2,Wonderful,"2,862"
+,2024-03-16,2024-03-19,5,0,BiBo Suites Real Chancilleria,US$791,9.5,Exceptional,"1,973"
+,2024-03-16,2024-03-19,5,0,Genteel Home Carmen San Ignacio,US$906,9.4,Wonderful,109
+,2024-03-16,2024-03-19,5,0,Genteel Home Isabel la Católica,US$771,8.6,Excellent,175
+,2024-03-16,2024-03-19,5,0,Apartamentos Turísticos Centro,US$583,8.7,Excellent,301
+,2024-03-16,2024-03-19,5,0,Spacious Loft / Literally at the Foot Of Alhambra,US$424,8.4,Very Good,16
+,2024-03-16,2024-03-19,5,0,Apartamento Góngora,US$552,8.8,Excellent,46
+,2024-03-16,2024-03-19,5,0,Palacio Cabrera - Lillo,US$720,9.1,Wonderful,"2,332"
+,2024-03-16,2024-03-19,5,0,tuGuest Ático Imprenta,US$660,8.9,Excellent,101
+,2024-03-16,2024-03-19,5,0,tuGuest Station 2 apartment,US$486,8.3,Very Good,75
+,2024-03-16,2024-03-19,5,0,Carmen Vistas de la Alhambra,US$568,7.7,Good,911
+,2024-03-16,2024-03-19,5,0,PISO RONDA,US$372,9.1,Wonderful,42
+88%,,,,,,,,,
+,2024-03-16,2024-03-19,4,3,Apartamentos Turísticos Mauror,US$969,9.4,Wonderful,718
+,2024-03-16,2024-03-19,4,3,Genteel Home Isabel la Católica,US$771,8.6,Excellent,175
+,2024-03-16,2024-03-19,4,3,Piso en Palacio Quinta Alegre,US$411,9.0,Wonderful,33
+,2024-03-16,2024-03-19,4,3,"Lola´s winery house, andalusian patio",US$428,-,-,-
+,2024-03-16,2024-03-19,4,3,tuGuest Station 2 apartment,US$486,8.3,Very Good,75
+,2024-03-16,2024-03-19,4,3,Grace Apartments - 3 bedroom City Centre,US$794,9.7,Exceptional,182
+,2024-03-16,2024-03-19,4,3,tuGuest Alhondiga Apartment,US$682,8.9,Excellent,118
+,2024-03-16,2024-03-19,4,3,Apartamento Góngora,US$604,8.8,Excellent,46
+,2024-03-16,2024-03-19,4,3,Luna Centro 5 habitaciones,US$777,9.3,Wonderful,48
+,2024-03-16,2024-03-19,4,3,Zahira Suites,US$560,7.0,Good,235
+,2024-03-16,2024-03-19,4,3,Neptuno Deluxe,US$595,9.6,Exceptional,51
+,2024-03-16,2024-03-19,4,3,tuGuest Gran Via 42 Apartment,US$926,8.0,Very Good,67
+,2024-03-16,2024-03-19,4,3,BiBo Suites Plaza Nueva,"US$1,008",9.2,Wonderful,"2,862"
+,2024-03-16,2024-03-19,4,3,BiBo Suites Real Chancilleria,"US$1,191",9.5,Exceptional,"1,973"
+,2024-03-16,2024-03-19,4,3,tuGuest El Rincón de Felisa,US$773,9.1,Wonderful,21
+,2024-03-16,2024-03-19,4,3,Suite Alhambra Puerta Bib-Rambla,"US$1,206",9.3,Wonderful,18
+,2024-03-16,2024-03-19,4,3,tuGuest San Agustin II Apartment,US$732,-,-,-
+,2024-03-16,2024-03-19,4,3,Genteel Home Plaza Nueva Granada,US$733,8.7,Excellent,44
+,2024-03-16,2024-03-19,4,3,EnjoyGranada EMIR 4C + Parking,US$648,9.2,Wonderful,52
+,2024-03-16,2024-03-19,4,3,tuGuest Halcón Apartment,US$665,9.1,Wonderful,62
+,2024-03-16,2024-03-19,4,3,Maravilloso Apartamento en el Realejo 8 personas,US$765,8.9,Excellent,10
+,2024-03-16,2024-03-19,4,3,tuGuest Maria Luisa Apartment,US$710,8.0,Very Good,1
+,2024-03-16,2024-03-19,4,3,tuGuest Ronda Aparment,US$712,9.0,Wonderful,21
+,2024-03-16,2024-03-19,4,3,La morada del Príncipe,US$509,7.8,Good,5
+,2024-03-16,2024-03-19,4,3,Villa Alfaguara,"US$1,355",9.7,Exceptional,30
+87%,,,,,,,,,
+,2024-03-16,2024-03-19,7,0,Piso en Palacio Quinta Alegre,US$411,9.0,Wonderful,33
+,2024-03-16,2024-03-19,7,0,Grace Apartments - 3 bedroom City Centre,US$794,9.7,Exceptional,182
+,2024-03-16,2024-03-19,7,0,tuGuest Station 2 apartment,US$486,8.3,Very Good,75
+,2024-03-16,2024-03-19,7,0,Apartamentos Turísticos Mauror,US$948,9.4,Wonderful,718
+,2024-03-16,2024-03-19,7,0,Apartamento Góngora,US$682,8.8,Excellent,46
+,2024-03-16,2024-03-19,7,0,Neptuno Deluxe,US$595,9.6,Exceptional,51
+,2024-03-16,2024-03-19,7,0,"Lola´s winery house, andalusian patio",US$574,-,-,-
+,2024-03-16,2024-03-19,7,0,Luna Centro 5 habitaciones,US$887,9.3,Wonderful,48
+,2024-03-16,2024-03-19,7,0,tuGuest Gran Via 42 Apartment,US$996,8.0,Very Good,67
+,2024-03-16,2024-03-19,7,0,tuGuest San Agustin II Apartment,US$732,-,-,-
+,2024-03-16,2024-03-19,7,0,tuGuest El Rincón de Felisa,US$773,9.1,Wonderful,21
+,2024-03-16,2024-03-19,7,0,Suite Alhambra Puerta Bib-Rambla,"US$1,206",9.3,Wonderful,18
+,2024-03-16,2024-03-19,7,0,Genteel Home Plaza Nueva Granada,US$733,8.7,Excellent,44
+,2024-03-16,2024-03-19,7,0,Maravilloso Apartamento en el Realejo 8 personas,US$765,8.9,Excellent,10
+,2024-03-16,2024-03-19,7,0,BiBo Suites Plaza Nueva,"US$1,087",9.2,Wonderful,"2,862"
+,2024-03-16,2024-03-19,7,0,BiBo Suites Real Chancilleria,"US$1,191",9.5,Exceptional,"1,973"
+,2024-03-16,2024-03-19,7,0,tuGuest San Agustín III Apartment,US$824,8.8,Excellent,24
+,2024-03-16,2024-03-19,7,0,EnjoyGranada EMIR 4C + Parking,US$648,9.2,Wonderful,52
+,2024-03-16,2024-03-19,7,0,tuGuest House Albaicín,US$823,-,-,-
+,2024-03-16,2024-03-19,7,0,"Neptuno Ático, con terraza",US$756,9.5,Exceptional,2
+,2024-03-16,2024-03-19,7,0,tuGuest Ronda Aparment,US$712,9.0,Wonderful,21
+,2024-03-16,2024-03-19,7,0,Puro Albaycin,US$964,8.9,Excellent,96
+,2024-03-16,2024-03-19,7,0,La morada del Príncipe,US$509,7.8,Good,5
+,2024-03-16,2024-03-19,7,0,tuGuest Halcón Apartment,US$689,9.1,Wonderful,62
+,2024-03-16,2024-03-19,7,0,tuGuest Maria Luisa Apartment,US$710,8.0,Very Good,1

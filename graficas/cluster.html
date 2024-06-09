@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico Interactivo con D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        select, #filters-container {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        select {
+            padding: 8px;
+        }
+        #chart-container {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        svg {
+            width: 80%;
+            height: 100%;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            width: auto;
+            height: auto;
+            padding: 5px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 0px;
+            border-radius: 8px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h2>Seleccionar tipo de gráfico:</h2>
+        <select id="chart-type-selector">
+            <option value="line">Líneas</option>
+            <option value="bar">Barras</option>
+        </select>
+
+        <div id="x-variable-container">
+            <h2>Seleccionar variable para eje X:</h2>
+            <select id="x-variable-selector">
+                <option value="check-in">check-in</option>
+                <option value="days-in-advance">days-in-advance</option>
+            </select>
+        </div>
+
+        <div id="y-variable-container">
+            <h2>Seleccionar variable para eje Y:</h2>
+            <select id="y-variable-selector">
+                <!-- Opciones generadas automáticamente -->
+            </select>
+        </div>
+
+        <div id="filters-container">
+            <h2>Seleccionar filtros:</h2>
+            <div id="filter-controls">
+                <!-- Controles de filtros generados automáticamente -->
+            </div>
+            <button id="add-filter-button">Añadir filtro</button>
+        </div>
+
+        <div id="chart-container"></div>
+        <div id="legend-container"></div>
+    </div>
+
+    <script>
+        d3.csv("datos.csv").then(function(data) {
+            const parseDate = d3.timeParse("%Y-%m-%d");
+            data.forEach(d => {
+                if (d['check-in']) {
+                    d['check-in'] = parseDate(d['check-in']);
+                }
+            });
+
+            const variables = Object.keys(data[0]);
+
+            const chartTypeSelector = document.getElementById("chart-type-selector");
+            const xVariableSelector = document.getElementById("x-variable-selector");
+            const yVariableSelector = document.getElementById("y-variable-selector");
+            const filterControls = document.getElementById("filter-controls");
+            const addFilterButton = document.getElementById("add-filter-button");
+
+            // Clear any existing options in the x-variable selector
+            xVariableSelector.innerHTML = "";
+
+            // Add the 'check-in' option
+            const checkInOption = document.createElement("option");
+            checkInOption.value = "check-in";
+            checkInOption.textContent = "check-in";
+            xVariableSelector.appendChild(checkInOption);
+
+            // Add the days of advance option
+            const daysInAdvanceOption = document.createElement("option");
+            daysInAdvanceOption.value = "days-in-advance";
+            daysInAdvanceOption.textContent = "days-in-advance";
+            xVariableSelector.appendChild(daysInAdvanceOption);
+
+            variables.forEach(variable => {
+                const yOption = document.createElement("option");
+                yOption.value = variable;
+                yOption.textContent = variable;
+                yVariableSelector.appendChild(yOption);
+            });
+
+            function createFilterControl() {
+                const filterContainer = document.createElement("div");
+                filterContainer.className = "filter-container";
+
+                const filterVariableSelector = document.createElement("select");
+                filterVariableSelector.className = "filter-variable-selector";
+                filterVariableSelector.innerHTML = `<option value="">Ninguno</option>`;
+                variables.forEach(variable => {
+                    const filterOption = document.createElement("option");
+                    filterOption.value = variable;
+                    filterOption.textContent = variable;
+                    filterVariableSelector.appendChild(filterOption);
+                });
+
+                const filterValueContainer = document.createElement("div");
+                filterValueContainer.className = "filter-value-container";
+
+                const noneButton = document.createElement("button");
+                noneButton.className = "filter-none-button";
+                noneButton.textContent = "Ninguno";
+                noneButton.addEventListener("click", () => {
+                    filterValueContainer.querySelectorAll('button').forEach(button => {
+                        button.classList.remove('selected');
+                    });
+                    updateChart();
+                });
+
+                filterVariableSelector.addEventListener("change", () => {
+                    updateFilterValues(filterVariableSelector, filterValueContainer);
+                });
+
+                filterContainer.appendChild(filterVariableSelector);
+                filterContainer.appendChild(filterValueContainer);
+                filterContainer.appendChild(noneButton);
+                filterControls.appendChild(filterContainer);
+            }
+
+            function updateFilterValues(filterVariableSelector, filterValueContainer) {
+                const filterVariable = filterVariableSelector.value;
+                const uniqueValues = filterVariable ? Array.from(new Set(data.map(d => d[filterVariable]))) : [];
+
+                filterValueContainer.innerHTML = '';
+                uniqueValues.forEach(value => {
+                    const filterValueButton = document.createElement("button");
+                    filterValueButton.className = "filter-value-button";
+                    filterValueButton.textContent = value;
+                    filterValueButton.addEventListener("click", () => {
+                        filterValueButton.classList.toggle('selected');
+                        updateChart();
+                    });
+                    filterValueContainer.appendChild(filterValueButton);
+                });
+            }
+
+            function getFilters() {
+                const filters = {};
+                document.querySelectorAll(".filter-container").forEach(container => {
+                    const variable = container.querySelector(".filter-variable-selector").value;
+                    const selectedValues = Array.from(container.querySelectorAll(".filter-value-container button.selected")).map(button => button.textContent);
+                    if (variable && selectedValues.length > 0) {
+                        filters[variable] = selectedValues;
+                    }
+                });
+                return filters;
+            }
+
+            function splitDataIntoSeries(data, seriesLength) {
+                const series = [];
+                for (let i = 0; i < data.length; i += seriesLength) {
+                    series.push(data.slice(i, i + seriesLength));
+                }
+                return series;
+            }
+
+            const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+
+            function updateChart() {
+                const chartType = chartTypeSelector.value;
+                const xVariable = xVariableSelector.value;
+                const yVariable = yVariableSelector.value;
+
+                // Obtener los filtros seleccionados
+                const filters = getFilters();
+
+                // Filtrar los datos según los filtros seleccionados
+                const filteredData = data.filter(d => {
+                    return Object.keys(filters).every(filter => filters[filter].includes(d[filter])) && d[xVariable] !== null && d[yVariable] !== null;
+                });
+
+                // Eliminar gráfico anterior
+                d3.select("#chart-container").selectAll("*").remove();
+
+                const margin = { top: 20, right: 30, bottom: 40, left: 50 };
+                const width = document.getElementById("container").clientWidth * 0.78 - margin.left - margin.right;
+                const height = 600 - margin.top - margin.bottom;
+                const innerWidth = width;
+                const innerHeight = height;
+                
+                const svg = d3.select("#chart-container")
+                    .append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+                // Dibujar el nuevo gráfico
+                if (xVariable === "days-in-advance") {
+                    // Obtener las fechas únicas
+                    const uniqueDates = Array.from(new Set(filteredData.map(d => d['check-in'])));
+
+                    // Crear una escala para el eje X (fechas)
+                    const xScale = d3.scaleBand()
+                    .domain(uniqueDates.map(date => date.toString())) // Convertir las fechas a cadenas para garantizar unicidad
+                    .range([0, width])
+                    .padding(0.1);
+
+                const yScale = d3.scaleLinear()
+                    .domain([0, d3.max(filteredData, d => +d['1'])]) // El dominio en el eje Y será el valor máximo de la variable "1"
+                    .range([height, 0]);
+
+                // Dibujar ejes X e Y
+                svg.append("g")
+                    .attr("transform", `translate(0, ${height})`)
+                    .call(d3.axisBottom(xScale).tickValues([1, 6, 8, 13, 15, 20, 22, 27])); // Establecer los valores específicos para las marcas del eje X
+
+                svg.append("g")
+                    .call(d3.axisLeft(yScale));
+
+                // Dibujar líneas para la variable "1"
+                const line = d3.line()
+                    .x((_, i) => xScale(uniqueDates[i].toString())) // Convertir la fecha a cadena para coincidir con el dominio de la escala X
+                    .y(i => yScale(+filteredData[i]['1'])); // Obtener el valor de la variable "1" para el índice actual en la lista de fechas
+
+                svg.append("path")
+                    .datum(d3.range(uniqueDates.length)) // Usar un rango de números como datos para representar cada fecha en el conjunto de datos
+                    .attr("fill", "none")
+                    .attr("stroke", "steelblue")
+                    .attr("stroke-width", 1.5)
+                    .attr("d", line);
+
+                } else {
+                   
+                const tooltip = d3.select("body").append("div")
+                    .attr("class", "tooltip")
+                    .style("opacity", 0);
+
+                // Actualizar leyenda
+                // d3.select("#legend-container").selectAll("*").remove();
+                // updateLegend(filteredData, margin, filters, yVariable); 
+
+
+                if (chartType === "line") {
+                    const xScale = d3.scaleTime()
+                        .domain(d3.extent(filteredData, d => d[xVariable]))
+                        .range([0, innerWidth]);
+
+                    const yScale = d3.scaleLinear()
+                        .domain([0, d3.max(filteredData, d => +d[yVariable])])
+                        .range([innerHeight, 0]);
+
+                    const xAxis = d3.axisBottom(xScale);
+                    svg.append("g")
+                        .attr("transform", `translate(0, ${innerHeight})`)
+                        .call(xAxis)
+                        .append("text")
+                        .attr("x", innerWidth / 2)
+                        .attr("y", margin.bottom - 10)
+                        .attr("fill", "black")
+                        .attr("text-anchor", "middle")
+                        .text(xVariable);
+
+                    const yAxis = d3.axisLeft(yScale);
+                    svg.append("g")
+                        .call(yAxis)
+                        .append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("x", -innerHeight / 2)
+                        .attr("y", -margin.left + 15)
+                        .attr("fill", "black")
+                        .attr("text-anchor", "middle")
+                        .text(yVariable);
+
+                    const seriesLength = 16;
+                    const dataSeries = splitDataIntoSeries(filteredData, seriesLength);
+
+                    const line = d3.line()
+                        .x(d => xScale(d[xVariable]))
+                        .y(d => yScale(d[yVariable]));
+
+                    dataSeries.forEach((series, index) => {
+                        svg.append("path")
+                            .datum(series)
+                            .attr("fill", "none")
+                            .attr("stroke", colorScale(index))
+                            .attr("stroke-width", 1.5)
+                            .attr("d", line);
+
+                        svg.selectAll(".point" + index)
+                            .data(series)
+                            .enter()
+                            .append("circle")
+                            .attr("class", "point" + index)
+                            .attr("cx", d => xScale(d[xVariable]))
+                            .attr("cy", d => yScale(d[yVariable]))
+                            .attr("r", 4)
+                            .style("fill", colorScale(index))
+                            .on("mouseover", (event, d) => {
+                                const filtersText = Object.keys(filters)
+                                    .filter(filter => filter !== 'tipo' && filter !== 'pax')
+                                    .map(filter => `${filter}: ${d[filter]}`).join("<br>");
+                                tooltip.transition()
+                                    .duration(200)
+                                    .style("opacity", .9);
+                                tooltip.html(`${xVariable}: ${d3.timeFormat("%Y-%m-%d")(d[xVariable])}<br>${yVariable}: ${d[yVariable]}<br>${filtersText}<br>tipo: ${d.tipo}<br>pax: ${d.pax}`)
+                                    .style("left", (event.pageX + 5) + "px")
+                                    .style("top", (event.pageY - 28) + "px");
+                            })
+                            .on("mouseout", () => {
+                                tooltip.transition()
+                                    .duration(500)
+                                    .style("opacity", 0);
+                            });
+                    });
+                } else if (chartType === "bar") {
+                    const MAX_BAR_WIDTH = 100;
+
+                    const xScale = d3.scaleBand()
+                        .domain(filteredData.map(d => d[xVariable]))
+                        .range([0, innerWidth])
+                        .padding(0.1);
+                    
+                    const yScale = d3.scaleLinear()
+                        .domain([0, d3.max(filteredData, d => +d[yVariable])])
+                        .range([innerHeight, 0]);
+                    
+                    let xAxis = d3.axisBottom(xScale);
+                    
+                    if (xVariable === 'check-in') {
+                        xAxis = d3.axisBottom(xScale)
+                            .tickFormat(d3.timeFormat("%b %d")); // Formatear las fechas como "Abr 18"
+                    }
+
+                    svg.append("g")
+                        .attr("transform", `translate(0, ${innerHeight})`)
+                        .call(xAxis)
+                        .append("text")
+                        .attr("x", innerWidth / 2)
+                        .attr("y", margin.bottom - 10)
+                        .attr("fill", "black")
+                        .attr("text-anchor", "middle")
+                        .text(xVariable);
+                
+                    const yAxis = d3.axisLeft(yScale);
+                    svg.append("g")
+                        .call(yAxis)
+                        .append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("x", -innerHeight / 2)
+                        .attr("y", -margin.left)
+                        .attr("fill", "black")
+                        .attr("text-anchor", "middle")
+                        .text(yVariable);
+                
+                    const barWidth = Math.min((xScale.bandwidth() / filteredData.length) * 10, MAX_BAR_WIDTH);
+                    
+                    svg.selectAll(".bar")
+                        .data(filteredData)
+                        .enter()
+                        .append("rect")
+                        .attr("class", "bar")
+                        .attr("x", (d, i) => xScale(d[xVariable]) + i * (xScale.bandwidth() / filteredData.length) + (xScale.bandwidth() / 20 - barWidth / 20))
+                        .attr("y", d => yScale(d[yVariable]))
+                        .attr("width", barWidth)
+                        .attr("height", d => innerHeight - yScale(d[yVariable]))
+                        .attr("fill", (d, i) => colorScale(i))
+                        .on("mouseover", (event, d) => {
+                            const filtersText = Object.keys(filters)
+                                .filter(filter => filter !== 'tipo' && filter !== 'pax')
+                                .map(filter => `${filter}: ${d[filter]}`).join("<br>");
+                            tooltip.transition()
+                                .duration(200)
+                                .style("opacity", .9);
+                            tooltip.html(`${xVariable}: ${d3.timeFormat("%Y-%m-%d")(d[xVariable])}<br>${yVariable}: ${d[yVariable]}<br>${filtersText}<br>tipo: ${d.tipo}<br>pax: ${d.pax}`)
+                                .style("left", (event.pageX + 5) + "px")
+                                .style("top", (event.pageY - 28) + "px");
+                        })
+                        .on("mouseout", () => {
+                            tooltip.transition()
+                                .duration(500)
+                                .style("opacity", 0);
+                        });
+                }                    
+                }
+                // Eliminar tooltip al remover el gráfico
+                d3.select("#chart-container").on("remove", () => tooltip.remove());
+            }
+
+            addFilterButton.addEventListener("click", () => {
+                createFilterControl();
+            });
+
+            chartTypeSelector.addEventListener("change", () => {
+                updateChart();
+            });
+            xVariableSelector.addEventListener("change", () => {
+                updateChart();
+            });
+            yVariableSelector.addEventListener("change", () => {
+                updateChart();
+            });
+
+            createFilterControl(); // Crear un filtro inicial por defecto
+            updateChart();
+
+            window.addEventListener("resize", updateChart);
+        });
+    </script>
+</body>
+</html>

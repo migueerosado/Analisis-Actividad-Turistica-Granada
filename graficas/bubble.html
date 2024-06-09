@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Burbujas</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        .bubble {
+            fill-opacity: 0.7;
+            stroke: #000;
+            stroke-width: 1px;
+            cursor: pointer;
+        }
+        .bubble:hover {
+            fill-opacity: 1;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 8px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 1px solid #999;
+            border-radius: 5px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gráfico de Burbujas: Tipo de Alojamiento, Pax y Precio</h1>
+    <svg width="960" height="600"></svg>
+
+    <div class="tooltip" style="opacity: 0;"></div>
+
+    <script>
+        const width = 960;
+        const height = 600;
+
+        const svg = d3.select("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        const tooltip = d3.select(".tooltip");
+
+        // Cargar datos desde el archivo CSV
+        d3.csv("datos.csv").then(data => {
+            data.forEach(d => {
+                d.pax = +d.pax;
+                d.precio = +d.precio;
+            });
+
+            const x = d3.scaleLinear()
+                .domain([0, d3.max(data, d => d.pax) * 1.1]) // Ajusta el dominio de x
+                .range([0, width]);
+
+            const y = d3.scaleLinear()
+                .domain([0, d3.max(data, d => d.precio) * 1.1]) // Ajusta el dominio de y
+                .range([height, 0]);
+
+            const color = d3.scaleOrdinal()
+                .domain(["Apartamentos", "Hotel"])
+                .range(["#1f77b4", "#ff7f0e"]);
+
+            const radius = d3.scaleSqrt()
+                .domain([0, d3.max(data, d => d.precio)])
+                .range([5, 20]);
+
+            const bubbles = svg.selectAll(".bubble")
+                .data(data)
+                .enter().append("circle")
+                .attr("class", "bubble")
+                .attr("cx", d => x(d.pax))
+                .attr("cy", d => y(d.precio))
+                .attr("r", d => radius(d.precio))
+                .style("fill", d => color(d.tipo))
+                .on("mouseover", (event, d) => {
+                    tooltip.transition()
+                        .duration(200)
+                        .style("opacity", 0.9);
+                    tooltip.html(`Tipo: ${d.tipo}<br>Pax: ${d.pax}<br>Precio: ${d.precio.toFixed(2)}`)
+                        .style("left", (event.pageX) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                })
+                .on("mouseout", () => {
+                    tooltip.transition()
+                        .duration(500)
+                        .style("opacity", 0);
+                });
+
+            const xAxis = d3.axisBottom(x);
+            const yAxis = d3.axisLeft(y);
+
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(xAxis);
+
+            svg.append("g")
+                .call(yAxis);
+
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", height + 40)
+                .style("text-anchor", "middle")
+                .text("Número de Personas (Pax)");
+
+            svg.append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("x", -height / 2)
+                .attr("y", -40)
+                .style("text-anchor", "middle")
+                .text("Precio");
+        }).catch(error => {
+            console.error('Error al cargar los datos:', error);
+        });
+    </script>
+</body>
+</html>

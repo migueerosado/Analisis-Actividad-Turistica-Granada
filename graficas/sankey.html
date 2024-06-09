@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagrama de Sankey</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+    <style>
+        .node rect {
+            stroke: #000;
+        }
+        .link {
+            fill: none;
+            stroke-opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Diagrama de Sankey: Flujos de Reservas</h1>
+    <svg width="960" height="600"></svg>
+
+    <script>
+        const svg = d3.select("svg"),
+            width = +svg.attr("width"),
+            height = +svg.attr("height");
+
+        const sankey = d3.sankey()
+            .nodeWidth(20)
+            .nodePadding(10)
+            .size([width, height]);
+
+        // Función para categorizar precios
+        function categorizePrice(price) {
+            if (price < 60) return "Bajo";
+            else if (price < 100) return "Medio";
+            else if (price < 150) return "Alto";
+            else if (price < 200) return "Muy Alto";
+            else return "Premium";
+        }
+
+        d3.csv("datos.csv").then(data => {
+            const graph = { nodes: [], links: [] };
+
+            // Función para obtener el índice del nodo, añadiéndolo si no existe
+            function getNodeIndex(name) {
+                let index = graph.nodes.findIndex(node => node.name === name);
+                if (index === -1) {
+                    index = graph.nodes.push({ name }) - 1;
+                }
+                return index;
+            }
+
+            data.forEach(d => {
+                const checkinIndex = getNodeIndex(d['check-in']);
+                const paxIndex = getNodeIndex(`Pax: ${d.pax}`);
+                const tipoIndex = getNodeIndex(d.tipo);
+                const priceCategory = categorizePrice(+d.precio);
+                const priceIndex = getNodeIndex(priceCategory);
+
+                graph.links.push({ source: checkinIndex, target: paxIndex, value: +d.pax });
+                graph.links.push({ source: paxIndex, target: tipoIndex, value: +d.pax });
+                graph.links.push({ source: tipoIndex, target: priceIndex, value: +d.pax });
+            });
+
+            sankey(graph);
+
+            const link = svg.append("g").selectAll(".link")
+                .data(graph.links)
+                .enter().append("path")
+                .attr("class", "link")
+                .attr("d", d3.sankeyLinkHorizontal())
+                .style("stroke-width", d => Math.max(1, d.width))
+                .style("stroke", "#000");
+
+            link.append("title")
+                .text(d => `${d.source.name} → ${d.target.name}\n${d.value}`);
+
+            const node = svg.append("g").selectAll(".node")
+                .data(graph.nodes)
+                .enter().append("g")
+                .attr("class", "node")
+                .attr("transform", d => `translate(${d.x0},${d.y0})`)
+                .call(d3.drag()
+                    .subject(d => d)
+                    .on("start", function () { this.parentNode.appendChild(this); })
+                    .on("drag", dragmove));
+
+            node.append("rect")
+                .attr("height", d => d.y1 - d.y0)
+                .attr("width", sankey.nodeWidth())
+                .append("title")
+                .text(d => `${d.name}\n${d.value}`);
+
+            node.append("text")
+                .attr("x", -6)
+                .attr("y", d => (d.y1 - d.y0) / 2)
+                .attr("dy", ".35em")
+                .attr("text-anchor", "end")
+                .attr("transform", null)
+                .text(d => d.name)
+                .filter(d => d.x0 < width / 2)
+                .attr("x", 6 + sankey.nodeWidth())
+                .attr("text-anchor", "start");
+
+            function dragmove(event, d) {
+                d.y0 = Math.max(0, Math.min(height - (d.y1 - d.y0), event.y));
+                d.y1 = d.y0 + (d.y1 - d.y0);
+                d3.select(this).attr("transform", `translate(${d.x0},${d.y0})`);
+                sankey.update(graph);
+                link.attr("d", d3.sankeyLinkHorizontal());
+            }
+        }).catch(error => {
+            console.error('Error al cargar los datos:', error);
+        });
+    </script>
+</body>
+</html>

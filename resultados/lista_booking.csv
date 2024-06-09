@@ -1,0 +1,4476 @@
+type,capacity,name,price,score,avg_review,reviews_count
+Apartamentos,79.0,ISA Granada,US$331,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,79.0,Be Suites Centro,US$249,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,79.0,Suites 18,US$413,"9.1
+Scored 9.1",Wonderful,35
+Apartamentos,79.0,ADANAR-Las Columnas,US$291,"8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,79.0,limehome Granada Calle Santa Ana,US$314,"8.8
+Scored 8.8",Excellent,"1,761"
+Apartamentos,79.0,Central Deluxe Apartments by Apolo Homes,US$513,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,79.0,Apartamentos Boutique Granada 3000,US$322,"8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,79.0,C&V Apartamentos - Horno de Marina,US$274,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,79.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$399,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,79.0,Apartamentos Montesclaros,US$308,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,79.0,Bib Rambla Luxury Apartments by Apolo Homes,US$589,"9.4
+Scored 9.4",Wonderful,250
+Apartamentos,79.0,Apartamentos Luna Suites Granada,US$369,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,79.0,"Palacete 1620, Premium Suites, Only adults",US$669,"9.3
+Scored 9.3",Wonderful,784
+Apartamentos,79.0,Apartamentos Turísticos Las Nieves,US$316,"8.7
+Scored 8.7",Excellent,925
+Apartamentos,79.0,Apartamentos Campo Del Príncipe,US$284,"8.8
+Scored 8.8",Excellent,"1,668"
+Apartamentos,79.0,HNN GRANADA,US$409,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,79.0,Be Free Granada,US$257,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,79.0,U-Sense Granada Catedral,US$454,"9.1
+Scored 9.1",Wonderful,887
+Apartamentos,79.0,BiBo Suites Plaza Nueva,US$420,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,79.0,Apartamento Las Mil y Una Noches,US$254,"8.0
+Scored 8.0",Very Good,3
+Apartamentos,79.0,Luxury Alhambra Penthouse Collection,US$442,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,79.0,AiA EXCLUSIVE APARTMENTS,US$282,"9.2
+Scored 9.2",Wonderful,288
+Apartamentos,79.0,Tina Home,US$483,"8.9
+Scored 8.9",Excellent,505
+Apartamentos,79.0,Mosaiko Homes Catedral Granada,US$516,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,79.0,Granada Luxury Apartments by Apolo Homes,US$452,"9.0
+Scored 9.0",Wonderful,492
+Hotel,94.0,Boutique Hotel Luna Granada Centro,US$509,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,94.0,Meliá Granada,US$717,"8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,94.0,Hotel Macià Monasterio de los Basilios,US$248,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,94.0,Áurea Washington Irving by Eurostars Hotel Company,US$442,"8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,94.0,Hotel Macià Granada Five Senses Rooms & Suites,US$315,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,94.0,Áurea Catedral by Eurostars Hotel Company,US$470,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,94.0,Vincci Albayzin,US$371,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,94.0,Eurostars Puerta Real,US$371,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,94.0,Porcel Alixares,US$275,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,94.0,Hotel Saray,US$285,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,94.0,Room Mate Leo,US$357,"8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,94.0,Barceló Carmen Granada,US$387,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,94.0,Catalonia Granada,US$309,"8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,94.0,Hotel Abades Recogidas,US$286,"8.1
+Scored 8.1",Very Good,"2,069"
+Hotel,94.0,Porcel Navas,US$299,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,94.0,Hotel Granada Center,US$351,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,94.0,Hotel Cedran,US$206,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,94.0,Hotel Sacromonte,US$249,"8.5
+Scored 8.5",Very Good,"3,126"
+Hotel,94.0,Hotel Monasterio Granada - Adults Only,US$211,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,94.0,Hotel Macià Plaza,US$277,"8.3
+Scored 8.3",Very Good,"1,684"
+Hotel,94.0,Crisol Guadalupe,US$255,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,94.0,Hotel Molinos,US$210,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,94.0,Eurostars Gran Via,US$442,"8.6
+Scored 8.6",Excellent,"2,149"
+Hotel,94.0,Gran Hotel Luna de Granada,US$360,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,94.0,Casa de Reyes,US$320,"8.8
+Scored 8.8",Excellent,"1,617"
+Hotel,94.0,Abadía Hotel,US$295,"8.5
+Scored 8.5",Very Good,"4,220"
+Apartamentos,82.0,Apartamentos Montesclaros,US$308,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,82.0,ADANAR-Las Columnas,US$298,"8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,82.0,Central Deluxe Apartments by Apolo Homes,US$532,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,82.0,Luxury Alhambra Penthouse Collection,US$442,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,82.0,Apartamentos Boutique Granada 3000,US$330,"8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,82.0,Be Suites Centro,US$291,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,82.0,limehome Granada Calle Santa Ana,US$341,"8.8
+Scored 8.8",Excellent,"1,761"
+Apartamentos,82.0,Nest Flats Granada,US$284,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,82.0,Apartamentos Campo Del Príncipe,US$318,"8.8
+Scored 8.8",Excellent,"1,668"
+Apartamentos,82.0,Be Free Granada,US$289,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,82.0,Sercotel Granada Suites,US$641,"9.2
+Scored 9.2",Wonderful,"1,849"
+Apartamentos,82.0,Chapizhome,US$353,"8.3
+Scored 8.3",Very Good,558
+Apartamentos,82.0,Granada Luxury Apartments by Apolo Homes,US$472,"9.0
+Scored 9.0",Wonderful,492
+Apartamentos,82.0,"APARTAMENTO CRIS I ,Piscina-Gym & Parking, parque de las ciencias",US$280,"9.6
+Scored 9.6",Exceptional,31
+Apartamentos,82.0,HNN GRANADA,US$453,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,82.0,BiBo Suites Plaza Nueva,US$453,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,82.0,tuGuest Gran Vía Apartments,US$361,"7.7
+Scored 7.7",Good,145
+Apartamentos,82.0,C&V Apartamentos - Horno de Marina,US$334,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,82.0,Chezmoihomes Apartment Cathedral 2 dormitorios,US$412,"8.4
+Scored 8.4",Very Good,86
+Apartamentos,82.0,Chezmoihomes Plaza Nueva Luxury,US$497,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,82.0,BiBo Suites San Agustín,US$420,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,82.0,Apartamentos Inside Paseo de los Tristes,US$487,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,82.0,Ibericabeds Granada,US$383,"9.1
+Scored 9.1",Wonderful,"1,609"
+Apartamentos,82.0,Carmen Vistas de la Alhambra,US$334,"7.7
+Scored 7.7",Good,932
+Apartamentos,82.0,Elvira Suites,US$543,"8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Gran Hotel Luna de Granada,US$513,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Meliá Granada,"US$1,433","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Saray,US$482,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Porcel Alixares,US$443,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Sercotel Granada Suites,US$641,"9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Hotel Macià Granada Five Senses Rooms & Suites,US$560,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,96.0,Eurostars Puerta Real,US$646,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Dauro Premier,US$441,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Porcel Sabica,US$456,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Comfort Dauro 2,US$441,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,BiBo Suites San Agustín,US$420,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Allegro Granada,US$479,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Elvira Suites,US$543,"8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Suites Gran Vía 44,US$434,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Boutique Puerta de las Granadas,US$581,"8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,96.0,Hotel Macià Cóndor,US$397,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Home Granada Trinidad,US$380,"8.8
+Scored 8.8",Excellent,"1,319"
+Hotel,96.0,U-Sense Granada Centro,US$539,"8.8
+Scored 8.8",Excellent,"2,582"
+Hotel,96.0,Anacapri,US$617,"8.7
+Scored 8.7",Excellent,"3,612"
+Hotel,96.0,Hotel Carlos V,US$442,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,96.0,Hotel Casa Palacete Tablas,US$723,"9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Hotel Molinos,US$420,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,SUITES CASA DE LAS COLUMNAS,US$356,"8.8
+Scored 8.8",Excellent,554
+Hotel,96.0,Hostal Arriola,US$427,"8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Vincci Albayzin,US$835,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Barceló Carmen Granada,US$765,"9.0
+Scored 9.0",Wonderful,"1,174"
+Apartamentos,90.0,Chapizhome,US$453,"8.3
+Scored 8.3",Very Good,558
+Apartamentos,90.0,Carmen Vistas de la Alhambra,US$334,"7.7
+Scored 7.7",Good,932
+Apartamentos,90.0,Be Free Granada,US$342,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,90.0,tuGuest San Agustín III Apartment,US$494,"8.7
+Scored 8.7",Excellent,25
+Apartamentos,90.0,Apartamentos Puerta Elvira Suites 3000,US$416,"9.2
+Scored 9.2",Wonderful,301
+Apartamentos,90.0,tuGuest Alhondiga II Apartment,US$444,"8.2
+Scored 8.2",Very Good,9
+Apartamentos,90.0,Be Suites Centro,US$371,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,90.0,Neptuno Deluxe,US$418,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,90.0,Apartamentos Correo Viejo de Granada,US$730,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,90.0,GLORIA SUITES,US$489,"7.9
+Scored 7.9",Good,455
+Apartamentos,90.0,Luxury Alhambra Penthouse Collection,US$769,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,90.0,Apartamentos Alhambra Granada 3000,US$361,"7.7
+Scored 7.7",Good,"1,083"
+Apartamentos,90.0,IMEDA Apartamentos Piedra Santa,US$616,"8.9
+Scored 8.9",Excellent,91
+Apartamentos,90.0,EnjoyGranada CARLOS CANO II,US$404,"8.1
+Scored 8.1",Very Good,173
+Apartamentos,90.0,BiBo Suites Plaza Nueva,US$580,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,90.0,Suite Alhambra Puerta Bib-Rambla,US$728,"9.0
+Scored 9.0",Wonderful,21
+Apartamentos,90.0,BiBo Suites Oro del Darro,US$660,"9.3
+Scored 9.3",Wonderful,"2,509"
+Apartamentos,90.0,Chezmoihomes Plaza Nueva Luxury,US$680,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,90.0,Apartamento Nuevo Centro Granada,US$572,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,90.0,EnjoyGranada ELVIRA,US$501,"7.7
+Scored 7.7",Good,231
+Apartamentos,90.0,MOLINO CORTEZA DELUXE 6 pax,US$561,"8.7
+Scored 8.7",Excellent,102
+Apartamentos,90.0,Chezmoihomes Plaza Nueva Deluxe,US$783,"9.0
+Scored 9.0",Wonderful,279
+Apartamentos,90.0,Suite patio del arquitecto,US$485,"10
+Scored 10",Exceptional,1
+Apartamentos,90.0,Amazing Loft! Rooftop Terrace! Alhambra Views!,US$409,"8.8
+Scored 8.8",Excellent,26
+Apartamentos,90.0,Apartamento Caleta,US$358,"9.2
+Scored 9.2",Wonderful,50
+Hotel,96.0,Hotel Molinos,US$502,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Meliá Granada,"US$1,743","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,BiBo Suites San Agustín,US$597,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Suites Gran Vía 44,US$760,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Abadía Hotel,US$768,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$564,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Catalonia Granada,US$684,"8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,96.0,Gran Hotel Luna de Granada,US$812,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Hotel Saray,US$675,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Hotel Dauro Premier,US$688,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Sercotel Granada Suites,"US$1,184","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Hotel Andalucía Center,US$704,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Porcel Alixares,US$673,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Presidente,US$685,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$657,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$514,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Crisol Guadalupe,US$651,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Vincci Albayzin,US$890,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,114","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Hotel Granada Center,US$870,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Anacapri,US$981,"8.7
+Scored 8.7",Excellent,"3,612"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$1,163","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hotel Boutique Puerta de las Granadas,US$868,"8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,96.0,Porcel Sabica,US$699,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Macià Cóndor,US$603,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Allegro Granada,US$766,"8.6
+Scored 8.6",Excellent,"4,142"
+Apartamentos,94.0,Chapizhome,US$453,"8.3
+Scored 8.3",Very Good,558
+Apartamentos,94.0,Neptuno Deluxe,US$467,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,94.0,Suite Alhambra Puerta Bib-Rambla,US$647,"9.0
+Scored 9.0",Wonderful,21
+Apartamentos,94.0,Apartamento Nuevo Centro Granada,US$572,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,94.0,Apartamento Recogidas 39,US$466,"7.6
+Scored 7.6",Good,54
+Apartamentos,94.0,Precioso apartamento terraza con vistas,US$685,"8.8
+Scored 8.8",Excellent,57
+Apartamentos,94.0,tuGuest San Agustín III Apartment,US$576,"8.7
+Scored 8.7",Excellent,25
+Apartamentos,94.0,tuGuest Station 2 apartment,US$385,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,94.0,H&H Suite Santa Paula,US$585,"7.7
+Scored 7.7",Good,9
+Apartamentos,94.0,Zahira Suites,US$599,"6.9
+Scored 6.9",Review score,242
+Apartamentos,94.0,Vivienda turística Salazar,US$451,"9.2
+Scored 9.2",Wonderful,55
+Apartamentos,94.0,Grace Apartments - 3 bedroom City Centre,US$837,"9.7
+Scored 9.7",Exceptional,190
+Apartamentos,94.0,tuGuest Halcón Apartment,US$565,"9.2
+Scored 9.2",Wonderful,64
+Apartamentos,94.0,Riad Puertas del Albaicín,US$526,"7.4
+Scored 7.4",Good,423
+Apartamentos,94.0,Maravilloso Piso en el Centro_WIFI_Parking_8People,US$641,"9.4
+Scored 9.4",Wonderful,31
+Apartamentos,94.0,Ibericabeds Albaicín,US$591,"8.3
+Scored 8.3",Very Good,108
+Apartamentos,94.0,"Granada centro, amplio, wifi y A/C",US$576,-,-,-
+Apartamentos,94.0,City Center,US$746,"8.2
+Scored 8.2",Very Good,89
+Apartamentos,94.0,Corrala de San Antón. Sencillo apartamento en pleno centro,US$499,"7.4
+Scored 7.4",Good,23
+Apartamentos,94.0,tuGuest El Rincón de Felisa,US$738,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,94.0,Chezmoihomes La Belle Epoque oversized in the very heart of Granada,US$785,"8.6
+Scored 8.6",Excellent,36
+Apartamentos,94.0,Apartamento ideal para familias en Granada,US$686,"8.9
+Scored 8.9",Excellent,20
+Apartamentos,94.0,Preciosa vivienda con gran terraza muy luminoso,US$693,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,94.0,2 Apartamento en el Centro de Granada,US$690,"7.3
+Scored 7.3",Good,35
+Apartamentos,94.0,tuGuest Gran Vía Deluxe,US$698,-,-,-
+Hotel,97.0,Gran Hotel Luna de Granada,US$934,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Meliá Granada,"US$2,150","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Hotel Molinos,US$630,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$1,446","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Elvira Suites,"US$1,151","8.9
+Scored 8.9",Excellent,778
+Hotel,97.0,Porcel Alixares,US$812,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Saray,US$854,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Sercotel Granada Suites,"US$1,249","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Hotel Dauro Premier,US$817,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,97.0,Eurostars Puerta Real,"US$1,162","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Suites Gran Vía 44,US$869,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Macià Granada Five Senses Rooms & Suites,"US$1,121","8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,97.0,Hotel Macià Cóndor,US$704,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Hotel Carlos V,US$884,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,97.0,Porcel Sabica,US$836,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,BiBo Suites San Agustín,US$840,"9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Allegro Granada,US$926,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,97.0,U-Sense Granada Centro,"US$1,077","8.8
+Scored 8.8",Excellent,"2,582"
+Hotel,97.0,Vincci Albayzin,"US$1,354","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,97.0,Hostal Arriola,US$753,"8.4
+Scored 8.4",Very Good,777
+Hotel,97.0,Hotel Párraga Siete,US$983,"8.7
+Scored 8.7",Excellent,"1,645"
+Hotel,97.0,Alhambra Palace Hotel,"US$4,388","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Barceló Carmen Granada,"US$1,388","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,97.0,Los Angeles Hotel & Spa,US$850,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$1,525","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Hotel Universal,"US$1,316","7.8
+Scored 7.8",Good,"4,590"
+Apartamentos,94.0,Chapizhome,US$544,"8.3
+Scored 8.3",Very Good,558
+Apartamentos,94.0,Apartamento Nuevo Centro Granada,US$654,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,94.0,Neptuno Deluxe,US$467,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,94.0,tuGuest San Agustín III Apartment,US$576,"8.7
+Scored 8.7",Excellent,25
+Apartamentos,94.0,Suite Alhambra Puerta Bib-Rambla,US$808,"9.0
+Scored 9.0",Wonderful,21
+Apartamentos,94.0,Maravilloso Piso en el Centro_WIFI_Parking_8People,US$641,"9.4
+Scored 9.4",Wonderful,31
+Apartamentos,94.0,tuGuest Halcón Apartment,US$565,"9.2
+Scored 9.2",Wonderful,64
+Apartamentos,94.0,Grace Apartments - 3 bedroom City Centre,US$925,"9.7
+Scored 9.7",Exceptional,190
+Apartamentos,94.0,City Center,US$746,"8.2
+Scored 8.2",Very Good,89
+Apartamentos,94.0,Ibericabeds Albaicín,US$591,"8.3
+Scored 8.3",Very Good,108
+Apartamentos,94.0,"Granada centro, amplio, wifi y A/C",US$576,-,-,-
+Apartamentos,94.0,Vivienda turística Salazar,US$565,"9.2
+Scored 9.2",Wonderful,55
+Apartamentos,94.0,Precioso apartamento terraza con vistas,US$783,"8.8
+Scored 8.8",Excellent,57
+Apartamentos,94.0,Apartamento ideal para familias en Granada,US$686,"8.9
+Scored 8.9",Excellent,20
+Apartamentos,94.0,Corrala de San Antón. Sencillo apartamento en pleno centro,US$499,"7.4
+Scored 7.4",Good,23
+Apartamentos,94.0,tuGuest Station 2 apartment,US$385,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,94.0,H&H Suite Santa Paula,US$800,"7.7
+Scored 7.7",Good,9
+Apartamentos,94.0,Preciosa vivienda con gran terraza muy luminoso,US$693,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,94.0,2 Apartamento en el Centro de Granada,US$690,"7.3
+Scored 7.3",Good,35
+Apartamentos,94.0,tuGuest Gran Vía Deluxe,US$722,-,-,-
+Apartamentos,94.0,Chezmoihomes La Belle Epoque oversized in the very heart of Granada,US$968,"8.6
+Scored 8.6",Excellent,36
+Apartamentos,94.0,"2D Apartamento en Albaycín, en el centro de Granada",US$708,"8.3
+Scored 8.3",Very Good,30
+Apartamentos,94.0,Apartamento Con Parking Gratuito,US$662,"7.1
+Scored 7.1",Good,84
+Apartamentos,94.0,"Conjunto Altos de Vista Nevada,nº11,portal 7,1ºA.",US$787,"9.3
+Scored 9.3",Wonderful,32
+Apartamentos,94.0,tuGuest Manuel de Falla Apartment,US$624,"9.0
+Scored 9.0",Wonderful,24
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,446","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Meliá Granada,"US$2,460","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Molinos,US$642,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Gran Hotel Luna de Granada,US$995,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,BiBo Suites San Agustín,US$856,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Elvira Suites,"US$1,347","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Carlos V,US$884,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,96.0,Sercotel Granada Suites,"US$1,249","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Eurostars Puerta Real,"US$1,162","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Vincci Albayzin,"US$1,354","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,U-Sense Granada Centro,"US$1,224","8.8
+Scored 8.8",Excellent,"2,582"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,525","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Suites Gran Vía 44,"US$1,146","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hostal Arriola,"US$1,046","8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Alhambra Palace Hotel,"US$4,388","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Barceló Granada Congress,"US$2,384","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Abadía Hotel,"US$1,043","8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$724,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Hotel Saray,US$960,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Presidente,US$996,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Barceló Carmen Granada,"US$1,423","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Porcel Alixares,US$948,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$811,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$1,605","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hotel Andalucía Center,"US$1,002","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Hotel Dauro Premier,"US$1,000","8.6
+Scored 8.6",Excellent,"1,380"
+Apartamentos,88.0,Casa Montalbán Apartamentos Turísticos,"US$1,041","8.3
+Scored 8.3",Very Good,503
+Apartamentos,88.0,My Granada Garden - Apartamento Orquídea,US$698,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,88.0,Palacio Almagra,US$374,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,88.0,Be Free Granada,US$376,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,88.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$530,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,88.0,Be Suites Centro,US$415,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,88.0,Palacio Cabrera - Lillo,US$543,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,88.0,Luxury Alhambra Penthouse Collection,US$637,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,88.0,limehome Granada Calle Santa Ana,US$494,"8.8
+Scored 8.8",Excellent,"1,761"
+Apartamentos,88.0,C&V Apartamentos - Horno de Marina,US$450,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,88.0,Mosaiko Homes Catedral Granada,US$749,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,88.0,Imeda Apartamentos Escudo del Carmen 19,US$571,"9.0
+Scored 9.0",Wonderful,380
+Apartamentos,88.0,ROSE Apartamentos,US$508,"8.6
+Scored 8.6",Excellent,552
+Apartamentos,88.0,Casas del Albaicín,US$642,"8.9
+Scored 8.9",Excellent,781
+Apartamentos,88.0,Chezmoihomes Plaza Nueva Luxury,US$697,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,88.0,El Ladrón De Agua Palacete,US$743,-,-,-
+Apartamentos,88.0,Palacio Dorobe,US$535,"8.2
+Scored 8.2",Very Good,212
+Apartamentos,88.0,Chezmoihomes Plaza Nueva Deluxe,US$866,"9.0
+Scored 9.0",Wonderful,279
+Apartamentos,88.0,Granada CENTRO al pie de la Alhambra y el Albaicín,US$391,"9.6
+Scored 9.6",Exceptional,54
+Apartamentos,88.0,Apartamentos Turísticos Las Nieves,US$588,"8.7
+Scored 8.7",Excellent,925
+Apartamentos,88.0,Trinidad Deluxe 1,US$488,"8.3
+Scored 8.3",Very Good,60
+Apartamentos,88.0,Apartamentos Realejo Granada Centro 3000,US$589,"8.1
+Scored 8.1",Very Good,987
+Apartamentos,88.0,DreamStay - Oficios Apartamento,US$620,-,-,-
+Apartamentos,88.0,Trinidad deluxe 5,US$488,"9.2
+Scored 9.2",Wonderful,21
+Apartamentos,88.0,Chapizhome,US$571,"8.3
+Scored 8.3",Very Good,558
+Hotel,95.0,Boutique Hotel Luna Granada Centro,US$583,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,95.0,Meliá Granada,US$836,"8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Hotel Granada Center,US$378,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,95.0,Barceló Granada Congress,US$365,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,95.0,Hotel Saray,US$342,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,95.0,Áurea Catedral by Eurostars Hotel Company,US$616,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,95.0,Gran Hotel Luna de Granada,US$378,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Vincci Albayzin,US$478,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,95.0,Hotel Abades Nevada Palace,US$245,"7.9
+Scored 7.9",Good,"4,733"
+Hotel,95.0,Hotel Andalucía Center,US$319,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,95.0,Eurostars Puerta Real,US$568,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,95.0,Áurea Washington Irving by Eurostars Hotel Company,US$709,"8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,95.0,Hotel Macià Monasterio de los Basilios,US$364,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,95.0,Suites Gran Vía 44,US$476,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,95.0,Catalonia Granada,US$437,"8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$465,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Occidental Granada,US$413,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Senator Granada,US$331,"8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,95.0,Hotel Abades Recogidas,US$419,"8.1
+Scored 8.1",Very Good,"2,069"
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$336,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Eurostars Gran Via,US$698,"8.6
+Scored 8.6",Excellent,"2,149"
+Hotel,95.0,Hotel Comfort Dauro 2,US$370,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,95.0,Crisol Guadalupe,US$377,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,95.0,Porcel Sabica,US$351,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Room Mate Leo,US$536,"8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,95.0,Hotel Tent Granada,US$441,"8.4
+Scored 8.4",Very Good,"4,803"
+Hotel,95.0,Hotel Granada Centro,US$346,"8.5
+Scored 8.5",Very Good,"4,294"
+Apartamentos,89.0,ADANAR-Apartamentos Muralla Zirí,US$586,"8.7
+Scored 8.7",Excellent,268
+Apartamentos,89.0,ISA Granada,US$736,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,89.0,Central Deluxe Apartments by Apolo Homes,US$812,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,89.0,Luxury Alhambra Penthouse Collection,US$637,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,89.0,Sercotel Granada Suites,US$802,"9.2
+Scored 9.2",Wonderful,"1,849"
+Apartamentos,89.0,Imeda Apartamentos Escudo del Carmen 19,US$571,"9.0
+Scored 9.0",Wonderful,380
+Apartamentos,89.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$1,404","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,89.0,Palacio Almagra,US$472,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,89.0,Apartamentos Correo Viejo de Granada,US$873,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,89.0,Apartamentos Inside Paseo de los Tristes,US$787,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,89.0,Elvira Suites,US$684,"8.9
+Scored 8.9",Excellent,778
+Apartamentos,89.0,Chezmoihomes Plaza Nueva Luxury,US$697,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,89.0,Be Suites Centro,US$462,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,89.0,Chezmoihomes Plaza Nueva Deluxe,US$866,"9.0
+Scored 9.0",Wonderful,279
+Apartamentos,89.0,Suites 18,"US$1,733","9.1
+Scored 9.1",Wonderful,35
+Apartamentos,89.0,Apartamentos Turísticos Centro,US$609,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,89.0,EnjoyGranada LUJO Piscina y Parking,US$568,"9.1
+Scored 9.1",Wonderful,154
+Apartamentos,89.0,Casas del Albaicín,US$707,"8.9
+Scored 8.9",Excellent,781
+Apartamentos,89.0,C&V Apartamentos - Horno de Marina,US$523,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,89.0,MOLINO CORTEZA DELUXE 6 pax,US$691,"8.7
+Scored 8.7",Excellent,102
+Apartamentos,89.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$717,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,89.0,Mosaiko Homes Catedral Granada,"US$1,064","9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,89.0,BnS Dauro Suites,US$596,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,89.0,BiBo Suites Real Chancilleria,US$681,"9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,89.0,Palacio Cabrera - Lillo,US$576,"9.1
+Scored 9.1",Wonderful,"2,374"
+Hotel,96.0,Gran Hotel Luna de Granada,US$699,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Meliá Granada,"US$3,051","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Saray,US$634,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Porcel Alixares,US$546,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Comfort Dauro 2,US$519,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,Sercotel Granada Suites,US$802,"9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,026","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Occidental Granada,US$774,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Elvira Suites,US$684,"8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Allegro Granada,US$627,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Casual Ilbira Granada,US$670,"8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Hostal Arriola,US$599,"8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Barceló Carmen Granada,US$980,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Hospes Palacio de los Patos,"US$2,894","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Alhambra Palace Hotel,"US$3,042","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hotel Universal,US$624,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,047","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Hostal Viena Plaza Nueva,US$678,"7.3
+Scored 7.3",Good,352
+Hotel,96.0,Hotel Colón Centro,"US$1,193","8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$1,231","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Hotel Granada Center,US$895,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Hotel Andalucía Center,US$745,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$671,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Barceló Granada Congress,US$912,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Eurostars Puerta Real,"US$1,136","8.9
+Scored 8.9",Excellent,"4,056"
+Apartamentos,94.0,Casa Montalbán Apartamentos Turísticos,"US$1,041","8.3
+Scored 8.3",Very Good,503
+Apartamentos,94.0,My Granada Garden - Apartamento Orquídea,US$764,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,94.0,Apartamentos Correo Viejo de Granada,US$915,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,94.0,Apartamentos Inside Paseo de los Tristes,US$787,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,94.0,Be Free Granada,US$503,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,94.0,MOLINO CORTEZA DELUXE 6 pax,US$691,"8.7
+Scored 8.7",Excellent,102
+Apartamentos,94.0,Luxury Alhambra Penthouse Collection,US$872,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,94.0,Chezmoihomes Plaza Nueva Luxury,US$824,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,94.0,Chezmoihomes Plaza Nueva Deluxe,US$979,"9.0
+Scored 9.0",Wonderful,279
+Apartamentos,94.0,FAMILY CATEDRAL CENTRO,US$646,"8.2
+Scored 8.2",Very Good,54
+Apartamentos,94.0,BiBo Suites Real Chancilleria,"US$1,036","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,94.0,BnS Dauro Suites,US$686,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,94.0,"Granada centro, amplio, wifi y A/C",US$380,-,-,-
+Apartamentos,94.0,Apartamentos Turísticos Centro,US$818,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,94.0,Precios apartamento Centro ciudad,US$883,"8.9
+Scored 8.9",Excellent,51
+Apartamentos,94.0,Chezmoihomes Apartment Cathedral 2 dormitorios,US$872,"8.4
+Scored 8.4",Very Good,86
+Apartamentos,94.0,Apartamentos de Isabella,US$908,"8.5
+Scored 8.5",Very Good,863
+Apartamentos,94.0,Palacio Dorobe,US$984,"8.2
+Scored 8.2",Very Good,212
+Apartamentos,94.0,Apartamentos Puerta Elvira Suites 3000,US$759,"9.2
+Scored 9.2",Wonderful,301
+Apartamentos,94.0,Be Suites Centro,US$586,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,94.0,Apartamentos Comfort City,US$487,"6.3
+Scored 6.3",Review score,49
+Apartamentos,94.0,IMEDA Apartamentos Piedra Santa,US$782,"8.9
+Scored 8.9",Excellent,91
+Apartamentos,94.0,Apartamento Fajalauza Albaicín,US$495,-,-,-
+Apartamentos,94.0,ARABIAL DELUXE III,US$390,"9.2
+Scored 9.2",Wonderful,67
+Apartamentos,94.0,Apartamentos Albaicín Centro Suites 3000,US$781,"9.0
+Scored 9.0",Wonderful,74
+Hotel,96.0,Meliá Granada,"US$3,328","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,111","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Porcel Navas,"US$1,111","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Andalucía Center,US$864,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Sercotel Granada Suites,"US$1,605","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Occidental Granada,"US$1,032","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Saray,US$928,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Hotel Granada Center,"US$1,062","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$739,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$796,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Hospes Palacio de los Patos,"US$2,029","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Eurostars Puerta Real,"US$1,473","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$847,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$1,745","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hotel Macià Cóndor,US$811,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Porcel Sabica,US$849,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Monjas del Carmen Hotel,"US$1,102","8.7
+Scored 8.7",Excellent,"1,656"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,298","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Barceló Granada Congress,"US$1,259","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Casual Ilbira Granada,"US$1,089","8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Hotel Los Girasoles,US$977,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Hostal Arriola,US$996,"8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Porcel Alixares,US$829,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Barceló Carmen Granada,"US$1,327","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Leonardo Hotel Granada,US$708,"8.2
+Scored 8.2",Very Good,"1,128"
+Apartamentos,96.0,My Granada Garden - Apartamento Orquídea,US$839,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,96.0,Apartamentos Inside Paseo de los Tristes,US$787,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,96.0,FAMILY CATEDRAL CENTRO,US$744,"8.2
+Scored 8.2",Very Good,54
+Apartamentos,96.0,"Granada centro, amplio, wifi y A/C",US$576,-,-,-
+Apartamentos,96.0,Alhambra Apartments,US$528,"7.9
+Scored 7.9",Good,21
+Apartamentos,96.0,Apartamento Recogidas 39,US$875,"7.6
+Scored 7.6",Good,54
+Apartamentos,96.0,N&V San Anton,"US$1,238","9.4
+Scored 9.4",Wonderful,66
+Apartamentos,96.0,Duplex Lux Escudo del Carmen,"US$1,175","8.5
+Scored 8.5",Very Good,26
+Apartamentos,96.0,Preciosa vivienda con gran terraza muy luminoso,US$887,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,96.0,Apartamento ideal para familias en Granada,US$994,"8.9
+Scored 8.9",Excellent,20
+Apartamentos,96.0,Apartamento con encanto en pleno centro Granada,US$645,-,-,-
+Apartamentos,96.0,Apartamento centro,US$928,"10
+Scored 10",Exceptional,1
+Apartamentos,96.0,Vintage Granada,US$928,-,-,-
+Apartamentos,96.0,Maravilloso Apartamento en el Realejo 8 personas,"US$1,050","8.9
+Scored 8.9",Excellent,10
+Apartamentos,96.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,96.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,577",-,-,-
+Apartamentos,96.0,El Refugio De Noa,US$961,-,-,-
+Apartamentos,96.0,Casa Benzambra,US$917,-,-,-
+Apartamentos,96.0,Biznaga Nevada,"US$1,803","10
+Scored 10",Exceptional,3
+Apartamentos,96.0,Pensión Princesa,US$818,"6.5
+Scored 6.5",Review score,246
+Apartamentos,96.0,tuGuest Alhambra house,"US$1,298","8.5
+Scored 8.5",Very Good,11
+Apartamentos,96.0,Apartamentos Correo Viejo de Granada,"US$1,561","8.5
+Scored 8.5",Very Good,805
+Apartamentos,96.0,ADANAR-Las Columnas,"US$1,172","8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,96.0,Luxury Alhambra Penthouse Collection,"US$1,286","8.6
+Scored 8.6",Excellent,643
+Apartamentos,96.0,Be Free Granada,US$885,"8.2
+Scored 8.2",Very Good,"3,331"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,052","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Meliá Granada,"US$3,171","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Occidental Granada,"US$1,343","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,97.0,Hotel Saray,"US$1,139","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Porcel Alixares,"US$1,000","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Sercotel Granada Suites,"US$1,605","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Allegro Granada,"US$1,212","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,97.0,Hospes Palacio de los Patos,"US$2,794","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,272","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Hostal Arriola,US$996,"8.4
+Scored 8.4",Very Good,777
+Hotel,97.0,Barceló Carmen Granada,"US$1,778","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,97.0,Hotel Universal,"US$1,059","7.8
+Scored 7.8",Good,"4,590"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$2,124","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Hostal Viena Plaza Nueva,"US$1,355","7.3
+Scored 7.3",Good,352
+Hotel,97.0,Hotel Andalucía Center,"US$1,237","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,97.0,Hotel Granada Center,"US$1,448","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,97.0,Hotel Macià Real De La Alhambra,"US$1,046","8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,314","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Hotel Comfort Dauro 2,"US$1,221","8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,454","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,97.0,Eurostars Puerta Real,"US$2,041","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Barceló Granada Congress,"US$1,678","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,97.0,Room Mate Leo,"US$1,958","8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,97.0,Hotel Plaza Nueva,"US$1,742","8.3
+Scored 8.3",Very Good,"2,524"
+Hotel,97.0,Gala Placida 1923,"US$1,349","7.0
+Scored 7.0",Good,"4,005"
+Apartamentos,96.0,My Granada Garden - Apartamento Orquídea,US$772,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,96.0,Apartamentos Inside Paseo de los Tristes,US$787,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,96.0,FAMILY CATEDRAL CENTRO,US$688,"8.2
+Scored 8.2",Very Good,54
+Apartamentos,96.0,"Granada centro, amplio, wifi y A/C",US$531,-,-,-
+Apartamentos,96.0,Alhambra Apartments,US$486,"7.9
+Scored 7.9",Good,21
+Apartamentos,96.0,N&V San Anton,"US$1,141","9.4
+Scored 9.4",Wonderful,66
+Apartamentos,96.0,Preciosa vivienda con gran terraza muy luminoso,US$819,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,96.0,Apartamento centro,US$854,"10
+Scored 10",Exceptional,1
+Apartamentos,96.0,Duplex Lux Escudo del Carmen,"US$1,085","8.5
+Scored 8.5",Very Good,26
+Apartamentos,96.0,Apartamento con encanto en pleno centro Granada,US$593,-,-,-
+Apartamentos,96.0,Apartamento ideal para familias en Granada,US$917,"8.9
+Scored 8.9",Excellent,20
+Apartamentos,96.0,Vintage Granada,US$854,-,-,-
+Apartamentos,96.0,Maravilloso Apartamento en el Realejo 8 personas,US$966,"8.9
+Scored 8.9",Excellent,10
+Apartamentos,96.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,451",-,-,-
+Apartamentos,96.0,APARTAMENTOS LA MARIANA II,"US$1,424",-,-,-
+Apartamentos,96.0,Casa Benzambra,US$844,-,-,-
+Apartamentos,96.0,El Refugio De Noa,US$961,-,-,-
+Apartamentos,96.0,Biznaga Nevada,"US$2,108","10
+Scored 10",Exceptional,3
+Apartamentos,96.0,tuGuest Alhambra house,"US$1,199","8.5
+Scored 8.5",Very Good,11
+Apartamentos,96.0,Apartamentos Boutique Granada 3000,"US$1,170","8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,96.0,ADANAR-Las Columnas,"US$1,408","8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,96.0,Apartamentos Correo Viejo de Granada,"US$1,620","8.5
+Scored 8.5",Very Good,805
+Apartamentos,96.0,Luxury Alhambra Penthouse Collection,"US$1,509","8.6
+Scored 8.6",Excellent,643
+Apartamentos,96.0,Chezmoihomes Plaza Nueva Luxury,"US$1,407","8.5
+Scored 8.5",Very Good,76
+Apartamentos,96.0,Apartamentos Turísticos Centro,"US$1,088","8.7
+Scored 8.7",Excellent,307
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,344","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Meliá Granada,"US$3,545","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$2,052","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Sercotel Granada Suites,"US$1,605","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Occidental Granada,"US$1,418","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hospes Palacio de los Patos,"US$2,960","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Hostal Arriola,"US$1,259","8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,954","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Hostal Viena Plaza Nueva,"US$1,247","7.3
+Scored 7.3",Good,352
+Hotel,96.0,Hotel Andalucía Center,"US$1,138","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Porcel Alixares,"US$1,168","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,879","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Hotel Granada Center,"US$1,389","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Hotel Saray,"US$1,331","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,"US$1,205","6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,454","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hotel Macià Real De La Alhambra,"US$1,075","8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$2,314","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Eurostars Puerta Real,"US$2,041","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Macià Cóndor,"US$1,183","7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Porcel Sabica,"US$1,200","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Monjas del Carmen Hotel,"US$1,562","8.7
+Scored 8.7",Excellent,"1,656"
+Hotel,96.0,Allegro Granada,"US$1,589","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Barceló Granada Congress,"US$1,715","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Hotel Los Girasoles,"US$1,427","7.2
+Scored 7.2",Good,74
+Apartamentos,88.0,Pepa Home,US$538,"8.9
+Scored 8.9",Excellent,608
+Apartamentos,88.0,"Palacete 1620, Premium Suites, Only adults",US$801,"9.3
+Scored 9.3",Wonderful,784
+Apartamentos,88.0,Casa Palacio López Daza,US$532,"9.0
+Scored 9.0",Wonderful,383
+Apartamentos,88.0,tuGuest San Gil Apartments,US$678,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,88.0,Suites 18,US$770,"9.1
+Scored 9.1",Wonderful,35
+Apartamentos,88.0,Casa Miravalle Catedral,US$642,"9.2
+Scored 9.2",Wonderful,"1,127"
+Apartamentos,88.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$602,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,88.0,Siloe Plaza,US$892,"7.8
+Scored 7.8",Good,743
+Apartamentos,88.0,Central Deluxe Apartments by Apolo Homes,"US$1,148","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,88.0,Apartamentos Boutique Granada 3000,US$821,"8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,88.0,ADANAR-Las Columnas,US$893,"8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,88.0,Apartamentos Luna Suites Granada,US$557,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,88.0,Apartamentos Correo Viejo de Granada,"US$1,272","8.5
+Scored 8.5",Very Good,805
+Apartamentos,88.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$2,029","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,88.0,Palacio Almagra,US$526,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,88.0,Casa de la Catedral,US$582,"9.0
+Scored 9.0",Wonderful,"1,393"
+Apartamentos,88.0,Apartamentos VITA CENTER,US$586,"9.3
+Scored 9.3",Wonderful,348
+Apartamentos,88.0,C&V Apartamentos - Horno de Marina,US$547,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,88.0,Apartamentos Turísticos Centro,US$538,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,88.0,Luxury Alhambra Penthouse Collection,US$804,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,88.0,Be Free Granada,US$516,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,88.0,limehome Granada Calle Santa Ana,US$632,"8.8
+Scored 8.8",Excellent,"1,761"
+Apartamentos,88.0,Mosaiko Homes Catedral Granada,US$934,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,88.0,Apartamentos Campo Del Príncipe,US$603,"8.8
+Scored 8.8",Excellent,"1,668"
+Apartamentos,88.0,HNN GRANADA,US$765,"9.7
+Scored 9.7",Exceptional,473
+Hotel,95.0,Boutique Hotel Luna Granada Centro,US$641,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,95.0,Meliá Granada,"US$1,254","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Hotel Granada Center,US$499,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,95.0,Porcel Navas,US$508,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,95.0,Barceló Granada Congress,US$426,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,95.0,Hotel Andalucía Center,US$419,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,95.0,Hotel Macià Monasterio de los Basilios,US$452,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,95.0,Áurea Catedral by Eurostars Hotel Company,US$735,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,95.0,Catalonia Granada,US$500,"8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,95.0,Vincci Albayzin,US$627,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,95.0,Porcel Alixares,US$454,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Gran Hotel Luna de Granada,US$570,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Hotel Casa Palacete Tablas,US$704,"9.0
+Scored 9.0",Wonderful,61
+Hotel,95.0,Occidental Granada,US$469,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Hotel Saray,US$504,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$403,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Sercotel Palacio de los Gamboa,US$557,"8.6
+Scored 8.6",Excellent,"4,894"
+Hotel,95.0,Allegro Granada,US$400,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,95.0,Hotel Abades Nevada Palace,US$388,"7.9
+Scored 7.9",Good,"4,733"
+Hotel,95.0,Room Mate Leo,US$665,"8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$596,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Senator Granada,US$460,"8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,95.0,Porcel Sabica,US$459,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Hotel Comfort Dauro 2,US$533,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,95.0,Crisol Guadalupe,US$491,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,95.0,Casa Miravalle Catedral,US$642,"9.2
+Scored 9.2",Wonderful,"1,127"
+Apartamentos,92.0,Casa Montalbán Apartamentos Turísticos,"US$1,140","8.3
+Scored 8.3",Very Good,503
+Apartamentos,92.0,My Granada Garden - Apartamento Orquídea,"US$1,002","9.5
+Scored 9.5",Exceptional,82
+Apartamentos,92.0,Central Deluxe Apartments by Apolo Homes,"US$1,168","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,92.0,Siloe Plaza,US$892,"7.8
+Scored 7.8",Good,743
+Apartamentos,92.0,ADANAR-Las Columnas,US$893,"8.6
+Scored 8.6",Excellent,"1,375"
+Apartamentos,92.0,Apartamentos Correo Viejo de Granada,"US$1,311","8.5
+Scored 8.5",Very Good,805
+Apartamentos,92.0,Apartamentos Turísticos Centro,US$609,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,92.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$2,360","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,92.0,BiBo Suites Gran Vía,US$730,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,92.0,Palacio Almagra,US$658,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,92.0,HNN GRANADA,US$809,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,92.0,Chezmoihomes Plaza Nueva Luxury,US$866,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,92.0,Be Free Granada,US$606,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,92.0,EnjoyGranada LUJO Piscina y Parking,US$669,"9.1
+Scored 9.1",Wonderful,154
+Apartamentos,92.0,Palacio Cabrera - Lillo,US$854,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,92.0,Mosaiko Homes Catedral Granada,"US$1,194","9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,92.0,Loft Homelike,US$903,"9.3
+Scored 9.3",Wonderful,18
+Apartamentos,92.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$892,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,92.0,Chezmoihomes Apartment Cathedral 2 dormitorios,US$698,"8.4
+Scored 8.4",Very Good,86
+Apartamentos,92.0,C&V Apartamentos - Horno de Marina,US$693,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,92.0,Chezmoihomes Plaza Nueva Deluxe,"US$1,144","9.0
+Scored 9.0",Wonderful,279
+Apartamentos,92.0,Casas del Albaicín,US$837,"8.9
+Scored 8.9",Excellent,781
+Apartamentos,92.0,Granada Luxury Apartments by Apolo Homes,"US$1,173","9.0
+Scored 9.0",Wonderful,492
+Apartamentos,92.0,Carmen de Vidal - Un mirador a la Alhambra,"US$1,466","9.4
+Scored 9.4",Wonderful,166
+Apartamentos,92.0,Carmen Vistas de la Alhambra,US$890,"7.7
+Scored 7.7",Good,932
+Hotel,96.0,Gran Hotel Luna de Granada,US$830,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Meliá Granada,"US$2,508","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Porcel Alixares,US$757,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,099","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Sercotel Granada Suites,"US$1,074","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Porcel Sabica,US$766,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Molinos,US$814,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$566,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Alhambra Palace Hotel,"US$3,157","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hospes Palacio de los Patos,"US$3,708","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Hostal Arriola,US$869,"8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Hotel Universal,US$738,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,047","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Suites Gran Vía 44,US$748,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Barceló Carmen Granada,"US$1,548","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Hostal Viena Plaza Nueva,US$678,"7.3
+Scored 7.3",Good,352
+Hotel,96.0,Barceló Granada Congress,"US$1,064","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Hotel Granada Center,"US$1,110","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Hotel Andalucía Center,US$932,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Vincci Albayzin,"US$1,254","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Catalonia Granada,"US$1,151","8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,96.0,Occidental Granada,"US$1,173","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Saray,"US$1,186","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Allegro Granada,US$999,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Eurostars Gran Via,"US$1,818","8.6
+Scored 8.6",Excellent,"2,149"
+Hotel,96.0,Room Mate Leo,"US$1,439","8.8
+Scored 8.8",Excellent,"4,316"
+Apartamentos,95.0,Casa Montalbán Apartamentos Turísticos,"US$1,140","8.3
+Scored 8.3",Very Good,503
+Apartamentos,95.0,My Granada Garden - Apartamento Orquídea,"US$1,036","9.5
+Scored 9.5",Exceptional,82
+Apartamentos,95.0,Luxury Alhambra Penthouse Collection,US$967,"8.6
+Scored 8.6",Excellent,643
+Apartamentos,95.0,Chezmoihomes Plaza Nueva Luxury,US$979,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,95.0,Be Free Granada,US$658,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,95.0,Apartamentos Boutique Granada 3000,"US$1,089","8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,95.0,Apartamentos Correo Viejo de Granada,"US$1,374","8.5
+Scored 8.5",Very Good,805
+Apartamentos,95.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$2,382","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,95.0,Apartamentos Turísticos Centro,US$886,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,95.0,Chezmoihomes Plaza Nueva Deluxe,"US$1,256","9.0
+Scored 9.0",Wonderful,279
+Apartamentos,95.0,EnjoyGranada LUJO Piscina y Parking,US$846,"9.1
+Scored 9.1",Wonderful,154
+Apartamentos,95.0,Carmen Vistas de la Alhambra,US$890,"7.7
+Scored 7.7",Good,932
+Apartamentos,95.0,Chezmoihomes Apartment Cathedral 2 dormitorios,US$979,"8.4
+Scored 8.4",Very Good,86
+Apartamentos,95.0,Apartamento Fajalauza Albaicín,US$495,-,-,-
+Apartamentos,95.0,Precioso y Céntrico Apartamento Gran Capitán 5,US$838,"9.2
+Scored 9.2",Wonderful,64
+Apartamentos,95.0,Palacio Dorobe,"US$1,102","8.2
+Scored 8.2",Very Good,212
+Apartamentos,95.0,Arabial Deluxe,US$564,"8.7
+Scored 8.7",Excellent,135
+Apartamentos,95.0,Carmen de Vidal - Un mirador a la Alhambra,"US$1,531","9.4
+Scored 9.4",Wonderful,166
+Apartamentos,95.0,BnS Dauro Suites,US$898,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,95.0,Pisito del gorrión,US$619,"9.5
+Scored 9.5",Exceptional,54
+Apartamentos,95.0,Apartamentos de Isabella,"US$1,145","8.5
+Scored 8.5",Very Good,863
+Apartamentos,95.0,Precioso Piso en pleno centro de Granada,US$801,"8.5
+Scored 8.5",Very Good,54
+Apartamentos,95.0,Apartaments Center 2 bedrooms,"US$1,238","8.5
+Scored 8.5",Very Good,271
+Apartamentos,95.0,Comfort and beauty for you in Granada - Beahost,US$677,-,-,-
+Apartamentos,95.0,Chezmoihomes Plaza Nueva Premium,US$919,"8.9
+Scored 8.9",Excellent,36
+Hotel,96.0,Hotel Molinos,US$896,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Meliá Granada,"US$2,861","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Porcel Navas,"US$1,194","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,881","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,374","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Sercotel Granada Suites,"US$2,148","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Hotel Andalucía Center,"US$1,075","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Porcel Alixares,"US$1,151","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Granada Center,"US$1,349","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$2,033","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Presidente,"US$1,268","7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Occidental Granada,"US$1,466","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Tent Granada,"US$1,314","8.4
+Scored 8.4",Very Good,"4,803"
+Hotel,96.0,Eurostars Puerta Real,"US$1,812","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Porcel Sabica,"US$1,174","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,797","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Allegro Granada,"US$1,199","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,405","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Barceló Granada Congress,"US$1,469","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Suites Gran Vía 44,"US$1,627","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hospes Palacio de los Patos,"US$3,849","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Hotel Los Girasoles,"US$1,349","7.2
+Scored 7.2",Good,74
+Hotel,96.0,Alhambra Palace Hotel,"US$4,673","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hostal Arriola,"US$1,454","8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Hostal Viena Plaza Nueva,"US$1,165","7.3
+Scored 7.3",Good,352
+Apartamentos,96.0,Apartamentos Boutique Granada 3000,"US$1,642","8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,96.0,Apartamentos Turísticos Centro,"US$1,218","8.7
+Scored 8.7",Excellent,307
+Apartamentos,96.0,Luxury Alhambra Penthouse Collection,"US$1,626","8.6
+Scored 8.6",Excellent,643
+Apartamentos,96.0,Be Free Granada,"US$1,196","8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,96.0,Mosaiko Homes Catedral Granada,"US$2,340","9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,96.0,EnjoyGranada LUJO Piscina y Parking,"US$1,346","9.1
+Scored 9.1",Wonderful,154
+Apartamentos,96.0,Sercotel Granada Suites,"US$2,148","9.2
+Scored 9.2",Wonderful,"1,849"
+Apartamentos,96.0,C&V Apartamentos - Horno de Marina,"US$1,241","8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,96.0,HNN GRANADA,"US$1,574","9.7
+Scored 9.7",Exceptional,473
+Apartamentos,96.0,PATIOdeLUZ - Stylish apartments in Párraga 13,"US$1,561","9.5
+Scored 9.5",Exceptional,464
+Apartamentos,96.0,Palacio Dorobe,"US$1,725","8.2
+Scored 8.2",Very Good,212
+Apartamentos,96.0,Apartamentos de Isabella,"US$1,681","8.5
+Scored 8.5",Very Good,863
+Apartamentos,96.0,Villa a los pies de la Alhambra,"US$3,147","8.3
+Scored 8.3",Very Good,21
+Apartamentos,96.0,Moderno Apartamento en Centro de Granada,"US$1,699","7.6
+Scored 7.6",Good,123
+Apartamentos,96.0,El Ladrón De Agua Palacete,"US$3,049",-,-,-
+Apartamentos,96.0,Apartamento Recogidas 39,US$875,"7.6
+Scored 7.6",Good,54
+Apartamentos,96.0,Apartamento Fajalauza Albaicín,US$912,-,-,-
+Apartamentos,96.0,Duplex Lux Escudo del Carmen,"US$1,175","8.5
+Scored 8.5",Very Good,26
+Apartamentos,96.0,Casa Grande con piscina para familias,"US$2,124",-,-,-
+Apartamentos,96.0,N&V San Anton,"US$1,325","9.4
+Scored 9.4",Wonderful,66
+Apartamentos,96.0,Preciosa vivienda con gran terraza muy luminoso,"US$1,003","8.5
+Scored 8.5",Very Good,28
+Apartamentos,96.0,"LA CASA DE LOS PINTORES, junto al centro de Granada","US$1,466","9.5
+Scored 9.5",Exceptional,98
+Apartamentos,96.0,Apartamento centro,US$928,"10
+Scored 10",Exceptional,1
+Apartamentos,96.0,tuGuest Alhambra house,"US$1,381","8.5
+Scored 8.5",Very Good,11
+Apartamentos,96.0,Ideal House to get to know Granada,"US$2,760",-,-,-
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,535","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Meliá Granada,"US$4,116","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Sercotel Granada Suites,"US$2,148","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Suites Gran Vía 44,"US$1,495","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hostal Arriola,"US$1,454","8.4
+Scored 8.4",Very Good,777
+Hotel,97.0,Hotel Universal,"US$1,319","7.8
+Scored 7.8",Good,"4,590"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$2,124","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Barceló Carmen Granada,"US$2,807","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,199","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Hotel Andalucía Center,"US$1,541","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,97.0,Occidental Granada,"US$1,982","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,97.0,Hotel Macià Real De La Alhambra,"US$1,371","8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,Room Mate Leo,"US$2,173","8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,769","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Barceló Granada Congress,"US$1,958","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,97.0,Eurostars Puerta Real,"US$2,572","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Allegro Granada,"US$1,698","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,97.0,Presidente,"US$1,853","7.7
+Scored 7.7",Good,"1,332"
+Hotel,97.0,Hospes Palacio de los Patos,"US$4,910","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,97.0,Alhambra Palace Hotel,"US$6,204","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Hotel Los Girasoles,"US$1,876","7.2
+Scored 7.2",Good,74
+Hotel,97.0,Khu Hotel,"US$2,466","8.1
+Scored 8.1",Very Good,"1,326"
+Hotel,97.0,Hotel Granada Center,"US$1,904","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,97.0,Leonardo Hotel Granada,"US$1,424","8.2
+Scored 8.2",Very Good,"1,128"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,375","8.9
+Scored 8.9",Excellent,"2,629"
+Apartamentos,97.0,My Granada Garden - Apartamento Orquídea,"US$1,110","9.5
+Scored 9.5",Exceptional,82
+Apartamentos,97.0,Duplex Lux Escudo del Carmen,"US$1,175","8.5
+Scored 8.5",Very Good,26
+Apartamentos,97.0,N&V San Anton,"US$1,325","9.4
+Scored 9.4",Wonderful,66
+Apartamentos,97.0,Preciosa vivienda con gran terraza muy luminoso,"US$1,003","8.5
+Scored 8.5",Very Good,28
+Apartamentos,97.0,Apartamento centro,US$928,"10
+Scored 10",Exceptional,1
+Apartamentos,97.0,Vintage Granada,US$928,-,-,-
+Apartamentos,97.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,97.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,750",-,-,-
+Apartamentos,97.0,Apartamentos Reina Isabel,"US$2,098","9.3
+Scored 9.3",Wonderful,26
+Apartamentos,97.0,El Refugio De Noa,US$961,-,-,-
+Apartamentos,97.0,Casa Benzambra,US$917,-,-,-
+Apartamentos,97.0,tuGuest Alhambra house,"US$1,381","8.5
+Scored 8.5",Very Good,11
+Apartamentos,97.0,Apartamentos Boutique Granada 3000,"US$1,824","8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,97.0,Apartamentos Correo Viejo de Granada,"US$2,700","8.5
+Scored 8.5",Very Good,805
+Apartamentos,97.0,Apartamentos Turísticos Centro,"US$1,218","8.7
+Scored 8.7",Excellent,307
+Apartamentos,97.0,Luxury Alhambra Penthouse Collection,"US$1,761","8.6
+Scored 8.6",Excellent,643
+Apartamentos,97.0,Be Free Granada,"US$1,196","8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,97.0,Mosaiko Homes Catedral Granada,"US$2,340","9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,97.0,EnjoyGranada LUJO Piscina y Parking,"US$1,403","9.1
+Scored 9.1",Wonderful,154
+Apartamentos,97.0,Chezmoihomes Plaza Nueva Luxury,"US$1,988","8.5
+Scored 8.5",Very Good,76
+Apartamentos,97.0,Apartamento Fajalauza Albaicín,US$912,-,-,-
+Apartamentos,97.0,PATIOdeLUZ - Stylish apartments in Párraga 13,"US$1,561","9.5
+Scored 9.5",Exceptional,464
+Apartamentos,97.0,Palacio Dorobe,"US$1,725","8.2
+Scored 8.2",Very Good,212
+Apartamentos,97.0,HNN GRANADA,"US$1,663","9.7
+Scored 9.7",Exceptional,473
+Apartamentos,97.0,Apartamentos de Isabella,"US$1,862","8.5
+Scored 8.5",Very Good,863
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$2,199","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Meliá Granada,"US$4,132","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,607","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Sercotel Granada Suites,"US$2,148","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Suites Gran Vía 44,"US$1,759","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hospes Palacio de los Patos,"US$5,077","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$2,124","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Hostal Arriola,"US$1,872","8.4
+Scored 8.4",Very Good,777
+Hotel,96.0,Porcel Navas,"US$1,702","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Andalucía Center,"US$1,541","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Hotel Granada Center,"US$1,904","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$2,769","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Occidental Granada,"US$2,052","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Porcel Alixares,"US$1,621","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Eurostars Puerta Real,"US$2,572","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Presidente,"US$1,853","7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Hotel Mercader de Sedas,"US$2,698","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,375","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Porcel Sabica,"US$1,659","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Barceló Granada Congress,"US$2,001","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Hotel Los Girasoles,"US$1,964","7.2
+Scored 7.2",Good,74
+Hotel,96.0,Leonardo Hotel Granada,"US$1,489","8.2
+Scored 8.2",Very Good,"1,128"
+Hotel,96.0,Hostal Viena Plaza Nueva,"US$1,673","7.3
+Scored 7.3",Good,352
+Hotel,96.0,Barceló Carmen Granada,"US$2,877","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Hotel Universal,"US$1,770","7.8
+Scored 7.8",Good,"4,590"
+Apartamentos,73.0,Apartamentos VITA CENTER,US$261,"9.3
+Scored 9.3",Wonderful,348
+Apartamentos,73.0,tuGuest San Gil Apartments,US$349,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,73.0,Caleffa Triunfo 1,US$274,"10
+Scored 10",Exceptional,5
+Apartamentos,73.0,BiBo Suites Real Chancilleria,US$365,"9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,73.0,La Tinaja del Realejo,US$293,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,73.0,Rooms Plaza Nueva,US$152,"7.5
+Scored 7.5",Good,90
+Apartamentos,73.0,Apartamentos Vado - Realejo histórico,US$257,"8.6
+Scored 8.6",Excellent,69
+Apartamentos,73.0,Apartamentos Recogidas,US$244,"8.9
+Scored 8.9",Excellent,137
+Apartamentos,73.0,Alh Patio Apartamentos,US$313,"9.0
+Scored 9.0",Wonderful,395
+Apartamentos,73.0,Patio Zahorí Granada Centro,US$314,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,73.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$368,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,73.0,Casa Miravalle Darro,US$290,"9.0
+Scored 9.0",Wonderful,"1,398"
+Apartamentos,73.0,Suites Bola de Oro,US$220,"8.7
+Scored 8.7",Excellent,92
+Apartamentos,73.0,Apartamento céntrico en Granada,US$261,"9.1
+Scored 9.1",Wonderful,100
+Apartamentos,73.0,MOLINO CORTEZA BONITO BAJO Granada centro,US$252,"8.9
+Scored 8.9",Excellent,46
+Apartamentos,73.0,PATIO de SOMBRA · Urban Suites,US$330,"9.3
+Scored 9.3",Wonderful,19
+Apartamentos,73.0,Suites 18,US$383,"9.1
+Scored 9.1",Wonderful,35
+Apartamentos,73.0,Bonito apartamento en Albaicin,US$239,"8.8
+Scored 8.8",Excellent,51
+Apartamentos,73.0,Real de Cartuja Apartments & Suites,US$264,"8.5
+Scored 8.5",Very Good,"1,740"
+Apartamentos,73.0,"Palacete 1620, Premium Suites, Only adults",US$551,"9.3
+Scored 9.3",Wonderful,784
+Apartamentos,73.0,C&V Apartamentos - Horno de Marina,US$280,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,73.0,Aile Granada,US$275,"8.1
+Scored 8.1",Very Good,23
+Apartamentos,73.0,Palacio Cabrera - Lillo,US$368,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,73.0,Tina Home,US$402,"8.9
+Scored 8.9",Excellent,505
+Apartamentos,73.0,Be Free Granada,US$226,"8.2
+Scored 8.2",Very Good,"3,331"
+Hotel,94.0,Boutique Hotel Luna Granada Centro,US$427,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,94.0,Meliá Granada,US$717,"8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,94.0,Porcel Alixares,US$217,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,94.0,Áurea Catedral by Eurostars Hotel Company,US$464,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,94.0,Casa de Reyes,US$277,"8.8
+Scored 8.8",Excellent,"1,617"
+Hotel,94.0,Porcel Sabica,US$225,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,94.0,Occidental Granada,US$268,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,94.0,Room Mate Leo,US$387,"8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,94.0,Crisol Guadalupe,US$252,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,94.0,Hotel Macià Monasterio de los Basilios,US$279,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,94.0,Hotel Saray,US$295,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,94.0,Hotel Macià Granada Five Senses Rooms & Suites,US$352,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,94.0,Gran Hotel Luna de Granada,US$290,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,94.0,Eurostars Puerta Real,US$410,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,94.0,Hotel Macià Real De La Alhambra,US$208,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,94.0,Hotel Cedran,US$195,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,94.0,Barceló Carmen Granada,US$378,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,94.0,Hotel Los Girasoles,US$205,"7.2
+Scored 7.2",Good,74
+Hotel,94.0,Porcel Navas,US$323,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,94.0,Gala Placida 1923,US$195,"7.0
+Scored 7.0",Good,"4,005"
+Hotel,94.0,Hotel Macià Cóndor,US$229,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,94.0,Exe Triunfo Granada,US$231,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,94.0,Barceló Granada Congress,US$317,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,94.0,YIT Casablanca,US$218,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,94.0,Ibis Granada,US$192,"8.3
+Scored 8.3",Very Good,"4,323"
+Hotel,94.0,Eurostars Gran Via,US$470,"8.6
+Scored 8.6",Excellent,"2,149"
+Apartamentos,78.0,Chezmoihomes Plaza Nueva Luxury,US$409,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,78.0,La Tinaja del Realejo,US$293,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,78.0,Real de Cartuja Apartments & Suites,US$329,"8.5
+Scored 8.5",Very Good,"1,740"
+Apartamentos,78.0,Casa Palacio López Daza,US$366,"9.0
+Scored 9.0",Wonderful,383
+Apartamentos,78.0,tuGuest San Gil Apartments,US$452,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,78.0,Apartamentos Granata,US$329,"8.7
+Scored 8.7",Excellent,308
+Apartamentos,78.0,BiBo Suites Real Chancilleria,US$487,"9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,78.0,numa I Vega Apartments,US$329,"8.2
+Scored 8.2",Very Good,"1,855"
+Apartamentos,78.0,Apartamentos Montesclaros,US$352,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,78.0,Sercotel Granada Suites,US$635,"9.2
+Scored 9.2",Wonderful,"1,849"
+Apartamentos,78.0,Pepa Home,US$500,"8.9
+Scored 8.9",Excellent,608
+Apartamentos,78.0,Apartamentos Inside Paseo de los Tristes,US$334,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,78.0,Nest Flats Granada,US$337,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,78.0,Palacio Cabrera - Lillo,US$433,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,78.0,C&V Apartamentos - Horno de Marina,US$328,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,78.0,Be Free Granada,US$283,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,78.0,Apartamentos Boutique Granada 3000,US$426,"8.4
+Scored 8.4",Very Good,"1,093"
+Apartamentos,78.0,BiBo Suites Gran Vía,US$474,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,78.0,Bonito Loft San Miguel Centro Catedral Wifi,US$284,"9.0
+Scored 9.0",Wonderful,31
+Apartamentos,78.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$472,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,78.0,Central Deluxe Apartments by Apolo Homes,US$745,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,78.0,Domus Apartamentos Granada con parking gratuito en pleno centro,US$577,"9.4
+Scored 9.4",Wonderful,"1,463"
+Apartamentos,78.0,Genteel Home Campo del Príncipe,US$358,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,78.0,BiBo Suites Plaza Nueva,US$481,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,78.0,DreamStay - Oficios Apartamento,US$489,-,-,-
+Hotel,95.0,Porcel Alixares,US$362,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Meliá Granada,"US$2,997","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Gran Hotel Luna de Granada,US$508,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Porcel Sabica,US$375,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Apartamentos Granata,US$329,"8.7
+Scored 8.7",Excellent,308
+Hotel,95.0,Sercotel Granada Suites,US$635,"9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,95.0,Suites Gran Vía 44,US$394,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,95.0,Hotel Posada del Toro,US$456,"8.9
+Scored 8.9",Excellent,"2,080"
+Hotel,95.0,Hotel Carlos V,US$384,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,95.0,Hotel Macià Cóndor,US$359,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$609,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Allegro Granada,US$440,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,95.0,Elvira Suites,US$554,"8.9
+Scored 8.9",Excellent,778
+Hotel,95.0,Palacio de Santa Inés,US$690,"8.7
+Scored 8.7",Excellent,"2,786"
+Hotel,95.0,Hotel Casa Palacete Tablas,US$717,"9.0
+Scored 9.0",Wonderful,61
+Hotel,95.0,BiBo Suites San Agustín,US$508,"9.4
+Scored 9.4",Wonderful,944
+Hotel,95.0,Hotel Molinos,US$518,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,95.0,Los Angeles Hotel & Spa,US$413,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,95.0,Hotel Párraga Siete,US$619,"8.7
+Scored 8.7",Excellent,"1,645"
+Hotel,95.0,Bubaqia House - Suites Boutique,US$709,"9.8
+Scored 9.8",Exceptional,17
+Hotel,95.0,Vincci Albayzin,"US$1,102","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,95.0,Barceló Carmen Granada,US$935,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,95.0,Seda Club Hotel - Small Luxury Hotels,"US$3,101","9.7
+Scored 9.7",Exceptional,378
+Hotel,95.0,Hospes Palacio de los Patos,"US$3,226","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,95.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Apartamentos,88.0,Apartamento Katanka Home Staging,US$469,-,-,-
+Apartamentos,88.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,88.0,CENTER DELUXE II,US$299,"8.3
+Scored 8.3",Very Good,123
+Apartamentos,88.0,tuGuest Maria Luisa Apartment,US$497,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,88.0,HORNO ABAD GRANADA CENTRO,US$326,"8.7
+Scored 8.7",Excellent,12
+Apartamentos,88.0,BiBo Suites Gran Vía,US$566,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,88.0,Apartamento Recogidas 39,US$426,"7.6
+Scored 7.6",Good,54
+Apartamentos,88.0,Be Free Granada,US$336,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,88.0,Apartamento Abad Centro,US$326,"7.9
+Scored 7.9",Good,99
+Apartamentos,88.0,Chezmoihomes Plaza Nueva Luxury,US$634,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,88.0,EnjoyGranada ELVIRA,US$445,"7.7
+Scored 7.7",Good,231
+Apartamentos,88.0,Precioso apartamento en el centro de Granada,US$631,"8.6
+Scored 8.6",Excellent,134
+Apartamentos,88.0,Riad Puertas del Albaicín,US$379,"7.4
+Scored 7.4",Good,423
+Apartamentos,88.0,BiBo Suites Real Chancilleria,US$686,"9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,88.0,Casa del Padrino,US$498,"8.8
+Scored 8.8",Excellent,98
+Apartamentos,88.0,SATU GRANADA: Modern Apartment in the Albaicín,US$429,"9.4
+Scored 9.4",Wonderful,14
+Apartamentos,88.0,CASA LA TONÁ,US$570,"8.5
+Scored 8.5",Very Good,51
+Apartamentos,88.0,Apartamentos Inside Casa de la Alberca,US$467,"8.7
+Scored 8.7",Excellent,100
+Apartamentos,88.0,tuGuest Gracia Apartments,US$399,"7.7
+Scored 7.7",Good,256
+Apartamentos,88.0,Chezmoihomes Plaza Nueva Deluxe,US$758,"9.0
+Scored 9.0",Wonderful,279
+Apartamentos,88.0,IMEDA Apartamentos Piedra Santa,US$542,"8.9
+Scored 8.9",Excellent,91
+Apartamentos,88.0,Duerme junto a la Plaza de Toros de Granada.,US$492,"9.1
+Scored 9.1",Wonderful,74
+Apartamentos,88.0,tuGuest San Anton II Apartment,US$557,"8.9
+Scored 8.9",Excellent,18
+Apartamentos,88.0,Alhambra Apartments,US$248,"7.9
+Scored 7.9",Good,21
+Apartamentos,88.0,Genteel Home Campo del Príncipe,US$513,"8.7
+Scored 8.7",Excellent,425
+Hotel,95.0,Elvira Suites,US$749,"8.9
+Scored 8.9",Excellent,778
+Hotel,95.0,Meliá Granada,"US$2,460","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Hotel Molinos,US$599,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,95.0,Hotel Mercader de Sedas,US$700,"8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,95.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,95.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$4,180","9.6
+Scored 9.6",Exceptional,241
+Hotel,95.0,Porcel Alixares,US$550,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$485,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Gran Hotel Luna de Granada,US$836,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Occidental Granada,US$839,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Porcel Sabica,US$574,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Hotel Carlos V,US$661,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,95.0,Hotel Macià Cóndor,US$527,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,95.0,Eurostars Puerta Real,US$965,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,95.0,Porcel Navas,US$824,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,95.0,Hotel Los Girasoles,US$528,"7.2
+Scored 7.2",Good,74
+Hotel,95.0,Las Nieves,US$659,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,95.0,Checkin Camino de Granada,US$456,"7.4
+Scored 7.4",Good,"2,849"
+Hotel,95.0,Hotel Andalucía Center,US$820,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,95.0,Allegro Granada,US$704,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,95.0,Hotel Casa Palacete Tablas,"US$1,200","9.0
+Scored 9.0",Wonderful,61
+Hotel,95.0,Hotel Dauro Premier,US$827,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,95.0,Hotel Abades Nevada Palace,US$493,"7.9
+Scored 7.9",Good,"4,733"
+Hotel,95.0,Hotel Tent Granada,US$804,"8.4
+Scored 8.4",Very Good,"4,803"
+Hotel,95.0,APARTAMENTOS CASERIA DE COMARES,US$499,"9.1
+Scored 9.1",Wonderful,143
+Apartamentos,94.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,94.0,tuGuest Maria Luisa Apartment,US$578,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,94.0,Apartamento Recogidas 39,US$426,"7.6
+Scored 7.6",Good,54
+Apartamentos,94.0,Genteel Home Campo del Príncipe,US$513,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,94.0,Precioso apartamento en el centro de Granada,US$728,"8.6
+Scored 8.6",Excellent,134
+Apartamentos,94.0,Riad Puertas del Albaicín,US$379,"7.4
+Scored 7.4",Good,423
+Apartamentos,94.0,Carmen de la Lana,US$730,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,94.0,ALHAMBRA.MESONES 4,"US$1,037","9.3
+Scored 9.3",Wonderful,633
+Apartamentos,94.0,Alhambra Apartments,US$300,"7.9
+Scored 7.9",Good,21
+Apartamentos,94.0,BiBo Suites Plaza Nueva,US$791,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,94.0,"Neptuno Ático, con terraza",US$587,"9.3
+Scored 9.3",Wonderful,3
+Apartamentos,94.0,BiBo Suites Real Chancilleria,"US$1,019","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,94.0,Apartamentos la Mariana,US$977,"9.5
+Scored 9.5",Exceptional,124
+Apartamentos,94.0,Suite Alhambra Puerta Bib-Rambla,"US$1,041","9.0
+Scored 9.0",Wonderful,21
+Apartamentos,94.0,tuGuest Santa Paula III Apartment,US$580,"7.9
+Scored 7.9",Good,40
+Apartamentos,94.0,Casa Montalbán Apartamentos Turísticos,US$812,"8.3
+Scored 8.3",Very Good,503
+Apartamentos,94.0,H&H Suite Santa Paula,US$728,"7.7
+Scored 7.7",Good,9
+Apartamentos,94.0,Dar Ar Nur Albaycin,US$622,"9.0
+Scored 9.0",Wonderful,3
+Apartamentos,94.0,tuGuest Halcón Apartment,US$619,"9.2
+Scored 9.2",Wonderful,64
+Apartamentos,94.0,Chezmoihomes La Belle Epoque oversized in the very heart of Granada,US$689,"8.6
+Scored 8.6",Excellent,36
+Apartamentos,94.0,tuGuest Plaza Pescaderia - Catedral,US$762,"8.0
+Scored 8.0",Very Good,36
+Apartamentos,94.0,tuGuest Station 2 apartment,US$545,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,94.0,La Fonda,US$977,"9.4
+Scored 9.4",Wonderful,25
+Apartamentos,94.0,tuGuest El Rincón de Felisa,US$587,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,94.0,tuGuest San Agustin II Apartment,US$544,"9.0
+Scored 9.0",Wonderful,2
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Meliá Granada,"US$2,150","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Gran Hotel Luna de Granada,US$944,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Porcel Alixares,"US$1,188","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Elvira Suites,"US$1,108","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Molinos,US$795,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,433","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Porcel Sabica,"US$1,299","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Suites Gran Vía 44,US$788,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Macià Cóndor,US$628,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Allegro Granada,US$850,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Palacio de Santa Inés,"US$1,265","8.7
+Scored 8.7",Excellent,"2,786"
+Hotel,96.0,Hotel Párraga Siete,US$977,"8.7
+Scored 8.7",Excellent,"1,645"
+Hotel,96.0,Vincci Albayzin,"US$1,788","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Seda Club Hotel - Small Luxury Hotels,"US$6,203","9.7
+Scored 9.7",Exceptional,378
+Hotel,96.0,Hospes Palacio de los Patos,"US$4,736","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Los Angeles Hotel & Spa,US$825,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,356","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Barceló Carmen Granada,"US$1,696","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$6,344","9.6
+Scored 9.6",Exceptional,241
+Hotel,96.0,Presidente,US$785,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Occidental Granada,"US$1,201","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$665,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Gala Placida 1923,US$635,"7.0
+Scored 7.0",Good,"4,005"
+Hotel,96.0,Hotel Los Girasoles,US$660,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Eurostars Puerta Real,"US$1,375","8.9
+Scored 8.9",Excellent,"4,056"
+Apartamentos,94.0,Precioso apartamento en el centro de Granada,US$728,"8.6
+Scored 8.6",Excellent,134
+Apartamentos,94.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,94.0,tuGuest Maria Luisa Apartment,US$578,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,94.0,Genteel Home Campo del Príncipe,US$513,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,94.0,tuGuest Santa Paula III Apartment,US$580,"7.9
+Scored 7.9",Good,40
+Apartamentos,94.0,Carmen de la Lana,US$730,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,94.0,"Neptuno Ático, con terraza",US$587,"9.3
+Scored 9.3",Wonderful,3
+Apartamentos,94.0,Alhambra Apartments,US$300,"7.9
+Scored 7.9",Good,21
+Apartamentos,94.0,"PISO EN CALLE ARABIAL, JUNTO A EL CORTE INGLÉS",US$445,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,94.0,ALHAMBRA.MESONES 4,"US$1,037","9.3
+Scored 9.3",Wonderful,633
+Apartamentos,94.0,tuGuest Plaza Pescaderia - Catedral,US$762,"8.0
+Scored 8.0",Very Good,36
+Apartamentos,94.0,Apartamentos la Mariana,US$977,"9.5
+Scored 9.5",Exceptional,124
+Apartamentos,94.0,Casa Montalbán Apartamentos Turísticos,US$812,"8.3
+Scored 8.3",Very Good,503
+Apartamentos,94.0,BiBo Suites Real Chancilleria,"US$1,019","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,94.0,tuGuest Halcón Apartment,US$619,"9.2
+Scored 9.2",Wonderful,64
+Apartamentos,94.0,BiBo Suites Plaza Nueva,US$853,"9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,94.0,Dar Ar Nur Albaycin,US$702,"9.0
+Scored 9.0",Wonderful,3
+Apartamentos,94.0,La Fonda,US$977,"9.4
+Scored 9.4",Wonderful,25
+Apartamentos,94.0,Suite Alhambra Puerta Bib-Rambla,"US$1,301","9.0
+Scored 9.0",Wonderful,21
+Apartamentos,94.0,tuGuest Station 2 apartment,US$545,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,94.0,tuGuest San Agustin II Apartment,US$544,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,94.0,H&H Suite Santa Paula,US$997,"7.7
+Scored 7.7",Good,9
+Apartamentos,94.0,tuGuest El Rincón de Felisa,US$587,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,94.0,Chezmoihomes La Belle Epoque oversized in the very heart of Granada,US$906,"8.6
+Scored 8.6",Excellent,36
+Apartamentos,94.0,Apartamento entero privado,US$676,"9.9
+Scored 9.9",Exceptional,8
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Meliá Granada,"US$3,176","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,015","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Elvira Suites,"US$1,303","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Molinos,US$876,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,433","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Checkin Camino de Granada,US$619,"7.4
+Scored 7.4",Good,"2,849"
+Hotel,96.0,Palacio de Santa Inés,"US$1,265","8.7
+Scored 8.7",Excellent,"2,786"
+Hotel,96.0,Suites Gran Vía 44,"US$1,082","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,200","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Hospes Palacio de los Patos,"US$4,902","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,356","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$6,164","9.6
+Scored 9.6",Exceptional,241
+Hotel,96.0,Abadía Hotel,US$993,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Porcel Alixares,US$774,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Porcel Navas,"US$1,165","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Occidental Granada,"US$1,242","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Porcel Sabica,US$812,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Macià Cóndor,US$756,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$694,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Eurostars Puerta Real,"US$1,375","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Los Girasoles,US$733,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Hotel Andalucía Center,"US$1,171","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$1,767","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Hotel Dauro Premier,"US$1,208","8.6
+Scored 8.6",Excellent,"1,380"
+Apartamentos,87.0,Caleffa Triunfo 1,US$357,"10
+Scored 10",Exceptional,5
+Apartamentos,87.0,Patio Zahorí Granada Centro,US$401,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,87.0,AT SAN ISIDRO CENTRO,US$376,"9.6
+Scored 9.6",Exceptional,69
+Apartamentos,87.0,Aile Granada,US$371,"8.1
+Scored 8.1",Very Good,23
+Apartamentos,87.0,Apartamentos Reyes Católicos,US$398,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,87.0,Atico centro,US$293,"8.6
+Scored 8.6",Excellent,89
+Apartamentos,87.0,C&V Apartamentos - Horno de Marina,US$377,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,87.0,QH Eme Suites Granada,US$383,"8.2
+Scored 8.2",Very Good,133
+Apartamentos,87.0,Apartamentos Luna Suites Granada,US$450,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,87.0,APN Rio Darro,US$408,"8.5
+Scored 8.5",Very Good,743
+Apartamentos,87.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$505,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,87.0,VEROMA PISOS,US$299,"9.0
+Scored 9.0",Wonderful,90
+Apartamentos,87.0,CALM SUITES Molino Corteza del Carmen,US$541,"9.3
+Scored 9.3",Wonderful,887
+Apartamentos,87.0,Apartamentos Montesclaros,US$417,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,87.0,BiBo Suites San Agustín,US$472,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,87.0,Palacio Dorobe,US$414,"8.2
+Scored 8.2",Very Good,212
+Apartamentos,87.0,Be Free Granada,US$355,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,87.0,HNN GRANADA,US$516,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,87.0,QH Elvira,US$383,"8.1
+Scored 8.1",Very Good,28
+Apartamentos,87.0,Palacio Almagra,US$446,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,87.0,Casa de la Catedral,US$499,"9.0
+Scored 9.0",Wonderful,"1,393"
+Apartamentos,87.0,Apartamentos Turísticos Centro,US$442,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,87.0,Plaza del Carmen deluxe apartament,US$334,"7.3
+Scored 7.3",Good,10
+Apartamentos,87.0,Rooms Plaza Nueva,US$271,"7.5
+Scored 7.5",Good,90
+Apartamentos,87.0,Apartamentos Turísticos Tronca Luxury,US$313,"8.8
+Scored 8.8",Excellent,235
+Hotel,95.0,Hotel Andalucía Center,US$422,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,95.0,Meliá Granada,US$728,"8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Occidental Granada,US$317,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Porcel Alixares,US$327,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Barceló Carmen Granada,US$417,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$426,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Hotel Macià Monasterio de los Basilios,US$380,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,95.0,Room Mate Leo,US$487,"8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,95.0,Barceló Granada Congress,US$374,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,95.0,Áurea Catedral by Eurostars Hotel Company,US$594,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,95.0,Hotel Saray,US$399,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,95.0,Hotel Granada Center,US$473,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$316,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Porcel Sabica,US$362,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Hotel Los Girasoles,US$323,"7.2
+Scored 7.2",Good,74
+Hotel,95.0,Hotel Abades Recogidas,US$429,"8.1
+Scored 8.1",Very Good,"2,069"
+Hotel,95.0,Vincci Albayzin,US$543,"8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,95.0,Hotel Boutique Puerta de las Granadas,US$451,"8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,95.0,Senator Granada,US$361,"8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,95.0,Exe Triunfo Granada,US$380,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,95.0,Hotel La Casa de Los Mosaicos,US$518,"8.4
+Scored 8.4",Very Good,"2,042"
+Hotel,95.0,Gran Hotel Luna de Granada,US$432,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,YIT Casablanca,US$351,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,95.0,Crisol Guadalupe,US$405,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,95.0,Hotel Cedran,US$337,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,95.0,Sercotel Palacio de los Gamboa,US$522,"8.6
+Scored 8.6",Excellent,"4,894"
+Apartamentos,92.0,tuGuest San Gil Apartments,US$641,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,92.0,Apartamentos Montesclaros,US$417,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,92.0,Apartamentos Reyes Católicos,US$453,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,92.0,Loft Homelike,US$572,"9.3
+Scored 9.3",Wonderful,18
+Apartamentos,92.0,APN Rio Darro,US$476,"8.5
+Scored 8.5",Very Good,743
+Apartamentos,92.0,Apartamentos Inside Paseo de los Tristes,US$543,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,92.0,C&V Apartamentos - Horno de Marina,US$474,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,92.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$600,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,92.0,Apartamentos Turísticos Centro,US$514,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,92.0,CALM SUITES Molino Corteza del Carmen,US$666,"9.3
+Scored 9.3",Wonderful,887
+Apartamentos,92.0,Be Free Granada,US$427,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,92.0,HNN GRANADA,US$589,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,92.0,Nest Flats Granada,US$431,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,92.0,Palacio Almagra,US$566,"8.8
+Scored 8.8",Excellent,585
+Apartamentos,92.0,Central Deluxe Apartments by Apolo Homes,"US$1,086","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,92.0,Patio Zahorí Granada Centro,US$551,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,92.0,Apartamentos Correo Viejo de Granada,US$860,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,92.0,Palacio Cabrera - Lillo,US$706,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,92.0,CENTER DELUXE II,US$369,"8.3
+Scored 8.3",Very Good,123
+Apartamentos,92.0,BiBo Suites Oro del Darro,US$820,"9.3
+Scored 9.3",Wonderful,"2,509"
+Apartamentos,92.0,BiBo Suites Gran Vía,US$728,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,92.0,Apartamentos Turísticos Tronca Luxury,US$456,"8.8
+Scored 8.8",Excellent,235
+Apartamentos,92.0,Apartamentos Inside Alhacaba,US$680,"8.7
+Scored 8.7",Excellent,96
+Apartamentos,92.0,limehome Granada Calle Santa Ana,US$675,"8.8
+Scored 8.8",Excellent,"1,761"
+Apartamentos,92.0,Magic Alhambra Retreat,US$371,"7.7
+Scored 7.7",Good,53
+Hotel,96.0,Porcel Alixares,US$546,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Meliá Granada,"US$3,008","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Gran Hotel Luna de Granada,US$687,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,BiBo Suites San Agustín,US$525,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Hotel Dauro Premier,US$618,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Porcel Sabica,US$603,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Comfort Dauro 2,US$629,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,Suites Gran Vía 44,US$579,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Eurostars Puerta Real,US$983,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,097","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Los Angeles Hotel & Spa,US$527,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,96.0,Gar Anat Hotel Boutique,US$956,"8.7
+Scored 8.7",Excellent,989
+Hotel,96.0,Vincci Albayzin,"US$1,235","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Bubaqia House - Suites Boutique,US$806,"9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Barceló Carmen Granada,"US$1,032","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Seda Club Hotel - Small Luxury Hotels,"US$3,199","9.7
+Scored 9.7",Exceptional,378
+Hotel,96.0,Hospes Palacio de los Patos,"US$2,493","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$4,645","9.6
+Scored 9.6",Exceptional,241
+Hotel,96.0,Hotel Andalucía Center,US$895,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$1,188","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$632,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Hotel Colón Centro,"US$1,070","8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,96.0,Occidental Granada,US$872,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Barceló Granada Congress,US$934,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Hotel Granada Center,US$989,"9.1
+Scored 9.1",Wonderful,"8,515"
+Apartamentos,95.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,95.0,CENTER DELUXE II,US$385,"8.3
+Scored 8.3",Very Good,123
+Apartamentos,95.0,Be Free Granada,US$479,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,95.0,Apartamentos Correo Viejo de Granada,"US$1,063","8.5
+Scored 8.5",Very Good,805
+Apartamentos,95.0,Expoholidays - Homely Apartment Granada,US$416,"6.4
+Scored 6.4",Review score,25
+Apartamentos,95.0,Casa Montalbán Apartamentos Turísticos,US$749,"8.3
+Scored 8.3",Very Good,503
+Apartamentos,95.0,PISO RONDA,US$410,"9.1
+Scored 9.1",Wonderful,42
+Apartamentos,95.0,Carmen de la Lana,US$838,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,95.0,Casas del Albaicín,US$774,"8.9
+Scored 8.9",Excellent,781
+Apartamentos,95.0,Apartamentos Albaicín Centro Suites 3000,US$730,"9.0
+Scored 9.0",Wonderful,74
+Apartamentos,95.0,BiBo Suites Real Chancilleria,"US$1,124","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,95.0,BiBo Suites Oro del Darro,"US$1,080","9.3
+Scored 9.3",Wonderful,"2,509"
+Apartamentos,95.0,Apartamentos de Isabella,US$836,"8.5
+Scored 8.5",Very Good,863
+Apartamentos,95.0,Apartamento junto a Estación Ave · 3 dormitorios,US$684,"9.5
+Scored 9.5",Exceptional,19
+Apartamentos,95.0,Apartamento Casa Ruan Albaicín,US$695,-,-,-
+Apartamentos,95.0,Apartamento tranquilo en Granada para 6 personas,US$468,"8.8
+Scored 8.8",Excellent,32
+Apartamentos,95.0,BiBo Suites Plaza Nueva,"US$1,119","9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,95.0,BiBo Suites Palacio de Portago,US$645,"10
+Scored 10",Exceptional,15
+Apartamentos,95.0,Los Carmenes,US$603,"10
+Scored 10",Exceptional,1
+Apartamentos,95.0,La casita de luis,US$782,"9.6
+Scored 9.6",Exceptional,7
+Apartamentos,95.0,Apartamento Fajalauza Albaicín,US$413,-,-,-
+Apartamentos,95.0,Alhambra Apartments,US$497,"7.9
+Scored 7.9",Good,21
+Apartamentos,95.0,Tenor,US$711,-,-,-
+Apartamentos,95.0,tuGuest El Rincón de Felisa,US$832,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,95.0,Ma&to Alhóndiga Aparts,"US$1,055","8.6
+Scored 8.6",Excellent,18
+Hotel,96.0,Hotel Mercader de Sedas,US$907,"8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Meliá Granada,"US$2,470","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$4,645","9.6
+Scored 9.6",Exceptional,241
+Hotel,96.0,Hotel Andalucía Center,"US$1,067","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Porcel Alixares,US$829,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Macià Cóndor,US$796,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$829,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,851","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Hotel Los Girasoles,US$811,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,194","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Eurostars Puerta Real,"US$1,354","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,YIT Casablanca,US$916,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,96.0,Hotel Molinos,"US$1,129","8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Las Nieves,US$964,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$1,663","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Vincci Albayzin,"US$1,317","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Occidental Granada,US$991,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Suites Gran Vía 44,"US$1,304","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Boutique Puerta de las Granadas,"US$1,501","8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,96.0,Allegro Granada,"US$1,171","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,NH Collection Victoria,"US$1,565","8.7
+Scored 8.7",Excellent,"1,312"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$1,968","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hotel Granada Center,"US$1,740","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Crisol Guadalupe,"US$1,377","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Gar Anat Hotel Boutique,"US$1,755","8.7
+Scored 8.7",Excellent,989
+Apartamentos,97.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,97.0,Carmen de la Lana,US$903,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,97.0,Alhambra Apartments,US$549,"7.9
+Scored 7.9",Good,21
+Apartamentos,97.0,Preciosa vivienda con gran terraza muy luminoso,US$958,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,97.0,BiBo Suites Real Chancilleria,"US$1,572","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,97.0,tuGuest El Rincón de Felisa,US$832,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,97.0,Lightbooking Plaza de Toros Granada,"US$1,193","8.4
+Scored 8.4",Very Good,39
+Apartamentos,97.0,Alojamientos Rurales Las Eras,US$440,"8.7
+Scored 8.7",Excellent,55
+Apartamentos,97.0,Luxury Apartment Sierra Nevada,"US$1,315","9.8
+Scored 9.8",Exceptional,5
+Apartamentos,97.0,El Refugio De Noa,US$798,-,-,-
+Apartamentos,97.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,264",-,-,-
+Apartamentos,97.0,Bright & Elegant City Centre 3 bedroom Apartment,"US$1,392","9.3
+Scored 9.3",Wonderful,40
+Apartamentos,97.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,97.0,Casa Benzambra,US$917,-,-,-
+Apartamentos,97.0,Biznaga Nevada,"US$1,732","10
+Scored 10",Exceptional,3
+Apartamentos,97.0,tuGuest Alhambra house,"US$1,414","8.5
+Scored 8.5",Very Good,11
+Apartamentos,97.0,Apartamentos Inside Paseo de los Tristes,"US$1,086","8.5
+Scored 8.5",Very Good,456
+Apartamentos,97.0,Apartamentos Montesclaros,US$834,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,97.0,Apartamentos Reyes Católicos,US$905,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,97.0,Be Free Granada,US$837,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,97.0,BiBo Suites Palacio de Portago,US$889,"10
+Scored 10",Exceptional,15
+Apartamentos,97.0,numa I Vega Apartments,"US$1,155","8.2
+Scored 8.2",Very Good,"1,855"
+Apartamentos,97.0,C&V Apartamentos - Horno de Marina,US$851,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,97.0,Patio Zahorí Granada Centro,"US$1,056","9.1
+Scored 9.1",Wonderful,71
+Apartamentos,97.0,Apartamento Fajalauza Albaicín,US$760,-,-,-
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,194","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Meliá Granada,"US$3,207","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,302","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Porcel Alixares,"US$1,000","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Dauro Premier,"US$1,171","8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,97.0,Suites Gran Vía 44,"US$1,158","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$1,551","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Eurostars Puerta Real,"US$1,770","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Barceló Carmen Granada,"US$1,871","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,97.0,Gar Anat Hotel Boutique,"US$1,755","8.7
+Scored 8.7",Excellent,989
+Hotel,97.0,Vincci Albayzin,"US$2,004","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,97.0,Seda Club Hotel - Small Luxury Hotels,"US$6,398","9.7
+Scored 9.7",Exceptional,378
+Hotel,97.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$7,028","9.6
+Scored 9.6",Exceptional,241
+Hotel,97.0,Hotel Andalucía Center,"US$1,515","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,97.0,Occidental Granada,"US$1,419","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,97.0,Presidente,"US$1,218","7.7
+Scored 7.7",Good,"1,332"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,257","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Hotel Los Girasoles,"US$1,070","7.2
+Scored 7.2",Good,74
+Hotel,97.0,Hotel La Casa de Los Mosaicos,"US$1,632","8.4
+Scored 8.4",Very Good,"2,042"
+Hotel,97.0,Los Angeles Hotel & Spa,"US$1,280","7.6
+Scored 7.6",Good,"2,131"
+Hotel,97.0,Room Mate Leo,"US$1,577","8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,97.0,Leonardo Hotel Granada,"US$1,179","8.2
+Scored 8.2",Very Good,"1,128"
+Hotel,97.0,B&B HOTEL Granada Estación,"US$1,036","8.6
+Scored 8.6",Excellent,"3,363"
+Hotel,97.0,Hotel Comfort Dauro 2,"US$1,627","8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,97.0,Barceló Granada Congress,"US$1,718","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,97.0,YIT Casablanca,"US$1,286","7.5
+Scored 7.5",Good,"3,853"
+Apartamentos,97.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,97.0,Carmen de la Lana,US$903,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,97.0,Alhambra Apartments,US$549,"7.9
+Scored 7.9",Good,21
+Apartamentos,97.0,BiBo Suites Real Chancilleria,"US$1,572","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,97.0,tuGuest El Rincón de Felisa,US$832,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,97.0,Preciosa vivienda con gran terraza muy luminoso,US$958,"8.5
+Scored 8.5",Very Good,28
+Apartamentos,97.0,Lightbooking Plaza de Toros Granada,"US$1,193","8.4
+Scored 8.4",Very Good,39
+Apartamentos,97.0,Bright & Elegant City Centre 3 bedroom Apartment,"US$1,392","9.3
+Scored 9.3",Wonderful,40
+Apartamentos,97.0,Luxury Apartment Sierra Nevada,"US$1,315","9.8
+Scored 9.8",Exceptional,5
+Apartamentos,97.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,97.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,264",-,-,-
+Apartamentos,97.0,El Refugio De Noa,US$798,-,-,-
+Apartamentos,97.0,Casa Benzambra,US$917,-,-,-
+Apartamentos,97.0,Biznaga Nevada,"US$2,221","10
+Scored 10",Exceptional,3
+Apartamentos,97.0,tuGuest Alhambra house,"US$1,414","8.5
+Scored 8.5",Very Good,11
+Apartamentos,97.0,Be Free Granada,US$837,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,97.0,Apartamentos Inside Paseo de los Tristes,"US$1,086","8.5
+Scored 8.5",Very Good,456
+Apartamentos,97.0,Apartamentos Correo Viejo de Granada,"US$1,763","8.5
+Scored 8.5",Very Good,805
+Apartamentos,97.0,Apartamentos Reyes Católicos,"US$1,055","8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,97.0,PATIOdeLUZ - Stylish apartments in Párraga 13,"US$1,152","9.5
+Scored 9.5",Exceptional,464
+Apartamentos,97.0,Central Deluxe Apartments by Apolo Homes,"US$2,127","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,97.0,Patio Zahorí Granada Centro,"US$1,056","9.1
+Scored 9.1",Wonderful,71
+Apartamentos,97.0,"Palacete 1620, Premium Suites, Only adults","US$1,963","9.3
+Scored 9.3",Wonderful,784
+Apartamentos,97.0,Moderno Apartamento en Centro de Granada,US$931,"7.6
+Scored 7.6",Good,123
+Apartamentos,97.0,Apartamentos Montesclaros,"US$1,078","8.9
+Scored 8.9",Excellent,665
+Hotel,96.0,Hotel Molinos,"US$1,129","8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,Meliá Granada,"US$2,742","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$2,194","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,374","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Eurostars Puerta Real,"US$1,770","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,553","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Suites Gran Vía 44,"US$1,451","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Vincci Albayzin,"US$2,004","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,551","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,"Palacio Gran Vía, a Royal Hideaway Hotel","US$6,849","9.6
+Scored 9.6",Exceptional,241
+Hotel,96.0,Porcel Alixares,"US$1,168","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Abadía Hotel,"US$1,402","8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Hotel Macià Cóndor,"US$1,199","7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Occidental Granada,"US$1,538","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Los Girasoles,"US$1,158","7.2
+Scored 7.2",Good,74
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,"US$1,209","8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,YIT Casablanca,"US$1,267","7.5
+Scored 7.5",Good,"3,853"
+Hotel,96.0,Hotel Dauro Premier,"US$1,530","8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Hotel Andalucía Center,"US$1,515","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Las Nieves,"US$1,493","8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Barceló Granada Congress,"US$1,756","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Crisol Guadalupe,"US$1,438","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,748","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Los Angeles Hotel & Spa,"US$1,271","7.6
+Scored 7.6",Good,"2,131"
+Hotel,96.0,Hotel Granada Center,"US$2,300","9.1
+Scored 9.1",Wonderful,"8,515"
+Apartamentos,,EnjoyGranada ELVIRA,US$212,"7.7
+Scored 7.7",Good,231
+Apartamentos,,Apartamentos VITA CENTER,US$240,"9.3
+Scored 9.3",Wonderful,348
+Apartamentos,,GLORIA SUITES,US$232,"7.9
+Scored 7.9",Good,455
+Apartamentos,,Urban Suites Granada,US$244,"8.1
+Scored 8.1",Very Good,362
+Apartamentos,,Cozy apartment in the city center,US$277,"9.5
+Scored 9.5",Exceptional,66
+Apartamentos,,Home Granada Trinidad,US$212,"8.8
+Scored 8.8",Excellent,"1,319"
+Apartamentos,,La Tinaja del Realejo,US$293,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,,Cosy Apartment with Great Views on Old Town,US$246,"9.1
+Scored 9.1",Wonderful,33
+Apartamentos,,Suites 18,US$374,"9.1
+Scored 9.1",Wonderful,35
+Apartamentos,,ISA Granada,US$327,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,,Aile Granada,US$236,"8.1
+Scored 8.1",Very Good,23
+Apartamentos,,Apartamentos Reyes Católicos,US$260,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,,Carmen Vistas de la Alhambra,US$212,"7.7
+Scored 7.7",Good,932
+Apartamentos,,Apartamentos Luna Suites Granada,US$264,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,,Apartamentos Recogidas,US$244,"8.9
+Scored 8.9",Excellent,137
+Apartamentos,,Rooms Plaza Nueva,US$152,"7.5
+Scored 7.5",Good,90
+Apartamentos,,BiBo Suites San Agustín,US$318,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,,Plaza del Carmen deluxe apartament,US$187,"7.3
+Scored 7.3",Good,10
+Apartamentos,,C&V Apartamentos - Horno de Marina,US$252,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,,La Casita de la Esquina,US$216,"9.5
+Scored 9.5",Exceptional,24
+Apartamentos,,Ático Corazones,US$231,"8.8
+Scored 8.8",Excellent,55
+Apartamentos,,Apartamentos Vado - Realejo histórico,US$270,"8.6
+Scored 8.6",Excellent,69
+Apartamentos,,Aljibe del Albayzin,US$208,"8.5
+Scored 8.5",Very Good,312
+Apartamentos,,tuGuest San Gil Apartments,US$349,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,,Apartamentos Royal Urban Granada,US$213,"7.2
+Scored 7.2",Good,48
+Hotel,95.0,Boutique Hotel Luna Granada Centro,US$610,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,95.0,Hotel Casa 1800 Granada,"US$1,031","8.8
+Scored 8.8",Excellent,"1,386"
+Hotel,95.0,Hotel Monasterio Granada - Adults Only,US$163,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,95.0,Hotel Cedran,US$195,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,95.0,Hotel Los Girasoles,US$191,"7.2
+Scored 7.2",Good,74
+Hotel,95.0,Gala Placida 1923,US$195,"7.0
+Scored 7.0",Good,"4,005"
+Hotel,95.0,Home Granada Trinidad,US$212,"8.8
+Scored 8.8",Excellent,"1,319"
+Hotel,95.0,Hotel Macià Plaza,US$280,"8.3
+Scored 8.3",Very Good,"1,684"
+Hotel,95.0,BiBo Suites San Agustín,US$318,"9.4
+Scored 9.4",Wonderful,944
+Hotel,95.0,Presidente,US$248,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,95.0,Porcel Alixares,US$301,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Abadía Hotel,US$324,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$256,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Hotel Carlos V,US$292,"8.3
+Scored 8.3",Very Good,"3,521"
+Hotel,95.0,Hotel Saylu,US$147,"7.8
+Scored 7.8",Good,"1,386"
+Hotel,95.0,Las Nieves,US$297,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,95.0,Hotel Urban Dream Granada,US$242,"8.1
+Scored 8.1",Very Good,"5,932"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$470,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Hotel Colón Centro,US$605,"8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,95.0,Casual Ilbira Granada,US$390,"8.7
+Scored 8.7",Excellent,409
+Hotel,95.0,Hotel Universal,US$277,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,95.0,Hotel La Casa de Los Mosaicos,US$498,"8.4
+Scored 8.4",Very Good,"2,042"
+Hotel,95.0,Porcel Navas,US$401,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,95.0,Gran Hotel Luna de Granada,US$342,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Ibis Granada,US$217,"8.3
+Scored 8.3",Very Good,"4,323"
+Hotel,95.0,Crisol Guadalupe,US$371,"8.5
+Scored 8.5",Very Good,"4,696"
+Apartamentos,,La Tinaja del Realejo,US$293,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,,Nest Flats Granada,US$267,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,,BiBo Suites San Agustín,US$353,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,,BnS Dauro Suites,US$344,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,,Cozy apartment in the city center,US$332,"9.5
+Scored 9.5",Exceptional,66
+Apartamentos,,C&V Apartamentos - Horno de Marina,US$274,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,,numa I Vega Apartments,US$314,"8.2
+Scored 8.2",Very Good,"1,855"
+Apartamentos,,Carmen Vistas de la Alhambra,US$233,"7.7
+Scored 7.7",Good,932
+Apartamentos,,Apartamentos Reyes Católicos,US$326,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,,La Habitación del Arquitecto,US$264,"9.4
+Scored 9.4",Wonderful,78
+Apartamentos,,"lovely apartament in the centre- wifi,parking",US$227,"7.7
+Scored 7.7",Good,136
+Apartamentos,,Precioso piso en pleno centro de Granada junto a Iglesia de San Matías,US$271,"9.1
+Scored 9.1",Wonderful,14
+Apartamentos,,"Apartamentos Anaya,1º,2º,3º, en pleno centro de Granada",US$315,"9.5
+Scored 9.5",Exceptional,11
+Apartamentos,,Apartamentos Granata,US$357,"8.7
+Scored 8.7",Excellent,308
+Apartamentos,,Apartamento Monterería Centro,US$258,"8.2
+Scored 8.2",Very Good,15
+Apartamentos,,GLORIA SUITES,US$232,"7.9
+Scored 7.9",Good,455
+Apartamentos,,APARTAMENTO GARDEN ART IV,US$351,"9.5
+Scored 9.5",Exceptional,69
+Apartamentos,,Apartamento Centro Alhóndiga Suite,US$342,"9.5
+Scored 9.5",Exceptional,26
+Apartamentos,,Apartamentos Puerta Elvira Suites 3000,US$359,"9.2
+Scored 9.2",Wonderful,301
+Apartamentos,,Genteel Home Zacatín,US$427,"9.1
+Scored 9.1",Wonderful,549
+Apartamentos,,Apartamentos Royal Urban Granada,US$232,"7.2
+Scored 7.2",Good,48
+Apartamentos,,EnjoyGranada ELVIRA,US$269,"7.7
+Scored 7.7",Good,231
+Apartamentos,,BiBo Suites Gran Vía,US$421,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,,APARTAMENTO JUNTO A HOSPITAL REAL,US$293,"8.9
+Scored 8.9",Excellent,65
+Apartamentos,,Trinidad Deluxe 1,US$402,"8.3
+Scored 8.3",Very Good,60
+Hotel,96.0,BiBo Suites San Agustín,US$353,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Gran Hotel Luna de Granada,US$573,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Apartamentos Granata,US$357,"8.7
+Scored 8.7",Excellent,308
+Hotel,96.0,Hotel Universal,US$337,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Porcel Alixares,US$502,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Presidente,US$326,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Sercotel Granada Suites,US$689,"9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$387,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Elvira Suites,US$554,"8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Dauro Premier,US$548,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Allegro Granada,US$497,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Suites Gran Vía 44,US$452,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Porcel Sabica,US$538,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Bubaqia House - Suites Boutique,US$709,"9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Hotel Comfort Dauro 2,US$569,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,Hotel Macià Cóndor,US$439,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Los Angeles Hotel & Spa,US$532,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,96.0,Hotel Saray,US$830,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Casual Ilbira Granada,US$658,"8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Porcel Navas,US$668,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Exe Triunfo Granada,US$704,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Hotel Casa Palacete Tablas,US$847,"9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$1,959","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Vincci Albayzin,"US$1,712","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Alhambra Palace Hotel,"US$2,790","8.7
+Scored 8.7",Excellent,"1,489"
+Apartamentos,82.0,Siloe Plaza,US$401,"7.8
+Scored 7.8",Good,743
+Apartamentos,82.0,GLORIA SUITES,US$267,"7.9
+Scored 7.9",Good,455
+Apartamentos,82.0,Carmen Vistas de la Alhambra,US$315,"7.7
+Scored 7.7",Good,932
+Apartamentos,82.0,Pepa Home,US$510,"8.9
+Scored 8.9",Excellent,608
+Apartamentos,82.0,Apartamento Centro Alhóndiga Suite,US$342,"9.5
+Scored 9.5",Exceptional,26
+Apartamentos,82.0,APARTAMENTO GARDEN ART IV,US$355,"9.5
+Scored 9.5",Exceptional,69
+Apartamentos,82.0,Centrico y espacioso. Parking gratuito.,US$408,"8.1
+Scored 8.1",Very Good,12
+Apartamentos,82.0,Apartamentos Alhambra Granada 3000,US$309,"7.7
+Scored 7.7",Good,"1,083"
+Apartamentos,82.0,Oasis en el corazón de Granada con Parking Gratis,US$358,"7.6
+Scored 7.6",Good,37
+Apartamentos,82.0,Apartamentos Puerta Elvira Suites 3000,US$404,"9.2
+Scored 9.2",Wonderful,301
+Apartamentos,82.0,Aixa Granada,US$309,"9.9
+Scored 9.9",Exceptional,50
+Apartamentos,82.0,Apartamento Katanka Home Staging,US$469,-,-,-
+Apartamentos,82.0,Neptuno Deluxe,US$353,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,82.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,82.0,Apartamento Albaycin Granada,US$309,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,82.0,Tina Home,US$538,"8.9
+Scored 8.9",Excellent,505
+Apartamentos,82.0,Apartamentos Albaicín Centro Suites 3000,US$401,"9.0
+Scored 9.0",Wonderful,74
+Apartamentos,82.0,Piso Pajaritos,US$254,-,-,-
+Apartamentos,82.0,Apartamento Sol,US$395,"10
+Scored 10",Exceptional,8
+Apartamentos,82.0,Piso junto a Parque de las Ciencias en Granada,US$282,"8.3
+Scored 8.3",Very Good,3
+Apartamentos,82.0,EnjoyGranada ELVIRA,US$381,"7.7
+Scored 7.7",Good,231
+Apartamentos,82.0,APARTAMENTO POETA ZORRILLA,US$325,"8.3
+Scored 8.3",Very Good,62
+Apartamentos,82.0,Zahira Suites,US$357,"6.9
+Scored 6.9",Review score,242
+Apartamentos,82.0,Magdalena Apartament,US$440,"10
+Scored 10",Exceptional,2
+Apartamentos,82.0,CENTER DELUXE II,US$299,"8.3
+Scored 8.3",Very Good,123
+Hotel,96.0,BiBo Suites San Agustín,US$444,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Hotel Mercader de Sedas,US$695,"8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$391,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Presidente,US$573,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Hotel Los Girasoles,US$484,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Porcel Alixares,US$763,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Gran Hotel Luna de Granada,US$968,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Abadía Hotel,US$662,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Porcel Navas,"US$1,024","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,YIT Casablanca,US$657,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$581,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Las Nieves,US$691,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,379","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Sercotel Granada Suites,"US$1,246","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,Elvira Suites,"US$1,173","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Macià Cóndor,US$685,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Allegro Granada,US$795,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Porcel Sabica,US$824,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Universal,US$614,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$1,840","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Apartamentos Granata,US$774,"8.7
+Scored 8.7",Excellent,308
+Hotel,96.0,Casual Ilbira Granada,US$972,"8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Crisol Guadalupe,US$947,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Eurostars Puerta Real,"US$1,593","8.9
+Scored 8.9",Excellent,"4,056"
+Apartamentos,90.0,Centrico y espacioso. Parking gratuito.,US$415,"8.1
+Scored 8.1",Very Good,12
+Apartamentos,90.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,90.0,Neptuno Deluxe,US$402,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,90.0,Apartamento Albaycin Granada,US$309,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,90.0,Large family home in Albaicin Center,US$456,-,-,-
+Apartamentos,90.0,tuGuest Maria Luisa Apartment,US$578,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,90.0,Magdalena Apartament,US$489,"10
+Scored 10",Exceptional,2
+Apartamentos,90.0,Genteel Home Campo del Príncipe,US$490,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,90.0,Apartamento Recogidas 39,US$426,"7.6
+Scored 7.6",Good,54
+Apartamentos,90.0,Zahira Suites,US$357,"6.9
+Scored 6.9",Review score,242
+Apartamentos,90.0,Apartamento Góngora,US$486,"8.8
+Scored 8.8",Excellent,48
+Apartamentos,90.0,tuGuest Gran Via 42 Apartment,US$683,"7.9
+Scored 7.9",Good,69
+Apartamentos,90.0,tuGuest Lope de Vega Apartment,US$570,"7.9
+Scored 7.9",Good,54
+Apartamentos,90.0,Piso en Palacio Quinta Alegre,US$342,"8.8
+Scored 8.8",Excellent,37
+Apartamentos,90.0,Genteel Home Ático Gran Capitán,US$680,"8.6
+Scored 8.6",Excellent,39
+Apartamentos,90.0,FAMILY CATEDRAL CENTRO,US$548,"8.2
+Scored 8.2",Very Good,54
+Apartamentos,90.0,Casita a la luz de la Alhambra II,US$445,"8.6
+Scored 8.6",Excellent,72
+Apartamentos,90.0,tuGuest Violeta's Home,US$554,"8.7
+Scored 8.7",Excellent,111
+Apartamentos,90.0,Genteel Home Lope de Vega,US$673,"9.5
+Scored 9.5",Exceptional,8
+Apartamentos,90.0,Genteel Home Piedra Santa,US$565,"8.8
+Scored 8.8",Excellent,52
+Apartamentos,90.0,Riad Puertas del Albaicín,US$467,"7.4
+Scored 7.4",Good,423
+Apartamentos,90.0,Carmen de la Lana,US$762,"9.6
+Scored 9.6",Exceptional,136
+Apartamentos,90.0,Casa Pasiegas,US$746,"10
+Scored 10",Exceptional,3
+Apartamentos,90.0,Ibericabeds Albaicín,US$495,"8.3
+Scored 8.3",Very Good,108
+Apartamentos,90.0,CASA LA TONÁ,US$665,"8.5
+Scored 8.5",Very Good,51
+Hotel,97.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,97.0,Presidente,US$573,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,075","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Elvira Suites,"US$1,108","8.9
+Scored 8.9",Excellent,778
+Hotel,97.0,BiBo Suites San Agustín,US$705,"9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Apartamentos Granata,US$733,"8.7
+Scored 8.7",Excellent,308
+Hotel,97.0,Porcel Alixares,"US$1,565","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Macià Real De La Alhambra,US$682,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,Sercotel Granada Suites,"US$1,334","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Suites Gran Vía 44,US$903,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Macià Cóndor,US$786,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Allegro Granada,US$960,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,97.0,Porcel Sabica,"US$1,863","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Hotel Saray,"US$1,531","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Casual Ilbira Granada,"US$1,240","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,Hotel Universal,US$614,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,240","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,97.0,Exe Triunfo Granada,"US$1,384","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Hospes Palacio de los Patos,"US$6,925","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$1,356","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$1,694","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Alhambra Palace Hotel,"US$4,147","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Gala Placida 1923,US$635,"7.0
+Scored 7.0",Good,"4,005"
+Hotel,97.0,Hotel Los Girasoles,US$645,"7.2
+Scored 7.2",Good,74
+Hotel,97.0,YIT Casablanca,US$961,"7.5
+Scored 7.5",Good,"3,853"
+Apartamentos,87.0,Centrico y espacioso. Parking gratuito.,US$415,"8.1
+Scored 8.1",Very Good,12
+Apartamentos,87.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,87.0,Neptuno Deluxe,US$402,"9.5
+Scored 9.5",Exceptional,55
+Apartamentos,87.0,tuGuest Maria Luisa Apartment,US$578,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,87.0,Magdalena Apartament,US$489,"10
+Scored 10",Exceptional,2
+Apartamentos,87.0,Casa DAURO,US$717,"9.9
+Scored 9.9",Exceptional,7
+Apartamentos,87.0,Genteel Home Campo del Príncipe,US$490,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,87.0,Casita a la luz de la Alhambra II,US$445,"8.6
+Scored 8.6",Excellent,72
+Apartamentos,87.0,Genteel Home Lope de Vega,US$673,"9.5
+Scored 9.5",Exceptional,8
+Apartamentos,87.0,POWER HOME,US$608,"8.8
+Scored 8.8",Excellent,43
+Apartamentos,87.0,GLORIA SUITES,US$465,"7.9
+Scored 7.9",Good,455
+Apartamentos,87.0,tuGuest Gran Via 42 Apartment,US$730,"7.9
+Scored 7.9",Good,69
+Apartamentos,87.0,Casa Naranjos de San Matías,US$914,"8.8
+Scored 8.8",Excellent,93
+Apartamentos,87.0,Piso en Palacio Quinta Alegre,US$342,"8.8
+Scored 8.8",Excellent,37
+Apartamentos,87.0,Apartamento Góngora,US$516,"8.8
+Scored 8.8",Excellent,48
+Apartamentos,87.0,Large family home in Albaicin Center,US$603,-,-,-
+Apartamentos,87.0,Siloe Plaza,US$802,"7.8
+Scored 7.8",Good,743
+Apartamentos,87.0,FAMILY CATEDRAL CENTRO,US$548,"8.2
+Scored 8.2",Very Good,54
+Apartamentos,87.0,Genteel Home Ático Gran Capitán,US$680,"8.6
+Scored 8.6",Excellent,39
+Apartamentos,87.0,Alto house edificio completo,US$676,"7.0
+Scored 7.0",Good,3
+Apartamentos,87.0,Casa Pasiegas,US$746,"10
+Scored 10",Exceptional,3
+Apartamentos,87.0,Genteel Home Martinez Campos,US$639,"9.6
+Scored 9.6",Exceptional,38
+Apartamentos,87.0,Carmen Vistas de la Alhambra,US$548,"7.7
+Scored 7.7",Good,932
+Apartamentos,87.0,tuGuest Pool House Albaicin,US$731,"8.0
+Scored 8.0",Very Good,79
+Apartamentos,87.0,tuGuest Lope de Vega Apartment,US$622,"7.9
+Scored 7.9",Good,54
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,147","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Elvira Suites,"US$1,303","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,694","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,BiBo Suites San Agustín,US$772,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Sercotel Granada Suites,"US$1,334","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,96.0,YIT Casablanca,US$755,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,96.0,Apartamentos Granata,US$860,"8.7
+Scored 8.7",Excellent,308
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,243","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Suites Gran Vía 44,"US$1,197","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Casual Ilbira Granada,"US$1,240","8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,306","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Alhambra Palace Hotel,"US$4,147","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hospes Palacio de los Patos,"US$6,925","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,356","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Presidente,US$821,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$554,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Porcel Navas,"US$1,447","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Abadía Hotel,US$954,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Hotel Los Girasoles,US$689,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Porcel Alixares,"US$1,074","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$837,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Hotel Macià Cóndor,"US$1,033","7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Las Nieves,"US$1,085","8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Allegro Granada,"US$1,126","8.6
+Scored 8.6",Excellent,"4,142"
+Apartamentos,85.0,GLORIA SUITES,US$403,"7.9
+Scored 7.9",Good,455
+Apartamentos,85.0,ISA Granada,US$416,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,85.0,"Palacete 1620, Premium Suites, Only adults",US$632,"9.3
+Scored 9.3",Wonderful,784
+Apartamentos,85.0,Apartamentos Luna Suites Granada,US$366,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,85.0,tuGuest San Gil Apartments,US$522,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,85.0,Aile Granada,US$359,"8.1
+Scored 8.1",Very Good,23
+Apartamentos,85.0,Siloe Plaza,US$562,"7.8
+Scored 7.8",Good,743
+Apartamentos,85.0,C&V Apartamentos - Horno de Marina,US$400,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,85.0,Apartamentos Turísticos Centro,US$406,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,85.0,Patio Zahorí Granada Centro,US$426,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,85.0,Patio San Jerónimo Casa de Arte,US$521,"9.3
+Scored 9.3",Wonderful,111
+Apartamentos,85.0,Holidays2Granada Centro con Terraza-solarium,US$443,"7.8
+Scored 7.8",Good,517
+Apartamentos,85.0,Central Deluxe Apartments by Apolo Homes,US$870,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,85.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$599,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,85.0,Apartamentos Turísticos San Matías,US$464,"9.0
+Scored 9.0",Wonderful,481
+Apartamentos,85.0,Urban Suites Granada,US$407,"8.1
+Scored 8.1",Very Good,362
+Apartamentos,85.0,tuGuest Plaza Nueva Apartment,US$417,"7.8
+Scored 7.8",Good,51
+Apartamentos,85.0,Mosaiko Homes Catedral Granada,US$711,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,85.0,Apartamentos Correo Viejo de Granada,US$902,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,85.0,Apartamentos Inside Paseo de los Tristes,US$489,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,85.0,PATIO de SOMBRA · Urban Suites,US$492,"9.3
+Scored 9.3",Wonderful,19
+Apartamentos,85.0,Palacio Dorobe,US$414,"8.2
+Scored 8.2",Very Good,212
+Apartamentos,85.0,Apartamentos de Isabella,US$429,"8.5
+Scored 8.5",Very Good,863
+Apartamentos,85.0,SANTA PAULA CENTRO JUNTO CATEDRAL center,US$319,"7.0
+Scored 7.0",Good,51
+Apartamentos,85.0,La casa del Sacristán.,US$334,"8.9
+Scored 8.9",Excellent,105
+Hotel,96.0,Boutique Hotel Luna Granada Centro,US$676,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,96.0,Hotel Casa 1800 Granada,"US$1,092","8.8
+Scored 8.8",Excellent,"1,386"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$282,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$414,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Hotel Los Girasoles,US$332,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Porcel Alixares,US$386,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,US$724,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$362,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Abadía Hotel,US$396,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Crisol Guadalupe,US$445,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Hotel Plaza Nueva,US$497,"8.3
+Scored 8.3",Very Good,"2,524"
+Hotel,96.0,Hotel Cedran,US$337,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,96.0,Hotel Colón Centro,US$712,"8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,96.0,Gran Hotel Luna de Granada,US$470,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Exe Triunfo Granada,US$464,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Hotel Boutique Puerta de las Granadas,US$488,"8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,96.0,Catalonia Granada,US$497,"8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,96.0,Porcel Navas,US$557,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Macià Cóndor,US$399,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,BiBo Suites San Agustín,US$435,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Las Nieves,US$438,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Hotel Saray,US$588,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Allegro Granada,US$382,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Casual Ilbira Granada,US$544,"8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Hotel La Casa de Los Mosaicos,US$665,"8.4
+Scored 8.4",Very Good,"2,042"
+Hotel,96.0,Vincci Albayzin,US$806,"8.5
+Scored 8.5",Very Good,"5,360"
+Apartamentos,87.0,GLORIA SUITES,US$403,"7.9
+Scored 7.9",Good,455
+Apartamentos,87.0,Nest Flats Granada,US$416,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,87.0,Siloe Plaza,US$562,"7.8
+Scored 7.8",Good,743
+Apartamentos,87.0,Mirador Alhambra - 2 Private Terraces - Wifi -,US$543,"8.7
+Scored 8.7",Excellent,65
+Apartamentos,87.0,BnS Dauro Suites,US$509,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,87.0,ISA Granada,US$614,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,87.0,Apartamentos Montesclaros,US$493,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,87.0,Apartamentos Turísticos Centro,US$478,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,87.0,HNN GRANADA,US$576,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,87.0,Apartamentos Turísticos San Matías,US$464,"9.0
+Scored 9.0",Wonderful,481
+Apartamentos,87.0,Chezmoihomes Plaza Nueva Luxury,US$672,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,87.0,Apartamentos Reyes Católicos,US$554,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,87.0,IMEDA Apartamentos Piedra Santa,US$504,"8.9
+Scored 8.9",Excellent,91
+Apartamentos,87.0,BiBo Suites Gran Vía,US$632,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,87.0,Patio San Jerónimo Casa de Arte,US$586,"9.3
+Scored 9.3",Wonderful,111
+Apartamentos,87.0,Be Free Granada,US$439,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,87.0,Mesones 54,US$537,"8.9
+Scored 8.9",Excellent,518
+Apartamentos,87.0,Mosaiko Homes Catedral Granada,US$776,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,87.0,C&V Apartamentos - Horno de Marina,US$444,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,87.0,CALM SUITES Molino Corteza del Carmen,US$720,"9.3
+Scored 9.3",Wonderful,887
+Apartamentos,87.0,Patio Zahorí Granada Centro,US$576,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,87.0,PATIOdeLUZ - Stylish apartments in Párraga 13,US$694,"9.5
+Scored 9.5",Exceptional,464
+Apartamentos,87.0,Apartamentos Royal Urban Granada,US$468,"7.2
+Scored 7.2",Good,48
+Apartamentos,87.0,Palacio Cabrera - Lillo,US$719,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,87.0,Apartamentos Luna Suites Granada,US$668,"9.2
+Scored 9.2",Wonderful,74
+Hotel,97.0,Gran Hotel Luna de Granada,US$693,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Hotel Casa 1800 Granada,"US$2,392","8.8
+Scored 8.8",Excellent,"1,386"
+Hotel,97.0,Sercotel Granada Suites,US$776,"9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Porcel Alixares,US$643,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,BiBo Suites San Agustín,US$484,"9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Hotel Macià Cóndor,US$502,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Porcel Navas,US$928,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,97.0,Hotel Saray,US$820,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Suites Gran Vía 44,US$590,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Porcel Sabica,US$733,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Exe Triunfo Granada,US$734,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Hotel Dauro Premier,US$754,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,97.0,Casual Ilbira Granada,US$846,"8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,La Corrala del Realejo,"US$1,423","9.4
+Scored 9.4",Wonderful,550
+Hotel,97.0,Hotel Boutique Puerta de las Granadas,"US$1,080","8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,97.0,Bubaqia House - Suites Boutique,US$806,"9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Los Angeles Hotel & Spa,US$603,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,97.0,Vincci Albayzin,"US$1,834","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,97.0,Eurostars Gran Via,"US$2,336","8.6
+Scored 8.6",Excellent,"2,149"
+Hotel,97.0,Alhambra Palace Hotel,"US$2,811","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$1,151","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Hotel Macià Real De La Alhambra,US$723,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$1,449","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Catalonia Granada,"US$1,064","8.9
+Scored 8.9",Excellent,"4,054"
+Hotel,97.0,Crisol Guadalupe,US$890,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,97.0,Hotel Los Girasoles,US$694,"7.2
+Scored 7.2",Good,74
+Apartamentos,91.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,91.0,Be Free Granada,US$491,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,91.0,Piso Pajaritos,US$400,-,-,-
+Apartamentos,91.0,Chezmoihomes Plaza Nueva Luxury,US$863,"8.5
+Scored 8.5",Very Good,76
+Apartamentos,91.0,HORNO ABAD GRANADA CENTRO,US$413,"8.7
+Scored 8.7",Excellent,12
+Apartamentos,91.0,Apartamentos Turísticos Centro,US$657,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,91.0,Apartamentos Correo Viejo de Granada,"US$1,063","8.5
+Scored 8.5",Very Good,805
+Apartamentos,91.0,Casa Montalbán Apartamentos Turísticos,US$677,"8.3
+Scored 8.3",Very Good,503
+Apartamentos,91.0,BiBo Suites Gran Vía,US$902,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,91.0,Casas del Albaicín,US$753,"8.9
+Scored 8.9",Excellent,781
+Apartamentos,91.0,Apartamento Góngora,US$766,"8.8
+Scored 8.8",Excellent,48
+Apartamentos,91.0,BiBo Suites Oro del Darro,"US$1,004","9.3
+Scored 9.3",Wonderful,"2,509"
+Apartamentos,91.0,Palacio Dorobe,US$867,"8.2
+Scored 8.2",Very Good,212
+Apartamentos,91.0,Luna Centro 5 habitaciones,US$836,"9.3
+Scored 9.3",Wonderful,49
+Apartamentos,91.0,tuGuest Gracia Apartments,US$539,"7.7
+Scored 7.7",Good,256
+Apartamentos,91.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$1,816","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,91.0,SATU GRANADA: Modern Apartment in the Albaicín,US$572,"9.4
+Scored 9.4",Wonderful,14
+Apartamentos,91.0,tuGuest Alhamar Apartment,US$709,"8.0
+Scored 8.0",Very Good,51
+Apartamentos,91.0,Apartamentos de Isabella,US$743,"8.5
+Scored 8.5",Very Good,863
+Apartamentos,91.0,Carmen de Vidal - Un mirador a la Alhambra,"US$1,247","9.4
+Scored 9.4",Wonderful,166
+Apartamentos,91.0,tuGuest Violeta's Home,US$735,"8.7
+Scored 8.7",Excellent,111
+Apartamentos,91.0,Grace Apartments - 3 bedroom City Centre,US$912,"9.7
+Scored 9.7",Exceptional,190
+Apartamentos,91.0,Recogidas Apartment by A3Rentals,US$624,"8.1
+Scored 8.1",Very Good,126
+Apartamentos,91.0,ARABIAL DELUXE III,US$447,"9.2
+Scored 9.2",Wonderful,67
+Apartamentos,91.0,Apartamento Lagloria,US$427,"8.9
+Scored 8.9",Excellent,40
+Hotel,97.0,Hotel Mercader de Sedas,"US$1,032","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,97.0,Hotel Casa 1800 Granada,"US$2,525","8.8
+Scored 8.8",Excellent,"1,386"
+Hotel,97.0,Hotel Monasterio Granada - Adults Only,US$673,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,97.0,Porcel Navas,"US$1,424","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$1,938","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Sercotel Granada Suites,"US$1,508","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Porcel Alixares,US$978,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Abadía Hotel,US$883,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,206","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Hotel Macià Monasterio de los Basilios,US$896,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,97.0,BiBo Suites San Agustín,US$998,"9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Hotel Los Girasoles,US$821,"7.2
+Scored 7.2",Good,74
+Hotel,97.0,Las Nieves,US$967,"8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,97.0,Hotel Saray,"US$1,300","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,006","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Crisol Guadalupe,"US$1,135","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,97.0,Eurostars Puerta Real,"US$1,745","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Porcel Sabica,"US$1,124","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Suites Gran Vía 44,"US$1,326","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Boutique Puerta de las Granadas,"US$1,559","8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,97.0,Casual Ilbira Granada,"US$1,292","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,Exe Triunfo Granada,"US$1,175","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,YIT Casablanca,"US$1,240","7.5
+Scored 7.5",Good,"3,853"
+Hotel,97.0,Alhambra Palace Hotel,"US$2,632","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,392","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,97.0,Hotel Granada Center,"US$2,360","9.1
+Scored 9.1",Wonderful,"8,515"
+Apartamentos,95.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,95.0,tuGuest Violeta's Home,US$781,"8.7
+Scored 8.7",Excellent,111
+Apartamentos,95.0,Grace Apartments - 3 bedroom City Centre,"US$1,056","9.7
+Scored 9.7",Exceptional,190
+Apartamentos,95.0,Magdalena Apartament,US$814,"10
+Scored 10",Exceptional,2
+Apartamentos,95.0,Apartamento Nuevo Centro Granada,US$941,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,95.0,Apartamento Albaycin Granada,US$733,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,95.0,Luna Centro 5 habitaciones,US$856,"9.3
+Scored 9.3",Wonderful,49
+Apartamentos,95.0,Apartamento Góngora,US$834,"8.8
+Scored 8.8",Excellent,48
+Apartamentos,95.0,Apartamento entero privado,US$840,"9.9
+Scored 9.9",Exceptional,8
+Apartamentos,95.0,"Conjunto Altos de Vista Nevada,nº11,portal 7,1ºA.",US$787,"9.3
+Scored 9.3",Wonderful,32
+Apartamentos,95.0,Apartamento Con Parking Gratuito,US$673,"7.1
+Scored 7.1",Good,84
+Apartamentos,95.0,Plaza Trinidad-Cathedral,"US$1,140","8.6
+Scored 8.6",Excellent,18
+Apartamentos,95.0,tuGuest Ronda Aparment,US$789,"8.9
+Scored 8.9",Excellent,24
+Apartamentos,95.0,BiBo Suites Plaza Nueva,"US$1,330","9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,95.0,tuGuest Manuel de Falla Apartment,US$898,"9.0
+Scored 9.0",Wonderful,24
+Apartamentos,95.0,Preciosa vivienda con gran terraza muy luminoso,"US$1,036","8.5
+Scored 8.5",Very Good,28
+Apartamentos,95.0,tuGuest Station 2 apartment,US$773,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,95.0,tuGuest El Rincón de Felisa,US$830,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,95.0,tuGuest Gran Vía Deluxe,"US$1,195",-,-,-
+Apartamentos,95.0,Alhambra Apartments,US$549,"7.9
+Scored 7.9",Good,21
+Apartamentos,95.0,Alojamientos Rurales Las Eras,US$440,"8.7
+Scored 8.7",Excellent,55
+Apartamentos,95.0,Lightbooking Plaza de Toros Granada,"US$1,263","8.4
+Scored 8.4",Very Good,39
+Apartamentos,95.0,El Refugio De Noa,US$798,-,-,-
+Apartamentos,95.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,95.0,Casa Benzambra,US$917,-,-,-
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,302","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,BiBo Suites San Agustín,US$967,"9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,314","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Sercotel Granada Suites,"US$1,537","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,Porcel Alixares,"US$1,180","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Macià Cóndor,"US$1,003","7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Suites Gran Vía 44,"US$1,179","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Saray,"US$1,510","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$1,551","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,La Corrala del Realejo,"US$2,910","9.4
+Scored 9.4",Wonderful,550
+Hotel,97.0,Casual Ilbira Granada,"US$1,555","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,Porcel Sabica,"US$1,466","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Exe Triunfo Granada,"US$1,445","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Alhambra Palace Hotel,"US$4,258","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Room Mate Leo,"US$2,011","8.8
+Scored 8.8",Excellent,"4,316"
+Hotel,97.0,Hotel Plaza Nueva,"US$1,567","8.3
+Scored 8.3",Very Good,"2,524"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,730","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Hotel Los Girasoles,"US$1,153","7.2
+Scored 7.2",Good,74
+Hotel,97.0,Leonardo Hotel Granada,"US$1,293","8.2
+Scored 8.2",Very Good,"1,128"
+Hotel,97.0,Los Angeles Hotel & Spa,"US$1,500","7.6
+Scored 7.6",Good,"2,131"
+Hotel,97.0,Eurostars Puerta Real,"US$2,478","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Hotel Macià Monasterio de los Basilios,"US$1,564","8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,97.0,B&B HOTEL Granada Estación,"US$1,134","8.6
+Scored 8.6",Excellent,"3,363"
+Hotel,97.0,Crisol Guadalupe,"US$1,580","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,355","8.9
+Scored 8.9",Excellent,"2,629"
+Apartamentos,95.0,APARTAMENTO GRANADA CENTRO,US$434,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,95.0,Apartamento Góngora,US$863,"8.8
+Scored 8.8",Excellent,48
+Apartamentos,95.0,Luna Centro 5 habitaciones,US$966,"9.3
+Scored 9.3",Wonderful,49
+Apartamentos,95.0,Grace Apartments - 3 bedroom City Centre,"US$1,056","9.7
+Scored 9.7",Exceptional,190
+Apartamentos,95.0,Apartamento Nuevo Centro Granada,"US$1,023","8.8
+Scored 8.8",Excellent,79
+Apartamentos,95.0,Magdalena Apartament,US$814,"10
+Scored 10",Exceptional,2
+Apartamentos,95.0,Plaza Trinidad-Cathedral,"US$1,140","8.6
+Scored 8.6",Excellent,18
+Apartamentos,95.0,Apartamento Albaycin Granada,US$733,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,95.0,tuGuest Station 2 apartment,US$773,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,95.0,Apartamento entero privado,US$840,"9.9
+Scored 9.9",Exceptional,8
+Apartamentos,95.0,tuGuest El Rincón de Felisa,US$830,"9.0
+Scored 9.0",Wonderful,22
+Apartamentos,95.0,BiBo Suites Plaza Nueva,"US$1,434","9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,95.0,"Conjunto Altos de Vista Nevada,nº11,portal 7,1ºA.",US$787,"9.3
+Scored 9.3",Wonderful,32
+Apartamentos,95.0,Apartamento Con Parking Gratuito,US$755,"7.1
+Scored 7.1",Good,84
+Apartamentos,95.0,tuGuest Ronda Aparment,US$789,"8.9
+Scored 8.9",Excellent,24
+Apartamentos,95.0,Mirador de Siloé,"US$2,128","9.8
+Scored 9.8",Exceptional,32
+Apartamentos,95.0,tuGuest Manuel de Falla Apartment,US$898,"9.0
+Scored 9.0",Wonderful,24
+Apartamentos,95.0,tuGuest Gran Vía Deluxe,"US$1,195",-,-,-
+Apartamentos,95.0,Preciosa vivienda con gran terraza muy luminoso,"US$1,036","8.5
+Scored 8.5",Very Good,28
+Apartamentos,95.0,Alhambra Apartments,US$549,"7.9
+Scored 7.9",Good,21
+Apartamentos,95.0,Lightbooking Plaza de Toros Granada,"US$1,263","8.4
+Scored 8.4",Very Good,39
+Apartamentos,95.0,APARTAMENTOS LA MARIANA II,"US$1,547",-,-,-
+Apartamentos,95.0,El Refugio De Noa,US$798,-,-,-
+Apartamentos,95.0,Casa Benzambra,US$917,-,-,-
+Apartamentos,95.0,Biznaga Nevada,"US$2,253","10
+Scored 10",Exceptional,3
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,302","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,386","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Sercotel Granada Suites,"US$1,537","9.2
+Scored 9.2",Wonderful,"1,849"
+Hotel,97.0,BiBo Suites San Agustín,"US$1,060","9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Hotel Mercader de Sedas,"US$1,889","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,97.0,Suites Gran Vía 44,"US$1,472","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Casual Ilbira Granada,"US$1,672","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,YIT Casablanca,"US$1,586","7.5
+Scored 7.5",Good,"3,853"
+Hotel,97.0,Alhambra Palace Hotel,"US$4,258","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$1,551","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Porcel Navas,"US$2,012","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,97.0,Abadía Hotel,"US$1,334","8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,97.0,Hotel Monasterio Granada - Adults Only,US$956,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,97.0,Porcel Alixares,"US$1,377","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Macià Monasterio de los Basilios,"US$1,310","8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,97.0,Hotel Los Girasoles,"US$1,183","7.2
+Scored 7.2",Good,74
+Hotel,97.0,Crisol Guadalupe,"US$1,580","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,97.0,Las Nieves,"US$1,495","8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$2,730","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Hotel Saray,"US$1,888","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Porcel Sabica,"US$1,588","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Exe Triunfo Granada,"US$1,638","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Eurostars Puerta Real,"US$2,478","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Hotel Boutique Puerta de las Granadas,"US$2,248","8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,355","8.9
+Scored 8.9",Excellent,"2,629"
+Apartamentos,,GLORIA SUITES,US$232,"7.9
+Scored 7.9",Good,455
+Apartamentos,,BiBo Suites San Agustín,US$282,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,,tuGuest San Gil Apartments,US$349,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,,Siloe Plaza,US$335,"7.8
+Scored 7.8",Good,743
+Apartamentos,,Apartamentos Jardines de la Sitarilla,US$214,"9.2
+Scored 9.2",Wonderful,54
+Apartamentos,,ISA Granada,US$301,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,,Apartamentos Reyes Católicos,US$247,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,,Urban Suites Granada,US$225,"8.1
+Scored 8.1",Very Good,362
+Apartamentos,,La Tinaja del Realejo,US$270,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,,Apartamentos Luna Suites Granada,US$249,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,,Nest Flats Granada,US$253,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,,Be Free Granada,US$161,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,,Apartamentos Los Lobos,US$256,"8.1
+Scored 8.1",Very Good,541
+Apartamentos,,Rooms Plaza Nueva,US$140,"7.5
+Scored 7.5",Good,90
+Apartamentos,,At Home Realejo,US$183,"8.2
+Scored 8.2",Very Good,22
+Apartamentos,,Apartamentos Correo Viejo de Granada,US$425,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,,Apartamentos VITA CENTER,US$248,"9.3
+Scored 9.3",Wonderful,348
+Apartamentos,,Apartamento Concepción Granada Centro,US$213,"8.6
+Scored 8.6",Excellent,16
+Apartamentos,,Casa del Cantaor,US$263,"9.2
+Scored 9.2",Wonderful,340
+Apartamentos,,Granada City Home,US$205,"8.0
+Scored 8.0",Very Good,840
+Apartamentos,,EnjoyGranada ELVIRA,US$219,"7.7
+Scored 7.7",Good,231
+Apartamentos,,"Charming, spacious Albayzin apartment",US$210,"8.9
+Scored 8.9",Excellent,77
+Apartamentos,,Apartamento Duplex Gomerez 39,US$425,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,,Estudio Inora,US$178,"8.9
+Scored 8.9",Excellent,92
+Apartamentos,,C&V Apartamentos - Horno de Marina,US$252,"8.3
+Scored 8.3",Very Good,"1,257"
+Hotel,94.0,Boutique Hotel Luna Granada Centro,US$481,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,94.0,Meliá Granada,"US$1,015","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,94.0,Hotel Monasterio Granada - Adults Only,US$168,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,94.0,Hotel Cedran,US$195,"7.8
+Scored 7.8",Good,"2,088"
+Hotel,94.0,Hotel Macià Monasterio de los Basilios,US$262,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,94.0,Hotel Andalucía Center,US$242,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,94.0,Don Juan,US$184,"7.8
+Scored 7.8",Good,"4,582"
+Hotel,94.0,Hotel Saray,US$237,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,94.0,BiBo Suites San Agustín,US$282,"9.4
+Scored 9.4",Wonderful,944
+Hotel,94.0,Barceló Carmen Granada,US$378,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,94.0,Gran Hotel Luna de Granada,US$276,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,94.0,Porcel Alixares,US$259,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,94.0,Porcel Navas,US$342,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,94.0,Hotel Colón Centro,US$488,"8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,94.0,Hotel Granada Center,US$366,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,94.0,Gala Placida 1923,US$180,"7.0
+Scored 7.0",Good,"4,005"
+Hotel,94.0,Hotel Universal,US$219,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,94.0,Hotel Los Girasoles,US$205,"7.2
+Scored 7.2",Good,74
+Hotel,94.0,Abadía Hotel,US$305,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,94.0,Hotel Macià Real De La Alhambra,US$238,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,94.0,Occidental Granada,US$281,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,94.0,Urban Dream Nevada,US$114,"7.6
+Scored 7.6",Good,"4,841"
+Hotel,94.0,SUITES CASA DE LAS COLUMNAS,US$295,"8.8
+Scored 8.8",Excellent,554
+Hotel,94.0,Ibis Granada,US$169,"8.3
+Scored 8.3",Very Good,"4,323"
+Hotel,94.0,Hotel Macià Granada Five Senses Rooms & Suites,US$409,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,94.0,Catalonia Granada,US$369,"8.9
+Scored 8.9",Excellent,"4,054"
+Apartamentos,,Nest Flats Granada,US$253,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,,BiBo Suites San Agustín,US$341,"9.4
+Scored 9.4",Wonderful,944
+Apartamentos,,La Tinaja del Realejo,US$293,"9.2
+Scored 9.2",Wonderful,458
+Apartamentos,,GLORIA SUITES,US$232,"7.9
+Scored 7.9",Good,455
+Apartamentos,,Siloe Plaza,US$335,"7.8
+Scored 7.8",Good,743
+Apartamentos,,Apartamentos Reyes Católicos,US$296,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,,tuGuest San Gil Apartments,US$465,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,,Casa Palacio López Daza,US$366,"9.0
+Scored 9.0",Wonderful,383
+Apartamentos,,Tina Home,US$440,"8.9
+Scored 8.9",Excellent,505
+Apartamentos,,numa I Vega Apartments,US$298,"8.2
+Scored 8.2",Very Good,"1,855"
+Apartamentos,,ecoSmart Apartments Granada,US$551,"9.6
+Scored 9.6",Exceptional,340
+Apartamentos,,ISA Granada,US$454,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,,Be Free Granada,US$212,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,,Apartamentos Turísticos Mauror,US$662,"9.4
+Scored 9.4",Wonderful,737
+Apartamentos,,Apartamento Duplex Gomerez 39,US$416,"8.8
+Scored 8.8",Excellent,79
+Apartamentos,,Apartamentos Inside Paseo de los Tristes,US$334,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,,Pepa Home,US$532,"8.9
+Scored 8.9",Excellent,608
+Apartamentos,,Precioso apartamento en el centro de Granada,US$473,"8.6
+Scored 8.6",Excellent,134
+Apartamentos,,Central Deluxe Apartments by Apolo Homes,US$712,"9.0
+Scored 9.0",Wonderful,119
+Apartamentos,,C&V Apartamentos - Horno de Marina,US$274,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,,BnS Dauro Suites,US$388,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,,Apartamentos Correo Viejo de Granada,US$553,"8.5
+Scored 8.5",Very Good,805
+Apartamentos,,Apartamentos Albaicín Centro Suites 3000,US$303,"9.0
+Scored 9.0",Wonderful,74
+Apartamentos,,Casa Miravalle Darro,US$312,"9.0
+Scored 9.0",Wonderful,"1,398"
+Apartamentos,,Casa Asia,US$313,"10
+Scored 10",Exceptional,5
+Hotel,95.0,BiBo Suites San Agustín,US$341,"9.4
+Scored 9.4",Wonderful,944
+Hotel,95.0,Meliá Granada,"US$2,031","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Gran Hotel Luna de Granada,US$466,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Porcel Alixares,US$432,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Don Juan,US$261,"7.8
+Scored 7.8",Good,"4,582"
+Hotel,95.0,Porcel Navas,US$570,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,95.0,Hotel Saray,US$511,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,95.0,SUITES CASA DE LAS COLUMNAS,US$334,"8.8
+Scored 8.8",Excellent,554
+Hotel,95.0,Urban Dream Nevada,US$236,"7.6
+Scored 7.6",Good,"4,841"
+Hotel,95.0,Hotel Casa Palacete Tablas,US$776,"9.0
+Scored 9.0",Wonderful,61
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$368,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,Allegro Granada,US$391,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,95.0,Porcel Sabica,US$454,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,95.0,Suites Gran Vía 44,US$396,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,95.0,Elvira Suites,US$554,"8.9
+Scored 8.9",Excellent,778
+Hotel,95.0,Hotel Dauro Premier,US$520,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,95.0,Casa Miravalle Catedral,US$594,"9.2
+Scored 9.2",Wonderful,"1,127"
+Hotel,95.0,Hotel Comfort Dauro 2,US$491,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,95.0,Hotel Universal,US$434,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,95.0,Hotel Macià Granada Five Senses Rooms & Suites,US$667,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,95.0,Hotel Macià Cóndor,US$378,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,95.0,Occidental Granada,US$660,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Exe Triunfo Granada,US$439,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,95.0,Barceló Carmen Granada,US$935,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,95.0,Bubaqia House - Suites Boutique,US$709,"9.8
+Scored 9.8",Exceptional,17
+Hotel,95.0,Crisol Guadalupe,US$624,"8.5
+Scored 8.5",Very Good,"4,696"
+Apartamentos,82.0,Be Free Granada,US$264,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,82.0,tuGuest Gran Vía Apartments,US$425,"7.7
+Scored 7.7",Good,145
+Apartamentos,82.0,Precioso apartamento en el centro de Granada,US$520,"8.6
+Scored 8.6",Excellent,134
+Apartamentos,82.0,APARTAMENTO GARDEN ART IV,US$355,"9.5
+Scored 9.5",Exceptional,69
+Apartamentos,82.0,Bonito Apartamento en el centro de Granada con parking gratis,US$257,"6.7
+Scored 6.7",Review score,117
+Apartamentos,82.0,Apartamento Katanka Home Staging,US$469,-,-,-
+Apartamentos,82.0,Apartamentos Puerta Elvira Suites 3000,US$371,"9.2
+Scored 9.2",Wonderful,301
+Apartamentos,82.0,Apartamentos Alhambra Granada 3000,US$309,"7.7
+Scored 7.7",Good,"1,083"
+Apartamentos,82.0,Apartamento Catedral Centro,US$277,"8.8
+Scored 8.8",Excellent,302
+Apartamentos,82.0,Apartamentos Turísticos Mauror,US$731,"9.4
+Scored 9.4",Wonderful,737
+Apartamentos,82.0,Apartamentos Cruz Granada,US$391,"9.2
+Scored 9.2",Wonderful,117
+Apartamentos,82.0,ECO CENTER GRANATENSIS free parking,US$542,"8.7
+Scored 8.7",Excellent,95
+Apartamentos,82.0,BiBo Suites Gran Vía,US$538,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,82.0,Apartamento Centro Abad,US$277,"8.5
+Scored 8.5",Very Good,87
+Apartamentos,82.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,82.0,ISA Granada,US$550,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,82.0,Apartamentos Realejo Granada Centro 3000,US$400,"8.1
+Scored 8.1",Very Good,987
+Apartamentos,82.0,Genteel Home Isabel la Católica,US$595,"8.6
+Scored 8.6",Excellent,187
+Apartamentos,82.0,Oasis en el corazón de Granada con Parking Gratis,US$407,"7.6
+Scored 7.6",Good,37
+Apartamentos,82.0,Acogedor y céntrico con parking,US$438,"9.3
+Scored 9.3",Wonderful,7
+Apartamentos,82.0,Zahira Suites,US$357,"6.9
+Scored 6.9",Review score,242
+Apartamentos,82.0,"Calle Frailes, 7 Apartamento 2",US$371,"8.6
+Scored 8.6",Excellent,131
+Apartamentos,82.0,Piso junto a Parque de las Ciencias en Granada,US$277,"8.3
+Scored 8.3",Very Good,3
+Apartamentos,82.0,Be Suites Centro,US$424,"8.3
+Scored 8.3",Very Good,940
+Apartamentos,82.0,Apartamento Calle Concepcion Centro,US$518,"8.6
+Scored 8.6",Excellent,518
+Hotel,95.0,BiBo Suites San Agustín,US$456,"9.4
+Scored 9.4",Wonderful,944
+Hotel,95.0,Meliá Granada,"US$2,443","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,95.0,Elvira Suites,US$749,"8.9
+Scored 8.9",Excellent,778
+Hotel,95.0,Hotel Mercader de Sedas,US$657,"8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,95.0,Suites Gran Vía 44,US$722,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,95.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,95.0,Don Juan,US$432,"7.8
+Scored 7.8",Good,"4,582"
+Hotel,95.0,Urban Dream Nevada,US$341,"7.6
+Scored 7.6",Good,"4,841"
+Hotel,95.0,Gran Hotel Luna de Granada,US$753,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,95.0,Hotel Andalucía Center,US$623,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,95.0,Porcel Alixares,US$656,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,95.0,Hotel Saray,US$681,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,95.0,Hotel Macià Monasterio de los Basilios,US$592,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,95.0,Hotel Molinos,US$661,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,95.0,Occidental Granada,US$880,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,95.0,Abadía Hotel,US$688,"8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,95.0,Senator Granada,US$631,"8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,95.0,Porcel Navas,US$874,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,95.0,Allegro Granada,US$625,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,95.0,Hotel Los Girasoles,US$498,"7.2
+Scored 7.2",Good,74
+Hotel,95.0,Hotel Macià Real De La Alhambra,US$544,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,95.0,YIT Casablanca,US$590,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,95.0,Hotel Macià Cóndor,US$564,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,95.0,Hotel Comfort Dauro 2,US$788,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,95.0,Hotel Granada Center,US$925,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,95.0,Hotel Dauro Premier,US$846,"8.6
+Scored 8.6",Excellent,"1,380"
+Apartamentos,88.0,GLORIA SUITES,US$465,"7.9
+Scored 7.9",Good,455
+Apartamentos,88.0,Genteel Home Isabel la Católica,US$595,"8.6
+Scored 8.6",Excellent,187
+Apartamentos,88.0,Apartamentos Inside Paseo de los Tristes,US$669,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,88.0,Bonito Apartamento en el centro de Granada con parking gratis,US$257,"6.7
+Scored 6.7",Review score,117
+Apartamentos,88.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,88.0,Siloe Plaza,US$670,"7.8
+Scored 7.8",Good,743
+Apartamentos,88.0,ECO CENTER GRANATENSIS free parking,US$542,"8.7
+Scored 8.7",Excellent,95
+Apartamentos,88.0,Riad Puertas del Albaicín,US$379,"7.4
+Scored 7.4",Good,423
+Apartamentos,88.0,Be Free Granada,US$407,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,88.0,Zahira Suites,US$357,"6.9
+Scored 6.9",Review score,242
+Apartamentos,88.0,Genteel Home Campo del Príncipe,US$478,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,88.0,tuGuest Alhondiga Apartment,US$582,"8.8
+Scored 8.8",Excellent,120
+Apartamentos,88.0,Carmen Vistas de la Alhambra,US$475,"7.7
+Scored 7.7",Good,932
+Apartamentos,88.0,Tina Home,US$847,"8.9
+Scored 8.9",Excellent,505
+Apartamentos,88.0,Apartamento Recogidas 39,US$426,"7.6
+Scored 7.6",Good,54
+Apartamentos,88.0,My Granada Garden - Apartamento Orquídea,US$534,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,88.0,"Casa Limon, Patio y Parking.",US$769,"9.6
+Scored 9.6",Exceptional,34
+Apartamentos,88.0,VillaSanMiguelAlto,US$787,"9.8
+Scored 9.8",Exceptional,17
+Apartamentos,88.0,Genteel Home Tablas,US$694,"9.3
+Scored 9.3",Wonderful,78
+Apartamentos,88.0,tuGuest Gran Via 42 Apartment,US$670,"7.9
+Scored 7.9",Good,69
+Apartamentos,88.0,tuGuest Station 2 apartment,US$501,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,88.0,Apartamentos Reyes Católicos,US$592,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,88.0,tuGuest Lope de Vega Apartment,US$553,"7.9
+Scored 7.9",Good,54
+Apartamentos,88.0,Casa Naranjos de San Matías,US$810,"8.8
+Scored 8.8",Excellent,93
+Apartamentos,88.0,tuGuest San Gil Apartments,US$887,"8.9
+Scored 8.9",Excellent,295
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Meliá Granada,"US$3,312","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Don Juan,US$474,"7.8
+Scored 7.8",Good,"4,582"
+Hotel,96.0,Gran Hotel Luna de Granada,US$860,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,BiBo Suites San Agustín,US$682,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Urban Dream Nevada,US$439,"7.6
+Scored 7.6",Good,"4,841"
+Hotel,96.0,Elvira Suites,"US$1,108","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Suites Gran Vía 44,US$793,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Porcel Alixares,US$791,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Comfort Dauro 2,US$917,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$645,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Porcel Navas,"US$1,045","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Saray,US$891,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Occidental Granada,"US$1,145","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,553","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Hotel Universal,US$672,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Hotel Macià Cóndor,US$665,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Porcel Sabica,US$909,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Allegro Granada,US$756,"8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Hotel Dauro Premier,US$975,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Casual Ilbira Granada,"US$1,276","8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Hotel Macià Granada Five Senses Rooms & Suites,"US$1,333","8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,96.0,Vincci Albayzin,"US$1,984","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Exe Triunfo Granada,US$864,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Crisol Guadalupe,"US$1,160","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,090","8.9
+Scored 8.9",Excellent,"2,629"
+Apartamentos,91.0,Apartamentos Realejo Granada Centro 3000,US$400,"8.1
+Scored 8.1",Very Good,987
+Apartamentos,91.0,tuGuest Gran Via 42 Apartment,US$690,"7.9
+Scored 7.9",Good,69
+Apartamentos,91.0,APARTAMENTO GRANADA CENTRO,US$326,"8.2
+Scored 8.2",Very Good,57
+Apartamentos,91.0,ECO CENTER GRANATENSIS free parking,US$542,"8.7
+Scored 8.7",Excellent,95
+Apartamentos,91.0,Genteel Home Recogidas,US$812,"9.2
+Scored 9.2",Wonderful,148
+Apartamentos,91.0,Genteel Home Campo del Príncipe,US$478,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,91.0,Genteel Home Tablas,US$694,"9.3
+Scored 9.3",Wonderful,78
+Apartamentos,91.0,Carmen Vistas de la Alhambra,US$475,"7.7
+Scored 7.7",Good,932
+Apartamentos,91.0,Genteel Home Ático Gran Capitán,US$680,"8.6
+Scored 8.6",Excellent,39
+Apartamentos,91.0,Genteel Home Puerta Real,US$859,"9.0
+Scored 9.0",Wonderful,29
+Apartamentos,91.0,Apartamento Albaycin Granada,US$391,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,91.0,My Granada Garden - Apartamento Orquídea,US$534,"9.5
+Scored 9.5",Exceptional,82
+Apartamentos,91.0,Casa Pasiegas,US$746,"10
+Scored 10",Exceptional,3
+Apartamentos,91.0,tuGuest Lope de Vega Apartment,US$604,"7.9
+Scored 7.9",Good,54
+Apartamentos,91.0,tuGuest Station 2 apartment,US$501,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,91.0,Genteel Home Martinez Campos,US$639,"9.6
+Scored 9.6",Exceptional,38
+Apartamentos,91.0,Luna Centro 5 habitaciones,US$782,"9.3
+Scored 9.3",Wonderful,49
+Apartamentos,91.0,tuGuest Santa Paula III Apartment,US$570,"7.9
+Scored 7.9",Good,40
+Apartamentos,91.0,Great Apartment Granada City Centre,"US$1,026","9.5
+Scored 9.5",Exceptional,48
+Apartamentos,91.0,NEW El Generalife cerca centro ciudad y Sierra Nevada,US$521,"9.3
+Scored 9.3",Wonderful,3
+Apartamentos,91.0,Riad Puertas del Albaicín,US$467,"7.4
+Scored 7.4",Good,423
+Apartamentos,91.0,Confort by Congress Palace,US$456,"9.1
+Scored 9.1",Wonderful,24
+Apartamentos,91.0,Granada Albaicín Aynadamar,US$469,"8.1
+Scored 8.1",Very Good,132
+Apartamentos,91.0,tuGuest San Agustin II Apartment,US$523,"9.0
+Scored 9.0",Wonderful,2
+Apartamentos,91.0,Casa Montalbán Apartamentos Turísticos,US$812,"8.3
+Scored 8.3",Very Good,503
+Hotel,96.0,Apartamento Buensuceso 46 VFTGR04774,US$489,"8.4
+Scored 8.4",Very Good,44
+Hotel,96.0,Meliá Granada,"US$3,746","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Don Juan,US$557,"7.8
+Scored 7.8",Good,"4,582"
+Hotel,96.0,Gran Hotel Luna de Granada,US$932,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Urban Dream Nevada,US$471,"7.6
+Scored 7.6",Good,"4,841"
+Hotel,96.0,YIT Casablanca,US$687,"7.5
+Scored 7.5",Good,"3,853"
+Hotel,96.0,Hotel Molinos,US$873,"8.0
+Scored 8.0",Very Good,"2,691"
+Hotel,96.0,BiBo Suites San Agustín,US$745,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Elvira Suites,"US$1,303","8.9
+Scored 8.9",Excellent,778
+Hotel,96.0,Suites Gran Vía 44,"US$1,070","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,146","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,553","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Crisol Guadalupe,"US$1,160","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Occidental Granada,"US$1,209","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Checkin Camino de Granada,US$673,"7.4
+Scored 7.4",Good,"2,849"
+Hotel,96.0,Casual Ilbira Granada,"US$1,276","8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,Vincci Albayzin,"US$1,984","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,96.0,Hotel Boutique Puerta de las Granadas,"US$2,032","8.7
+Scored 8.7",Excellent,"1,612"
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,155","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Hospes Palacio de los Patos,"US$7,914","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,356","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Alhambra Palace Hotel,"US$4,333","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hotel Los Girasoles,US$704,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$854,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Porcel Navas,"US$1,235","8.7
+Scored 8.7",Excellent,"2,145"
+Apartamentos,83.0,GLORIA SUITES,US$460,"7.9
+Scored 7.9",Good,455
+Apartamentos,83.0,Suites 18,US$511,"9.1
+Scored 9.1",Wonderful,35
+Apartamentos,83.0,Apartamentos Luna Suites Granada,US$440,"9.2
+Scored 9.2",Wonderful,74
+Apartamentos,83.0,tuGuest San Gil Apartments,US$635,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,83.0,ISA Granada,US$588,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,83.0,Siloe Plaza,US$665,"7.8
+Scored 7.8",Good,743
+Apartamentos,83.0,Aile Granada,US$446,"8.1
+Scored 8.1",Very Good,23
+Apartamentos,83.0,C&V Apartamentos - Horno de Marina,US$479,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,83.0,Be Free Granada,US$344,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,83.0,Mosaiko Homes Catedral Granada,US$789,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,83.0,Apartamento Granados,US$690,"8.3
+Scored 8.3",Very Good,101
+Apartamentos,83.0,Apartamentos Turísticos Centro,US$549,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,83.0,Patio Zahorí Granada Centro,US$545,"9.1
+Scored 9.1",Wonderful,71
+Apartamentos,83.0,Central Deluxe Apartments by Apolo Homes,"US$1,025","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,83.0,Livings en Elvira Centro,US$570,"8.7
+Scored 8.7",Excellent,184
+Apartamentos,83.0,Apartamentos Jardines de la Sitarilla,US$454,"9.2
+Scored 9.2",Wonderful,54
+Apartamentos,83.0,tuGuest Gran Vía Apartments,US$480,"7.7
+Scored 7.7",Good,145
+Apartamentos,83.0,Apartamentos Inside Paseo de los Tristes,US$539,"8.5
+Scored 8.5",Very Good,456
+Apartamentos,83.0,Urban Suites Granada,US$489,"8.1
+Scored 8.1",Very Good,362
+Apartamentos,83.0,DreamStay - Oficios Apartamento,US$665,-,-,-
+Apartamentos,83.0,SANTA PAULA CENTRO JUNTO CATEDRAL center,US$371,"7.0
+Scored 7.0",Good,51
+Apartamentos,83.0,Apart BLANCO para ESQUÍ y ALHAMBRA. Garaje privado,US$326,"9.3
+Scored 9.3",Wonderful,59
+Apartamentos,83.0,Genteel Home Santo Cristo,US$545,"8.7
+Scored 8.7",Excellent,136
+Apartamentos,83.0,Apartamentos Correo Viejo de Granada,"US$1,058","8.5
+Scored 8.5",Very Good,805
+Apartamentos,83.0,BnS Dauro Suites,US$594,"9.1
+Scored 9.1",Wonderful,229
+Hotel,96.0,Boutique Hotel Luna Granada Centro,US$761,"9.1
+Scored 9.1",Wonderful,"1,037"
+Hotel,96.0,Meliá Granada,"US$1,588","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Occidental Granada,US$381,"8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Barceló Carmen Granada,US$547,"9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$453,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,Hotel Monasterio Granada - Adults Only,US$342,"6.9
+Scored 6.9",Review score,"3,944"
+Hotel,96.0,Porcel Alixares,US$410,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Hotel Andalucía Center,US$459,"8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Barceló Granada Congress,US$465,"8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,96.0,Hotel Granada Center,US$627,"9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Hotel Colón Centro,US$724,"8.4
+Scored 8.4",Very Good,"2,435"
+Hotel,96.0,Ibis Granada,US$338,"8.3
+Scored 8.3",Very Good,"4,323"
+Hotel,96.0,Porcel Navas,US$572,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Macià Granada Five Senses Rooms & Suites,US$649,"8.6
+Scored 8.6",Excellent,"4,683"
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$416,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Crisol Guadalupe,US$496,"8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Exe Triunfo Granada,US$492,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,US$935,"9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Gran Hotel Luna de Granada,US$503,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Hotel Macià Cóndor,US$470,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Hotel Los Girasoles,US$445,"7.2
+Scored 7.2",Good,74
+Hotel,96.0,Porcel Sabica,US$454,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Presidente,US$451,"7.7
+Scored 7.7",Good,"1,332"
+Hotel,96.0,Eurostars Puerta Real,US$809,"8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Universal,US$426,"7.8
+Scored 7.8",Good,"4,590"
+Hotel,96.0,Hotel Cedran,US$424,"7.8
+Scored 7.8",Good,"2,088"
+Apartamentos,85.0,Be Free Granada,US$407,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,85.0,GLORIA SUITES,US$472,"7.9
+Scored 7.9",Good,455
+Apartamentos,85.0,BnS Dauro Suites,US$594,"9.1
+Scored 9.1",Wonderful,229
+Apartamentos,85.0,tuGuest San Gil Apartments,US$817,"8.9
+Scored 8.9",Excellent,295
+Apartamentos,85.0,Siloe Plaza,US$665,"7.8
+Scored 7.8",Good,743
+Apartamentos,85.0,Apartamento Granados,US$690,"8.3
+Scored 8.3",Very Good,101
+Apartamentos,85.0,Nest Flats Granada,US$535,"8.5
+Scored 8.5",Very Good,"1,710"
+Apartamentos,85.0,ISA Granada,US$769,"8.6
+Scored 8.6",Excellent,"2,580"
+Apartamentos,85.0,Central Deluxe Apartments by Apolo Homes,"US$1,080","9.0
+Scored 9.0",Wonderful,119
+Apartamentos,85.0,C&V Apartamentos - Horno de Marina,US$541,"8.3
+Scored 8.3",Very Good,"1,257"
+Apartamentos,85.0,BiBo Suites Gran Vía,US$780,"9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,85.0,IMEDA APARTAMENTOS RECOGIDAS,US$558,"8.5
+Scored 8.5",Very Good,106
+Apartamentos,85.0,Apartamentos Turísticos Centro,US$645,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,85.0,HNN GRANADA,US$773,"9.7
+Scored 9.7",Exceptional,473
+Apartamentos,85.0,Apartamentos Reyes Católicos,US$688,"8.9
+Scored 8.9",Excellent,"1,322"
+Apartamentos,85.0,Apartamentos Montesclaros,US$730,"8.9
+Scored 8.9",Excellent,665
+Apartamentos,85.0,Casa Montalbán Apartamentos Turísticos,US$649,"8.3
+Scored 8.3",Very Good,503
+Apartamentos,85.0,Mosaiko Homes Catedral Granada,US$958,"9.5
+Scored 9.5",Exceptional,"1,015"
+Apartamentos,85.0,numa I Vega Apartments,US$593,"8.2
+Scored 8.2",Very Good,"1,855"
+Apartamentos,85.0,DreamStay - Oficios Apartamento,US$804,-,-,-
+Apartamentos,85.0,Apartamentos Royal Urban Granada,US$489,"7.2
+Scored 7.2",Good,48
+Apartamentos,85.0,Apartamentos Inside Alhacaba,US$865,"8.7
+Scored 8.7",Excellent,96
+Apartamentos,85.0,tuGuest Gran Vía Apartments,US$693,"7.7
+Scored 7.7",Good,145
+Apartamentos,85.0,Palacio Cabrera - Lillo,US$822,"9.1
+Scored 9.1",Wonderful,"2,374"
+Apartamentos,85.0,Apartamentos Correo Viejo de Granada,"US$1,089","8.5
+Scored 8.5",Very Good,805
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$601,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Meliá Granada,"US$3,321","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Porcel Alixares,US$684,"8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Gran Hotel Luna de Granada,US$824,"8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Hotel Saray,US$897,"8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,96.0,Hotel Macià Cóndor,US$592,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,BiBo Suites San Agustín,US$650,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Porcel Navas,US$953,"8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Porcel Sabica,US$757,"8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Comfort Dauro 2,US$799,"8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,96.0,Suites Gran Vía 44,US$712,"9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Hotel Dauro Premier,US$900,"8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Exe Triunfo Granada,US$779,"8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Eurostars Puerta Real,"US$1,401","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Hotel Párraga Siete,US$869,"8.7
+Scored 8.7",Excellent,"1,645"
+Hotel,96.0,Gar Anat Hotel Boutique,"US$1,326","8.7
+Scored 8.7",Excellent,989
+Hotel,96.0,Los Angeles Hotel & Spa,US$716,"7.6
+Scored 7.6",Good,"2,131"
+Hotel,96.0,Casual Ilbira Granada,"US$1,212","8.7
+Scored 8.7",Excellent,409
+Hotel,96.0,La Corrala del Realejo,"US$2,441","9.4
+Scored 9.4",Wonderful,550
+Hotel,96.0,Áurea Washington Irving by Eurostars Hotel Company,"US$2,419","8.9
+Scored 8.9",Excellent,"2,629"
+Hotel,96.0,Barceló Carmen Granada,"US$1,355","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,96.0,Bubaqia House - Suites Boutique,"US$1,091","9.8
+Scored 9.8",Exceptional,17
+Hotel,96.0,Alhambra Palace Hotel,"US$3,738","8.7
+Scored 8.7",Excellent,"1,489"
+Hotel,96.0,Hospes Palacio de los Patos,"US$7,273","8.6
+Scored 8.6",Excellent,"1,276"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$1,347","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Vincci Albayzin,"US$2,372","8.5
+Scored 8.5",Very Good,"5,360"
+Apartamentos,90.0,Apartamento Granados,US$690,"8.3
+Scored 8.3",Very Good,101
+Apartamentos,90.0,Be Free Granada,US$474,"8.2
+Scored 8.2",Very Good,"3,331"
+Apartamentos,90.0,Apartamento Centro Abad,US$489,"8.5
+Scored 8.5",Very Good,87
+Apartamentos,90.0,tuGuest Gran Vía Apartments,US$798,"7.7
+Scored 7.7",Good,145
+Apartamentos,90.0,Apartamentos Correo Viejo de Granada,"US$1,210","8.5
+Scored 8.5",Very Good,805
+Apartamentos,90.0,HORNO ABAD GRANADA CENTRO,US$521,"8.7
+Scored 8.7",Excellent,12
+Apartamentos,90.0,BiBo Suites Gran Vía,"US$1,031","9.0
+Scored 9.0",Wonderful,"3,300"
+Apartamentos,90.0,Apartamentos Turísticos Centro,US$884,"8.7
+Scored 8.7",Excellent,307
+Apartamentos,90.0,Zahira Suites,US$731,"6.9
+Scored 6.9",Review score,242
+Apartamentos,90.0,BiBo Suites Oro del Darro,"US$1,176","9.3
+Scored 9.3",Wonderful,"2,509"
+Apartamentos,90.0,BiBo Suites Plaza Nueva,"US$1,099","9.2
+Scored 9.2",Wonderful,"2,884"
+Apartamentos,90.0,Bib Rambla Luxury Apartments by Apolo Homes,"US$2,117","9.4
+Scored 9.4",Wonderful,250
+Apartamentos,90.0,BiBo Suites Real Chancilleria,"US$1,341","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,90.0,Apartamentos de Isabella,US$908,"8.5
+Scored 8.5",Very Good,863
+Apartamentos,90.0,Casas del Albaicín,"US$1,071","8.9
+Scored 8.9",Excellent,781
+Apartamentos,90.0,Palacio Dorobe,"US$1,163","8.2
+Scored 8.2",Very Good,212
+Apartamentos,90.0,APARTAMENTO POETA ZORRILLA,US$726,"8.3
+Scored 8.3",Very Good,62
+Apartamentos,90.0,"Granada centro, amplio, wifi y A/C",US$597,-,-,-
+Apartamentos,90.0,Vivir en el Campus de la Salud,US$681,"9.9
+Scored 9.9",Exceptional,9
+Apartamentos,90.0,Genteel Home Campo del Príncipe,US$881,"8.7
+Scored 8.7",Excellent,425
+Apartamentos,90.0,Apartamento Centro Granada,US$696,-,-,-
+Apartamentos,90.0,"2D Apartamento en Albaycín, en el centro de Granada",US$712,"8.3
+Scored 8.3",Very Good,30
+Apartamentos,90.0,Piso Picasso,US$627,"8.7
+Scored 8.7",Excellent,24
+Apartamentos,90.0,Suite Alhambra Puerta Bib-Rambla,"US$1,613","9.0
+Scored 9.0",Wonderful,21
+Apartamentos,90.0,2 Apartamento en el Centro de Granada,US$678,"7.3
+Scored 7.3",Good,35
+Hotel,96.0,BiBo Suites San Agustín,US$942,"9.4
+Scored 9.4",Wonderful,944
+Hotel,96.0,Meliá Granada,"US$3,690","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,96.0,Hotel Mercader de Sedas,"US$1,146","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,96.0,Suites Gran Vía 44,"US$1,147","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,96.0,Porcel Alixares,"US$1,040","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,96.0,Occidental Granada,"US$1,192","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,96.0,Hotel Andalucía Center,"US$1,145","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,96.0,Gran Hotel Luna de Granada,"US$1,409","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,96.0,Porcel Navas,"US$1,461","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,96.0,Hotel Macià Monasterio de los Basilios,US$997,"8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,96.0,APARTAMENTOS CASERIA DE COMARES,US$830,"9.1
+Scored 9.1",Wonderful,143
+Hotel,96.0,Hotel Macià Real De La Alhambra,US$923,"8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,96.0,Hotel Casa Palacete Tablas,"US$2,248","9.0
+Scored 9.0",Wonderful,61
+Hotel,96.0,Hotel Macià Cóndor,US$979,"7.7
+Scored 7.7",Good,"1,834"
+Hotel,96.0,Abadía Hotel,"US$1,134","8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,96.0,Senator Granada,"US$1,151","8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,96.0,Allegro Granada,"US$1,173","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,96.0,Porcel Sabica,"US$1,161","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,96.0,Hotel Granada Center,"US$1,570","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,96.0,Áurea Catedral by Eurostars Hotel Company,"US$2,177","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,96.0,Crisol Guadalupe,"US$1,265","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,96.0,Eurostars Puerta Real,"US$1,914","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,96.0,Exe Triunfo Granada,"US$1,246","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,96.0,Las Nieves,"US$1,277","8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,96.0,Hotel Dauro Premier,"US$1,542","8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,96.0,Barceló Granada Congress,"US$1,603","8.5
+Scored 8.5",Very Good,"4,974"
+Apartamentos,95.0,Zahira Suites,US$731,"6.9
+Scored 6.9",Review score,242
+Apartamentos,95.0,Suite Alhambra Puerta Bib-Rambla,"US$1,519","9.0
+Scored 9.0",Wonderful,21
+Apartamentos,95.0,tuGuest Alhondiga Apartment,"US$1,066","8.8
+Scored 8.8",Excellent,120
+Apartamentos,95.0,BiBo Suites Real Chancilleria,"US$1,928","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,95.0,Magdalena Apartament,"US$1,108","10
+Scored 10",Exceptional,2
+Apartamentos,95.0,tuGuest Station 2 apartment,US$922,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,95.0,"Granada centro, amplio, wifi y A/C",US$858,-,-,-
+Apartamentos,95.0,tuGuest El Rincón de Felisa,"US$1,111","9.0
+Scored 9.0",Wonderful,22
+Apartamentos,95.0,"Conjunto Altos de Vista Nevada,nº11,portal 7,1ºA.",US$836,"9.3
+Scored 9.3",Wonderful,32
+Apartamentos,95.0,Apartamento Albaycin Granada,US$999,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,95.0,"2D Apartamento en Albaycín, en el centro de Granada",US$973,"8.3
+Scored 8.3",Very Good,30
+Apartamentos,95.0,2 Apartamento en el Centro de Granada,US$956,"7.3
+Scored 7.3",Good,35
+Apartamentos,95.0,Apartamento 3 dormitorios con aire acondicionado,US$728,"7.6
+Scored 7.6",Good,101
+Apartamentos,95.0,Apartamento Con Parking Gratuito,US$804,"7.1
+Scored 7.1",Good,84
+Apartamentos,95.0,Alhambra Apartments,US$649,"7.9
+Scored 7.9",Good,21
+Apartamentos,95.0,Great Apartment Granada City Centre,"US$2,660","9.5
+Scored 9.5",Exceptional,48
+Apartamentos,95.0,"Atico Top Granada, Penthouse, 18-19th floor, City Centre, Views, Terrace, Free Parking","US$1,303","9.4
+Scored 9.4",Wonderful,37
+Apartamentos,95.0,Casa con alma,"US$1,032",-,-,-
+Apartamentos,95.0,tuGuest Manuel de Falla Apartment,"US$1,076","9.0
+Scored 9.0",Wonderful,24
+Apartamentos,95.0,tuGuest Gran Vía Deluxe,"US$1,419",-,-,-
+Apartamentos,95.0,Lightbooking Granada Materno,US$883,"8.2
+Scored 8.2",Very Good,13
+Apartamentos,95.0,Alojamientos Rurales Las Eras,US$586,"8.7
+Scored 8.7",Excellent,55
+Apartamentos,95.0,Cielo Granada,"US$1,781","8.9
+Scored 8.9",Excellent,121
+Apartamentos,95.0,Lightbooking Plaza de Toros Granada,"US$1,661","8.4
+Scored 8.4",Very Good,39
+Apartamentos,95.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,651",-,-,-
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,553","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Meliá Granada,"US$5,423","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,693","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Porcel Alixares,"US$1,254","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Hotel Macià Real De La Alhambra,"US$1,069","8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,BiBo Suites San Agustín,"US$1,300","9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Hotel Macià Cóndor,"US$1,062","7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Suites Gran Vía 44,"US$1,425","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Saray,"US$1,795","8.4
+Scored 8.4",Very Good,"9,655"
+Hotel,97.0,Hotel Comfort Dauro 2,"US$1,599","8.6
+Scored 8.6",Excellent,"3,611"
+Hotel,97.0,Hotel Dauro Premier,"US$1,714","8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,97.0,Porcel Sabica,"US$1,389","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Eurostars Puerta Real,"US$2,506","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Exe Triunfo Granada,"US$1,533","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Hotel Párraga Siete,"US$1,694","8.7
+Scored 8.7",Excellent,"1,645"
+Hotel,97.0,Gar Anat Hotel Boutique,"US$2,604","8.7
+Scored 8.7",Excellent,989
+Hotel,97.0,Casual Ilbira Granada,"US$2,232","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,Vincci Albayzin,"US$3,848","8.5
+Scored 8.5",Very Good,"5,360"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$2,101","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Barceló Carmen Granada,"US$2,456","9.0
+Scored 9.0",Wonderful,"1,174"
+Hotel,97.0,Occidental Granada,"US$1,611","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,97.0,Hotel Andalucía Center,"US$1,632","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,97.0,Hotel Granada Center,"US$2,225","9.1
+Scored 9.1",Wonderful,"8,515"
+Hotel,97.0,Ibis Granada,"US$1,057","8.3
+Scored 8.3",Very Good,"4,323"
+Hotel,97.0,Áurea Catedral by Eurostars Hotel Company,"US$3,112","9.2
+Scored 9.2",Wonderful,"5,624"
+Hotel,97.0,Barceló Granada Congress,"US$2,138","8.5
+Scored 8.5",Very Good,"4,974"
+Apartamentos,95.0,Magdalena Apartament,"US$1,108","10
+Scored 10",Exceptional,2
+Apartamentos,95.0,Suite Alhambra Puerta Bib-Rambla,"US$1,898","9.0
+Scored 9.0",Wonderful,21
+Apartamentos,95.0,"Granada centro, amplio, wifi y A/C",US$858,-,-,-
+Apartamentos,95.0,Apartamento Albaycin Granada,US$999,"8.8
+Scored 8.8",Excellent,261
+Apartamentos,95.0,"2D Apartamento en Albaycín, en el centro de Granada",US$973,"8.3
+Scored 8.3",Very Good,30
+Apartamentos,95.0,tuGuest Station 2 apartment,US$922,"8.2
+Scored 8.2",Very Good,76
+Apartamentos,95.0,"Conjunto Altos de Vista Nevada,nº11,portal 7,1ºA.",US$836,"9.3
+Scored 9.3",Wonderful,32
+Apartamentos,95.0,BiBo Suites Real Chancilleria,"US$1,928","9.5
+Scored 9.5",Exceptional,"2,022"
+Apartamentos,95.0,2 Apartamento en el Centro de Granada,US$956,"7.3
+Scored 7.3",Good,35
+Apartamentos,95.0,tuGuest El Rincón de Felisa,"US$1,111","9.0
+Scored 9.0",Wonderful,22
+Apartamentos,95.0,Cielo Granada,"US$1,781","8.9
+Scored 8.9",Excellent,121
+Apartamentos,95.0,Apartamento 3 dormitorios con aire acondicionado,US$836,"7.6
+Scored 7.6",Good,101
+Apartamentos,95.0,Apartamento Con Parking Gratuito,US$912,"7.1
+Scored 7.1",Good,84
+Apartamentos,95.0,Alhambra Apartments,US$649,"7.9
+Scored 7.9",Good,21
+Apartamentos,95.0,tuGuest Gran Vía Deluxe,"US$1,419",-,-,-
+Apartamentos,95.0,Great Apartment Granada City Centre,"US$2,660","9.5
+Scored 9.5",Exceptional,48
+Apartamentos,95.0,tuGuest Manuel de Falla Apartment,"US$1,076","9.0
+Scored 9.0",Wonderful,24
+Apartamentos,95.0,Casa con alma,"US$1,032",-,-,-
+Apartamentos,95.0,Lightbooking Granada Materno,US$883,"8.2
+Scored 8.2",Very Good,13
+Apartamentos,95.0,Lightbooking Plaza de Toros Granada,"US$1,661","8.4
+Scored 8.4",Very Good,39
+Apartamentos,95.0,Apartamento Palacio céntrico y silencioso 4-8 personas,"US$1,651",-,-,-
+Apartamentos,95.0,APARTAMENTOS LA MARIANA II,"US$2,063",-,-,-
+Apartamentos,95.0,El Refugio De Noa,"US$1,042",-,-,-
+Apartamentos,95.0,Casa Benzambra,"US$1,223",-,-,-
+Apartamentos,95.0,Biznaga Nevada,"US$3,013","10
+Scored 10",Exceptional,3
+Hotel,97.0,BiBo Suites San Agustín,"US$1,424","9.4
+Scored 9.4",Wonderful,944
+Hotel,97.0,Meliá Granada,"US$5,423","8.2
+Scored 8.2",Very Good,"1,953"
+Hotel,97.0,Suites Gran Vía 44,"US$1,794","9.0
+Scored 9.0",Wonderful,"1,098"
+Hotel,97.0,Hotel Mercader de Sedas,"US$2,036","8.5
+Scored 8.5",Very Good,"2,090"
+Hotel,97.0,Casual Ilbira Granada,"US$2,388","8.7
+Scored 8.7",Excellent,409
+Hotel,97.0,Gran Hotel Luna de Granada,"US$1,648","8.5
+Scored 8.5",Very Good,"9,442"
+Hotel,97.0,Bubaqia House - Suites Boutique,"US$2,101","9.8
+Scored 9.8",Exceptional,17
+Hotel,97.0,Eurostars Puerta Real,"US$2,506","8.9
+Scored 8.9",Excellent,"4,056"
+Hotel,97.0,Hotel Casa Palacete Tablas,"US$2,693","9.0
+Scored 9.0",Wonderful,61
+Hotel,97.0,Porcel Navas,"US$2,065","8.7
+Scored 8.7",Excellent,"2,145"
+Hotel,97.0,Occidental Granada,"US$1,668","8.7
+Scored 8.7",Excellent,"3,125"
+Hotel,97.0,Hotel Andalucía Center,"US$1,632","8.8
+Scored 8.8",Excellent,"7,183"
+Hotel,97.0,Porcel Alixares,"US$1,464","8.4
+Scored 8.4",Very Good,"9,280"
+Hotel,97.0,Abadía Hotel,"US$1,880","8.5
+Scored 8.5",Very Good,"4,220"
+Hotel,97.0,Hotel Macià Monasterio de los Basilios,"US$1,450","8.1
+Scored 8.1",Very Good,"2,708"
+Hotel,97.0,Hotel Macià Cóndor,"US$1,450","7.7
+Scored 7.7",Good,"1,834"
+Hotel,97.0,Hotel Macià Real De La Alhambra,"US$1,339","8.5
+Scored 8.5",Very Good,"5,084"
+Hotel,97.0,Porcel Sabica,"US$1,641","8.3
+Scored 8.3",Very Good,"4,415"
+Hotel,97.0,Senator Granada,"US$1,706","8.4
+Scored 8.4",Very Good,"3,309"
+Hotel,97.0,Exe Triunfo Granada,"US$1,738","8.0
+Scored 8.0",Very Good,"2,728"
+Hotel,97.0,Crisol Guadalupe,"US$1,762","8.5
+Scored 8.5",Very Good,"4,696"
+Hotel,97.0,Barceló Granada Congress,"US$2,184","8.5
+Scored 8.5",Very Good,"4,974"
+Hotel,97.0,Las Nieves,"US$1,962","8.4
+Scored 8.4",Very Good,"2,349"
+Hotel,97.0,Allegro Granada,"US$1,857","8.6
+Scored 8.6",Excellent,"4,142"
+Hotel,97.0,Hotel Dauro Premier,"US$2,270","8.6
+Scored 8.6",Excellent,"1,380"
+Hotel,97.0,Áurea Washington Irving by Eurostars Hotel Company,"US$3,648","8.9
+Scored 8.9",Excellent,"2,629"

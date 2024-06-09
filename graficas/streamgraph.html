@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamgraph con D3.js</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .legend {
+            font-size: 12px;
+        }
+        .legend rect {
+            width: 10px;
+            height: 10px;
+            fill-opacity: 0.7;
+        }
+        .legend text {
+            fill: #000;
+            font-size: 12px;
+            padding: 2px;
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 6px;
+            font: 12px sans-serif;
+            background: lightsteelblue;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="num-personas">Selecciona el número de personas:</label>
+        <select id="num-personas">
+            <option value="2">2 personas</option>
+            <option value="4">4 personas</option>
+            <option value="5">5 personas</option>
+            <option value="7">7 personas</option>
+        </select>
+    </div>
+    <div id="streamgraph"></div>
+
+    <script>
+        var width = 900;
+        var height = 500;
+        var margin = { top: 40, right: 100, bottom: 60, left: 100 };
+        var tooltip = d3.select("body").append("div").attr("class", "tooltip");
+        var svg = d3.select("#streamgraph")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        function cargarGrafico(numPersonas) {
+            var csvFile;
+            switch (numPersonas) {
+                case 2:
+                    csvFile = "datos_apartamentos.csv";
+                    break;
+                case 4:
+                    csvFile = "datos_apartamentos_4.csv";
+                    break;
+                case 5:
+                    csvFile = "datos_apartamentos_5.csv";
+                    break;
+                case 7:
+                    csvFile = "datos_apartamentos_7.csv";
+                    break;
+                default:
+                    console.log("Número de personas no válido.");
+                    return;
+            }
+
+            d3.csv(csvFile).then(function(data) {
+                // Filtrar las columnas necesarias
+                var keys = ["1", "6", "8", "13", "15", "20", "22", "27"];
+                var filteredData = data.map(function(d) {
+                    var newData = { "check-in": d["check-in"] };
+                    keys.forEach(function(key) {
+                        newData[key] = +d[key];
+                    });
+                    return newData;
+                });
+
+                // Escala de tiempo
+                var x = d3.scaleUtc()
+                    .domain(d3.extent(filteredData, d => new Date(d["check-in"])))
+                    .range([margin.left, width - margin.right]);
+
+                // Escala para el eje Y
+                var y = d3.scaleLinear()
+                    .range([height - margin.bottom, margin.top]);
+
+                // Escala de color
+                var color = d3.scaleOrdinal()
+                    .domain(keys)
+                    .range(d3.schemeCategory10);
+
+                // Generar el stack
+                var stack = d3.stack()
+                    .keys(keys)
+                    .order(d3.stackOrderNone)
+                    .offset(d3.stackOffsetSilhouette);
+
+                var series = stack(filteredData);
+
+                // Escalar el eje Y con los datos apilados
+                y.domain([
+                    d3.min(series, function(layer) { return d3.min(layer, function(d) { return d[0]; }); }),
+                    d3.max(series, function(layer) { return d3.max(layer, function(d) { return d[1]; }); })
+                ]);
+
+                // Área
+                var area = d3.area()
+                    .x(function(d) { return x(new Date(d.data["check-in"])); })
+                    .y0(function(d) { return y(d[0]); })
+                    .y1(function(d) { return y(d[1]); });
+
+                // Limpiar el SVG antes de dibujar
+                svg.selectAll("*").remove();
+
+                // Dibujar el streamgraph
+                svg.selectAll("path")
+                    .data(series)
+                    .enter().append("path")
+                    .attr("fill", function(d) { return color(d.key); })
+                    .attr("d", area);
+
+                // Agregar ejes
+                svg.append("g")
+                    .attr("transform", `translate(0,${height - margin.bottom})`)
+                    .call(d3.axisBottom(x));
+
+                svg.append("g")
+                    .attr("transform", `translate(${margin.left},0)`)
+                    .call(d3.axisLeft(y));
+
+                // Agregar leyenda
+                var legend = svg.selectAll(".legend")
+                    .data(keys.slice().reverse())
+                    .enter().append("g")
+                    .attr("class", "legend")
+                    .attr("transform", function(d, i) { return "translate(" + (width - margin.right + 20) + "," + (i * 20 + 20) + ")"; });
+
+                legend.append("rect")
+                    .attr("x", 0)
+                    .attr("width", 18)
+                    .attr("height", 18)
+                    .style("fill", color);
+
+                legend.append("text")
+                    .attr("x", 22)
+                    .attr("y", 9)
+                    .attr("dy", ".35em")
+                    .style("text-anchor", "start")
+                    .text(function(d) { return d; });
+            }).catch(function(error) {
+                console.error('Error al cargar el archivo CSV:', error);
+            });
+        }
+
+        cargarGrafico(2);
+
+        // Escuchar cambios en la selección del número de personas y cargar el gráfico correspondiente
+        document.getElementById("num-personas").addEventListener("change", function() {
+            var numPersonas = parseInt(this.value);
+            cargarGrafico(numPersonas);
+        });
+    </script>
+</body>
+</html>
