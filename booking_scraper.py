@@ -67,8 +67,8 @@ def scrape_results(page, accommodation_type, checkin, checkout, num_adults, num_
 
 def main():
     with sync_playwright() as p:
-        checkin_date = ['2024-06-06', '2024-06-11', '2024-06-13', '2024-06-18', '2024-06-20', '2024-06-25', '2024-06-27', '2024-07-02']
-        checkout_date = ['2024-06-09', '2024-06-14', '2024-06-16', '2024-06-21', '2024-06-23', '2024-06-28', '2024-06-30', '2024-07-04']
+        checkin_date = ['2024-06-13', '2024-06-18', '2024-06-20', '2024-06-25', '2024-06-27', '2024-07-02', '2024-07-04', '2024-07-09']
+        checkout_date = ['2024-06-16', '2024-06-21', '2024-06-23', '2024-06-28', '2024-06-30', '2024-07-05', '2024-07-07', '2024-07-12']
         num_adults = ['2', '2', '5', '4' , '7']
         num_children = ['0', '2', '0', '3', '0']
         all_results = []
@@ -112,10 +112,10 @@ def main():
         df.at[0, 'Fecha'] = fecha_actual
 
         # Guardar en Excel
-        df.to_excel('resultados/lista_booking22.xlsx', index=False)
+        df.to_excel('resultados/lista_booking24.xlsx', index=False)
 
         # Guardar en CSV
-        df.to_csv('resultados/lista_booking22.csv', index=False)
+        df.to_csv('resultados/lista_booking24.csv', index=False)
 
 if __name__ == '__main__':
     main()
