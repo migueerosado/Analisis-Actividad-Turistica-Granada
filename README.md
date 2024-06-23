@@ -5,7 +5,6 @@ Este proyecto analiza la actividad turística en Granada mediante la recopilaci�
 ## Requisitos Previos
 
 - Python 3.7 o superior
-- Navegador Google Chrome o Chromium
 - Dependencias de Python listadas en `requirements.txt`
 
 ## Instalación
@@ -79,7 +78,7 @@ Para ejecutar la aplicación web localmente, sigue estos pasos:
 
 3. **Abre un navegador web y accede a:**
     ```
-    http://localhost:8000
+    http://localhost:8000/rutadelarchivo
     ```
 
 ## Estructura del Proyecto
