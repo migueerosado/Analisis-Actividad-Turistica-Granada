@@ -11,6 +11,11 @@
     <script src="https://unpkg.com/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
 
     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
         #container2 {
             width: 80%;
             margin: 0 auto;
@@ -59,9 +64,6 @@
         .legend-item:hover {
             opacity: 0.5;
         }
-        .hidden {
-            display: none;
-        }
         .filter-value-button {
             margin-right: 5px;
             margin-bottom: 5px;
@@ -102,6 +104,26 @@
             height: 20px;
             margin-right: 10px;
         }
+        #info-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+    
+        .info-icon {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+    
+        .info-message {
+            display: none;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    
     </style>
 </head>
 <body>
@@ -205,12 +227,19 @@
         <button id="add-filter-button">Añadir filtro</button>
     </div>
 
+    <div id="info-container">
+        <i class="bi bi-info-circle info-icon"></i>
+        <div class="info-message">Cuando se selecciona 'días de antelación' como variable del eje X, los filtros disponibles son 'tipo' y 'pax'. Además, para una correcta
+            visualización, se recomienda que solo se introduzcan un valor por cada variable de filtro. Es decir, seleccionar 'tipo' = Apartamentos y 'pax' = 2. De esta manera 
+            se verá una evolución correcta de las fechas estudiadas.
+        </div>
+    </div>
+
     <div id="chart-container"></div>
     <div id="legend-container"></div>
 </div>
-
 <script>
-    d3.csv("../booking_scraper/graficas/datos.csv").then(function(data) {
+    d3.csv("../graficas/datos.csv").then(function(data) {
         const parseDate = d3.timeParse("%Y-%m-%d");
         data.forEach(d => {
             if (d['check-in']) {
@@ -218,7 +247,7 @@
             }
         });
 
-        d3.csv("../booking_scraper/graficas/precios.csv").then(function(precioData) {
+        d3.csv("../graficas/precios.csv").then(function(precioData) {
             precioData.forEach(d => {
                 if (d['check-in']) {
                     d['check-in'] = parseDate(d['check-in']);
@@ -231,12 +260,23 @@
             });
 
             const variables = Object.keys(data[0]);
+            const dias_anticipacion = [1, 6, 8, 13, 15, 20, 22, 27];
 
             const chartTypeSelector = document.getElementById("chart-type-selector");
             const xVariableSelector = document.getElementById("x-variable-selector");
             const yVariableSelector = document.getElementById("y-variable-selector");
             const filterControls = document.getElementById("filter-controls");
             const addFilterButton = document.getElementById("add-filter-button");
+            const infoIcon = document.querySelector(".info-icon");
+            const infoMessage = document.querySelector(".info-message");
+
+            infoIcon.addEventListener("click", () => {
+                if (infoMessage.style.display === "block") {
+                    infoMessage.style.display = "none";
+                } else {
+                    infoMessage.style.display = "block";
+                }
+            });
 
             // Clear any existing options in the x-variable selector
             xVariableSelector.innerHTML = "";
@@ -380,99 +420,26 @@
                     .style("opacity", 0);
 
                 if (xVariable === "dias de antelacion") {
-                    // Crear los datos transpuestos para ocupación o precio
-                    const columnsToPlot = yVariable === "ocupacion" ? [1, 6, 8, 13, 15, 20, 22, 27] : Object.keys(filteredData[0]).filter(key => !isNaN(key));
-                    const filteredColumns = filteredDataFinal.map(d => {
-                        const filtered = {};
-                        filtered['check-in'] = d['check-in'];
+                    const columnsToPlot = [1, 6, 8, 13, 15, 20, 22, 27];
+                    const dfTransposed = {};
+
+                    filteredDataFinal.forEach(d => {
+                        const checkInDate = d['check-in'];
                         columnsToPlot.forEach(col => {
-                            filtered[col] = d[col];
+                            if (!dfTransposed[checkInDate]) {
+                                dfTransposed[checkInDate] = {};
+                            }
+                            dfTransposed[checkInDate][col] = d[col];
                         });
-                        return filtered;
                     });
 
-                    const transposedData = filteredColumns.reduce((acc, curr) => {
-                        const date = curr['check-in'];
-                        columnsToPlot.forEach(col => {
-                            if (!acc[col]) acc[col] = [];
-                            acc[col].push({ date: date, value: curr[col] });
-                        });
-                        return acc;
-                    }, {});
-
-                    const xScale = d3.scaleTime()
-                        .domain(d3.extent(filteredDataFinal, d => d['check-in']))
+                    const xScale = d3.scalePoint()
+                        .domain(dias_anticipacion)
                         .range([0, innerWidth]);
 
                     const yScale = d3.scaleLinear()
-                        .domain([0, d3.max(filteredDataFinal, d => d3.max(columnsToPlot, col => d[col]))])
-                        .range([innerHeight, 0]);
-
-                    const xAxis = d3.axisBottom(xScale)
-                        .tickFormat(d3.timeFormat("%b %d"));
-                    svg.append("g")
-                        .attr("transform", `translate(0, ${innerHeight})`)
-                        .call(xAxis)
-                        .append("text")
-                        .attr("x", innerWidth / 2)
-                        .attr("y", margin.bottom - 10)
-                        .attr("fill", "black")
-                        .attr("text-anchor", "middle")
-                        .text(xVariable);
-
-                    const yAxis = d3.axisLeft(yScale);
-                    svg.append("g")
-                        .call(yAxis)
-                        .append("text")
-                        .attr("transform", "rotate(-90)")
-                        .attr("x", -innerHeight / 2)
-                        .attr("y", -margin.left + 15)
-                        .attr("fill", "black")
-                        .attr("text-anchor", "middle")
-                        .text(yVariable === "ocupacion" ? "Ocupación (%)" : "Precio");
-
-                    const line = d3.line()
-                        .x(d => xScale(d.date))
-                        .y(d => yScale(d.value));
-
-                    columnsToPlot.forEach((col, index) => {
-                        svg.append("path")
-                            .datum(transposedData[col])
-                            .attr("fill", "none")
-                            .attr("stroke", colorScale(index))
-                            .attr("stroke-width", 1.5)
-                            .attr("d", line);
-
-                        svg.selectAll(".point" + index)
-                            .data(transposedData[col])
-                            .enter()
-                            .append("circle")
-                            .attr("class", "point" + index)
-                            .attr("cx", d => xScale(d.date))
-                            .attr("cy", d => yScale(d.value))
-                            .attr("r", 4)
-                            .style("fill", colorScale(index))
-                            .on("mouseover", (event, d) => {
-                                tooltip.transition()
-                                    .duration(200)
-                                    .style("opacity", .9);
-                                tooltip.html(`Fecha: ${d3.timeFormat("%Y-%m-%d")(d.date)}<br>Valor: ${d.value}`)
-                                    .style("left", (event.pageX + 5) + "px")
-                                    .style("top", (event.pageY - 28) + "px");
-                            })
-                            .on("mouseout", () => {
-                                tooltip.transition()
-                                    .duration(500)
-                                    .style("opacity", 0);
-                            });
-                    });
-                } else if (chartType === "line") {
-                    const xScale = d3.scaleTime()
-                        .domain(d3.extent(filteredDataFinal, d => d[xVariable]))
-                        .range([0, innerWidth]);
-
-                    const yScale = d3.scaleLinear()
-                        .domain([d3.min(filteredDataFinal, d => +d[yVariable]) - 10, d3.max(filteredDataFinal, d => +d[yVariable]) + 1])
+                        .domain([d3.min(Object.values(dfTransposed), d => d3.min(dias_anticipacion, col => d[col])) - 5, 
+                                 d3.max(Object.values(dfTransposed), d => d3.max(dias_anticipacion, col => d[col])) + 5])
                         .range([innerHeight, 0]);
 
                     const xAxis = d3.axisBottom(xScale);
@@ -495,32 +462,180 @@
                         .attr("y", -margin.left + 15)
                         .attr("fill", "black")
                         .attr("text-anchor", "middle")
-                        .text(yVariable);
-
-                    const seriesLength = 18;
-                    const dataSeries = splitDataIntoSeries(filteredDataFinal, seriesLength);
+                        .text(yVariable === "ocupacion" ? "Ocupación (%)" : "Precio");
 
                     const line = d3.line()
-                        .x(d => xScale(d[xVariable]))
-                        .y(d => yScale(d[yVariable]));
+                        .x(d => xScale(d.dia))
+                        .y(d => yScale(d.value));
 
-                    dataSeries.forEach((series, index) => {
+                    Object.keys(dfTransposed).forEach((checkInDate, index) => {
+                        const transposedData = dias_anticipacion.map(dia => ({
+                            dia: dia,
+                            value: dfTransposed[checkInDate][dia],
+                            checkInDate: checkInDate 
+                        }));
+
                         svg.append("path")
-                            .datum(series)
+                            .datum(transposedData)
                             .attr("fill", "none")
                             .attr("stroke", colorScale(index))
                             .attr("stroke-width", 1.5)
                             .attr("d", line);
 
                         svg.selectAll(".point" + index)
-                            .data(series)
+                            .data(transposedData)
                             .enter()
                             .append("circle")
                             .attr("class", "point" + index)
-                            .attr("cx", d => xScale(d[xVariable]))
-                            .attr("cy", d => yScale(d[yVariable]))
+                            .attr("cx", d => xScale(d.dia))
+                            .attr("cy", d => yScale(d.value))
                             .attr("r", 4)
                             .style("fill", colorScale(index))
+                            .on("mouseover", (event, d) => {
+                                tooltip.transition()
+                                    .duration(200)
+                                    .style("opacity", .9);
+                                tooltip.html(`Día de antelación: ${d.dia}<br>Valor: ${d.value}<br>Check-in: ${d3.timeFormat("%Y-%m-%d")(d3.isoParse(d.checkInDate))}`)
+                                    .style("left", (event.pageX + 5) + "px")
+                                    .style("top", (event.pageY - 28) + "px");
+                            })
+                            .on("mouseout", () => {
+                                tooltip.transition()
+                                    .duration(500)
+                                    .style("opacity", 0);
+                            });
+                    });
+
+                    // Mostrar mensaje informativo
+                    infoMessage.style.display = "block";
+                } else {
+                    // Ocultar mensaje informativo
+                    infoMessage.style.display = "none";
+
+                    if (chartType === "line") {
+                        const xScale = d3.scaleTime()
+                            .domain(d3.extent(filteredDataFinal, d => d[xVariable]))
+                            .range([0, innerWidth]);
+
+                        const yScale = d3.scaleLinear()
+                            .domain([d3.min(filteredDataFinal, d => +d[yVariable]) - 10, d3.max(filteredDataFinal, d => +d[yVariable]) + 1])
+                            .range([innerHeight, 0]);
+
+                        const xAxis = d3.axisBottom(xScale);
+                        svg.append("g")
+                            .attr("transform", `translate(0, ${innerHeight})`)
+                            .call(xAxis)
+                            .append("text")
+                            .attr("x", innerWidth / 2)
+                            .attr("y", margin.bottom - 10)
+                            .attr("fill", "black")
+                            .attr("text-anchor", "middle")
+                            .text(xVariable);
+
+                        const yAxis = d3.axisLeft(yScale);
+                        svg.append("g")
+                            .call(yAxis)
+                            .append("text")
+                            .attr("transform", "rotate(-90)")
+                            .attr("x", -innerHeight / 2)
+                            .attr("y", -margin.left + 15)
+                            .attr("fill", "black")
+                            .attr("text-anchor", "middle")
+                            .text(yVariable);
+
+                        const seriesLength = 18;
+                        const dataSeries = splitDataIntoSeries(filteredDataFinal, seriesLength);
+
+                        const line = d3.line()
+                            .x(d => xScale(d[xVariable]))
+                            .y(d => yScale(d[yVariable]));
+
+                        dataSeries.forEach((series, index) => {
+                            svg.append("path")
+                                .datum(series)
+                                .attr("fill", "none")
+                                .attr("stroke", colorScale(index))
+                                .attr("stroke-width", 1.5)
+                                .attr("d", line);
+
+                            svg.selectAll(".point" + index)
+                                .data(series)
+                                .enter()
+                                .append("circle")
+                                .attr("class", "point" + index)
+                                .attr("cx", d => xScale(d[xVariable]))
+                                .attr("cy", d => yScale(d[yVariable]))
+                                .attr("r", 4)
+                                .style("fill", colorScale(index))
+                                .on("mouseover", (event, d) => {
+                                    const filtersText = Object.keys(filters)
+                                        .filter(filter => filter !== 'tipo' && filter !== 'pax')
+                                        .map(filter => `${filter}: ${d[filter]}`).join("<br>");
+                                    tooltip.transition()
+                                        .duration(200)
+                                        .style("opacity", .9);
+                                    tooltip.html(`${xVariable}: ${d3.timeFormat("%Y-%m-%d")(d[xVariable])}<br>${yVariable}: ${d[yVariable]}<br>${filtersText}<br>tipo: ${d.tipo}<br>pax: ${d.pax}`)
+                                        .style("left", (event.pageX + 5) + "px")
+                                        .style("top", (event.pageY - 28) + "px");
+                                })
+                                .on("mouseout", () => {
+                                    tooltip.transition()
+                                        .duration(500)
+                                        .style("opacity", 0);
+                                });
+                        });
+                    } else if (chartType === "bar") {
+                        const MAX_BAR_WIDTH = 100;
+
+                        const xScale = d3.scaleBand()
+                            .domain(filteredDataFinal.map(d => d[xVariable]))
+                            .range([0, innerWidth])
+                            .padding(0.1);
+
+                        const yScale = d3.scaleLinear()
+                            .domain([0, d3.max(filteredDataFinal, d => +d[yVariable])])
+                            .range([innerHeight, 0]);
+
+                        let xAxis = d3.axisBottom(xScale);
+
+                        if (xVariable === 'check-in') {
+                            xAxis = d3.axisBottom(xScale)
+                                .tickFormat(d3.timeFormat("%b %d")); // Formatear las fechas como "Abr 18"
+                        }
+
+                        svg.append("g")
+                            .attr("transform", `translate(0, ${innerHeight})`)
+                            .call(xAxis)
+                            .append("text")
+                            .attr("x", innerWidth / 2)
+                            .attr("y", margin.bottom - 10)
+                            .attr("fill", "black")
+                            .attr("text-anchor", "middle")
+                            .text(xVariable);
+
+                        const yAxis = d3.axisLeft(yScale);
+                        svg.append("g")
+                            .call(yAxis)
+                            .append("text")
+                            .attr("transform", "rotate(-90)")
+                            .attr("x", -innerHeight / 2)
+                            .attr("y", -margin.left + 15)
+                            .attr("fill", "black")
+                            .attr("text-anchor", "middle")
+                            .text(yVariable);
+
+                        const barWidth = Math.min((xScale.bandwidth() / filteredDataFinal.length) * 10, MAX_BAR_WIDTH);
+
+                        svg.selectAll(".bar")
+                            .data(filteredDataFinal)
+                            .enter()
+                            .append("rect")
+                            .attr("class", "bar")
+                            .attr("x", (d, i) => xScale(d[xVariable]) + i * (xScale.bandwidth() / filteredDataFinal.length) + (xScale.bandwidth() / 20 - barWidth / 20))
+                            .attr("y", d => yScale(d[yVariable]))
+                            .attr("width", barWidth)
+                            .attr("height", d => innerHeight - yScale(d[yVariable]))
+                            .attr("fill", (d, i) => colorScale(i))
                             .on("mouseover", (event, d) => {
                                 const filtersText = Object.keys(filters)
                                     .filter(filter => filter !== 'tipo' && filter !== 'pax')
@@ -537,75 +652,7 @@
                                     .duration(500)
                                     .style("opacity", 0);
                             });
-                    });
-                } else if (chartType === "bar") {
-                    const MAX_BAR_WIDTH = 100;
-
-                    const xScale = d3.scaleBand()
-                        .domain(filteredDataFinal.map(d => d[xVariable]))
-                        .range([0, innerWidth])
-                        .padding(0.1);
-
-                    const yScale = d3.scaleLinear()
-                        .domain([0, d3.max(filteredDataFinal, d => +d[yVariable])])
-                        .range([innerHeight, 0]);
-
-                    let xAxis = d3.axisBottom(xScale);
-
-                    if (xVariable === 'check-in') {
-                        xAxis = d3.axisBottom(xScale)
-                            .tickFormat(d3.timeFormat("%b %d")); // Formatear las fechas como "Abr 18"
                     }
-
-                    svg.append("g")
-                        .attr("transform", `translate(0, ${innerHeight})`)
-                        .call(xAxis)
-                        .append("text")
-                        .attr("x", innerWidth / 2)
-                        .attr("y", margin.bottom - 10)
-                        .attr("fill", "black")
-                        .attr("text-anchor", "middle")
-                        .text(xVariable);
-
-                    const yAxis = d3.axisLeft(yScale);
-                    svg.append("g")
-                        .call(yAxis)
-                        .append("text")
-                        .attr("transform", "rotate(-90)")
-                        .attr("x", -innerHeight / 2)
-                        .attr("y", -margin.left + 15)
-                        .attr("fill", "black")
-                        .attr("text-anchor", "middle")
-                        .text(yVariable);
-
-                    const barWidth = Math.min((xScale.bandwidth() / filteredDataFinal.length) * 10, MAX_BAR_WIDTH);
-
-                    svg.selectAll(".bar")
-                        .data(filteredDataFinal)
-                        .enter()
-                        .append("rect")
-                        .attr("class", "bar")
-                        .attr("x", (d, i) => xScale(d[xVariable]) + i * (xScale.bandwidth() / filteredDataFinal.length) + (xScale.bandwidth() / 20 - barWidth / 20))
-                        .attr("y", d => yScale(d[yVariable]))
-                        .attr("width", barWidth)
-                        .attr("height", d => innerHeight - yScale(d[yVariable]))
-                        .attr("fill", (d, i) => colorScale(i))
-                        .on("mouseover", (event, d) => {
-                            const filtersText = Object.keys(filters)
-                                .filter(filter => filter !== 'tipo' && filter !== 'pax')
-                                .map(filter => `${filter}: ${d[filter]}`).join("<br>");
-                            tooltip.transition()
-                                .duration(200)
-                                .style("opacity", .9);
-                            tooltip.html(`${xVariable}: ${d3.timeFormat("%Y-%m-%d")(d[xVariable])}<br>${yVariable}: ${d[yVariable]}<br>${filtersText}<br>tipo: ${d.tipo}<br>pax: ${d.pax}`)
-                                .style("left", (event.pageX + 5) + "px")
-                                .style("top", (event.pageY - 28) + "px");
-                        })
-                        .on("mouseout", () => {
-                            tooltip.transition()
-                                .duration(500)
-                                .style("opacity", 0);
-                        });
                 }
                 // Eliminar tooltip al remover el gráfico
                 d3.select("#chart-container").on("remove", () => tooltip.remove());
@@ -630,6 +677,54 @@
                     precioOption.value = "precio";
                     precioOption.textContent = "Precio";
                     yVariableSelector.appendChild(precioOption);
+
+                    // Disable bar chart option
+                    const barOption = document.querySelector("#chart-type-selector option[value='bar']");
+                    if (barOption) {
+                        barOption.disabled = true;
+                    }
+
+                    // Update filter controls to show only 'tipo' and 'pax'
+                    filterControls.innerHTML = '';
+                    ['tipo', 'pax'].forEach(variable => {
+                        const filterContainer = document.createElement("div");
+                        filterContainer.className = "filter-container";
+
+                        const filterVariableSelector = document.createElement("select");
+                        filterVariableSelector.className = "filter-variable-selector";
+                        const filterOption = document.createElement("option");
+                        filterOption.value = variable;
+                        filterOption.textContent = variable;
+                        filterVariableSelector.appendChild(filterOption);
+
+                        const filterValueContainer = document.createElement("div");
+                        filterValueContainer.className = "filter-value-container";
+
+                        const noneButton = document.createElement("button");
+                        noneButton.className = "filter-none-button";
+                        noneButton.textContent = "Ninguno";
+                        noneButton.addEventListener("click", () => {
+                            filterValueContainer.querySelectorAll('button').forEach(button => {
+                                button.classList.remove('selected');
+                                button.style.border = "";
+                                button.style.color = "";
+                            });
+                            updateChart();
+                        });
+
+                        filterVariableSelector.addEventListener("change", () => {
+                            updateFilterValues(filterVariableSelector, filterValueContainer);
+                        });
+
+                        filterContainer.appendChild(filterVariableSelector);
+                        filterContainer.appendChild(filterValueContainer);
+                        filterContainer.appendChild(noneButton);
+                        filterControls.appendChild(filterContainer);
+
+                        updateFilterValues(filterVariableSelector, filterValueContainer);
+                    });
+
+                    infoMessage.style.display = "block";
                 } else {
                     yVariableSelector.innerHTML = "";
                     variables.forEach(variable => {
@@ -637,7 +732,20 @@
                         yOption.value = variable;
                         yOption.textContent = variable;
                         yVariableSelector.appendChild(yOption);
+
                     });
+
+                    // Enable bar chart option
+                    const barOption = document.querySelector("#chart-type-selector option[value='bar']");
+                    if (barOption) {
+                        barOption.disabled = false;
+                    }
+
+                    // Reset filter controls
+                    filterControls.innerHTML = '';
+                    createFilterControl();
+
+                    infoMessage.style.display = "none";
                 }
                 updateChart();
             });
@@ -652,9 +760,7 @@
         });
     });
 </script>
-
-
-    <br>
+<br>
     <div id="container-sankey" class="container mt-5 mb-5">
         <h1 class="text-center mt-5 mb-5">Diagrama de Sankey: Flujos de Reservas</h1>
         <p class="mt-5 mb-5"> Un Sankey Chart es un tipo de gráfico de flujo que se utiliza para visualizar las transferencias o flujos entre diferentes entidades o nodos. 
@@ -693,7 +799,7 @@
             else return "Premium";
         }
     
-        d3.csv("../booking_scraper/graficas/datos.csv").then(data => {
+        d3.csv("../graficas/datos.csv").then(data => {
             const graph = { nodes: [], links: [] };
     
             function getNodeIndex(name) {
@@ -781,19 +887,19 @@
     <div id="container-bubble" class="container mt-5 mb-5">
         <h1 class="text-center mt-5 mb-5">Gráfico de Burbujas: Tipo de Alojamiento, Pax y Precio</h1>
         <p class="mt-5 mb-2">
-            Un Bubble Chart es una variación del gráfico de dispersión en el que los datos se representan mediante burbujas en lugar de puntos. 
+            Un Bubble Chart es una variación del gráfico de dispersión en el que los datos se representan mediante burbujas en lugar de puntos.
             Cada burbuja tiene tres dimensiones de datos: las coordenadas X e Y determinan su posición, y el tamaño de la burbuja representa un tercer valor.
             <br><br>
-            El gráfico de burbujas muestra la relación entre el tipo de alojamiento, el número de personas (Pax) y el precio. Cada burbuja representa 
-            un dato específico, donde su tamaño indica el precio y su posición representa el número de personas y el tipo de alojamiento. 
+            El gráfico de burbujas muestra la relación entre el tipo de alojamiento, el número de personas (Pax) y el precio. Cada burbuja representa
+            un dato específico, donde su tamaño indica el precio y su posición representa el número de personas y el tipo de alojamiento.
         </p>
-        <svg id="bubble-chart" width="1100" height="700"></svg>
+        <svg id="bubble-chart" style="width: 100%; height: 700px;"></svg>
         <div class="tooltip" style="opacity: 0;"></div>
     
         <script>
-            const widthBubble = 1000;
-            const heightBubble = 600;
-            const marginBubble = {top: 50, right: 50, bottom: 140, left: 80};
+            const marginBubble = { top: 50, right: 50, bottom: 80, left: 80 };
+            let widthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
+            let heightBubble = 700 - marginBubble.top - marginBubble.bottom;
     
             const svgBubble = d3.select("#bubble-chart")
                 .attr("width", widthBubble + marginBubble.left + marginBubble.right)
@@ -804,23 +910,23 @@
             const tooltipBubble = d3.select(".tooltip");
     
             // Cargar datos desde el archivo CSV
-            d3.csv("../booking_scraper/graficas/datos.csv").then(data => {
+            d3.csv("../graficas/datos.csv").then(data => {
                 data.forEach(d => {
                     d.pax = +d.pax;
                     d.precio = +d.precio;
                 });
     
                 const xBubble = d3.scaleLinear()
-                    .domain([0, d3.max(data, d => d.pax) * 1.1]) // Ajusta el dominio de x
+                    .domain([0, d3.max(data, d => d.pax) * 1.1])
                     .range([0, widthBubble]);
     
                 const yBubble = d3.scaleLinear()
-                    .domain([0, d3.max(data, d => d.precio) * 1.1]) // Ajusta el dominio de y
+                    .domain([0, d3.max(data, d => d.precio)])
                     .range([heightBubble, 0]);
     
                 const colorBubble = d3.scaleOrdinal()
                     .domain(["Apartamentos", "Hotel"])
-                    .range(["#e41a1c", "#4daf4a"]); // Colores más llamativos
+                    .range(["#e41a1c", "#4daf4a"]);
     
                 const radiusBubble = d3.scaleSqrt()
                     .domain([0, d3.max(data, d => d.precio)])
@@ -853,10 +959,12 @@
     
                 svgBubble.append("g")
                     .attr("transform", `translate(0,${heightBubble})`)
-                    .call(xAxisBubble);
+                    .call(xAxisBubble)
+                    .attr("class", "x-axis");
     
                 svgBubble.append("g")
-                    .call(yAxisBubble);
+                    .call(yAxisBubble)
+                    .attr("class", "y-axis");
     
                 svgBubble.append("text")
                     .attr("x", widthBubble / 2)
@@ -873,10 +981,35 @@
             }).catch(error => {
                 console.error('Error al cargar los datos:', error);
             });
+    
+            // Ajustar el tamaño del gráfico al cambiar el tamaño de la ventana
+            window.addEventListener('resize', () => {
+                widthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
+                heightBubble = 700 - marginBubble.top - marginBubble.bottom;
+    
+                const newWidthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
+                const newHeightBubble = document.getElementById('bubble-chart').clientHeight - marginBubble.top - marginBubble.bottom;
+    
+                xBubble.range([0, newWidthBubble]);
+                yBubble.range([newHeightBubble, 0]);
+    
+                d3.select("#bubble-chart")
+                    .attr("width", newWidthBubble + marginBubble.left + marginBubble.right)
+                    .attr("height", newHeightBubble + marginBubble.top + marginBubble.bottom);
+    
+                svgBubble.select('.x-axis')
+                    .attr("transform", `translate(0,${newHeightBubble})`)
+                    .call(xAxisBubble);
+    
+                svgBubble.select('.y-axis').call(yAxisBubble);
+    
+                bubbles
+                    .attr("cx", d => xBubble(d.pax))
+                    .attr("cy", d => yBubble(d.precio))
+                    .attr("r", d => radiusBubble(d.precio));
+            });
         </script>
-    </div>
-    
-    
+    </div>         
     <footer id="footer" class="footer">
 
         <div class="container">

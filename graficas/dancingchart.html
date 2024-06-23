@@ -21,42 +21,36 @@
     <div id="legend"></div>
 
     <script>
-        d3.csv("datos_apartamentos.csv").then(function(data) {
-            // Parsea los datos
+        d3.csv("csv/datos_apartamentos.csv").then(function(data) {
             const keys = ["1", "6", "13", "20", "27"];
             const stack = d3.stack().keys(keys);
-            const stackedData = stack(data);
-    
-            // Configura dimensiones y margen del gráfico
+            let stackedData = stack(data);
+
             const margin = { top: 20, right: 30, bottom: 70, left: 40 };
             const width = 600 - margin.left - margin.right;
             const height = 400 - margin.top - margin.bottom;
-    
-            // Crea escalas X y Y
+
             const x = d3.scaleBand()
                 .domain(data.map(d => d["check-in"]))
                 .range([margin.left, width - margin.right])
                 .padding(0.1);
-    
-            const y = d3.scaleLinear()
+
+            let y = d3.scaleLinear()
                 .domain([0, d3.max(stackedData, d => d3.max(d, d => d[1]))])
                 .nice()
                 .range([height - margin.bottom, margin.top]);
-    
-            // Crea el color para las barras
+
             const color = d3.scaleOrdinal()
                 .domain(keys)
                 .range(d3.schemeCategory10);
-    
-            // Crea el SVG y agrega las barras
+
             const svg = d3.select("#chart")
-                .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom])
+                .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", `translate(${margin.left},${margin.top})`);
-    
-            // Añade las barras
+
             const bars = svg.selectAll(".bar-group")
                 .data(stackedData)
                 .join("g")
@@ -68,35 +62,45 @@
                 .attr("class", "bar")
                 .attr("x", (d, i) => x(data[i]["check-in"]))
                 .attr("width", x.bandwidth())
+                .attr("y", d => y(d[1]))
+                .attr("height", d => y(d[0]) - y(d[1]))
                 .on("click", function(event, d) {
                     const clickedCategory = d3.select(this.parentNode).datum().key;
-                    const newData = stackedData.map(stack => {
-                        return stack.map(item => {
-                            if (item.data[clickedCategory] === d.data[clickedCategory]) {
-                                return { ...item, 1: 0 };
-                            } else {
-                                return { ...item, 1: item[1] - item[0] };
-                            }
+                    const clickedValue = d.data[clickedCategory];
+
+                    // Recalcular los datos
+                    let newStackedData = stack(data.map(row => {
+                        let newRow = {...row};
+                        keys.forEach(key => {
+                            newRow[key] = +row[key] - clickedValue;
                         });
-                    });
-    
-                    // Actualiza las barras
-                    svg.selectAll(".bar-group rect")
-                        .data(newData.flat())
+                        return newRow;
+                    }));
+
+                    // Actualiza la escala y las barras
+                    y.domain([
+                        d3.min(newStackedData, d => d3.min(d, d => d[0])),
+                        d3.max(newStackedData, d => d3.max(d, d => d[1]))
+                    ]).nice();
+
+                    svg.selectAll(".bar-group")
+                        .data(newStackedData)
+                        .selectAll("rect")
+                        .data(d => d)
+                        .join("rect")
                         .transition()
                         .duration(1000)
+                        .attr("x", (d, i) => x(data[i]["check-in"]))
+                        .attr("width", x.bandwidth())
                         .attr("y", d => y(d[1]))
                         .attr("height", d => y(d[0]) - y(d[1]));
-                })
-                .attr("y", height - margin.bottom) // Establece la posición inicial de la barra
-                .attr("height", 0) // Establece la altura inicial de la barra en 0
-                .transition()
-                .delay((d, i) => i * 100)
-                .duration(1000)
-                .attr("y", d => y(d[1])) // Establece la nueva posición de la barra
-                .attr("height", d => y(d[0]) - y(d[1])); // Establece la nueva altura de la barra
-    
-            // Añade ejes X e Y
+
+                    svg.select(".y-axis")
+                        .transition()
+                        .duration(1000)
+                        .call(d3.axisLeft(y));
+                });
+
             svg.append("g")
                 .attr("class", "x-axis")
                 .attr("transform", `translate(0, ${height - margin.bottom})`)
@@ -104,38 +108,36 @@
                 .selectAll("text")
                 .style("text-anchor", "end")
                 .attr("transform", "rotate(-45)");
-    
+
             svg.append("g")
                 .attr("class", "y-axis")
                 .attr("transform", `translate(${margin.left},0)`)
                 .call(d3.axisLeft(y));
-    
-            // Crea leyenda
+
             const legend = d3.select("#legend").append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", 50)
                 .append("g")
                 .attr("transform", `translate(${margin.left},0)`);
-    
+
             const legendItems = legend.selectAll(".legend-item")
                 .data(keys)
                 .enter().append("g")
                 .attr("class", "legend-item")
                 .attr("transform", (d, i) => `translate(${i * 100},0)`);
-    
+
             legendItems.append("rect")
                 .attr("x", 0)
                 .attr("y", 10)
                 .attr("width", 10)
                 .attr("height", 10)
                 .attr("fill", d => color(d));
-    
+
             legendItems.append("text")
                 .attr("x", 15)
                 .attr("y", 19)
                 .text(d => `Apartamento ${d}`);
-    
-            // Añade título al gráfico
+
             svg.append("text")
                 .attr("x", (width / 2))
                 .attr("y", 0 - (margin.top / 2))
@@ -143,23 +145,18 @@
                 .style("font-size", "16px")
                 .style("text-decoration", "underline")
                 .text("Ocupación de apartamentos por semana");
-    
-            // Añade título al eje X
+
             svg.append("text")
                 .attr("x", width / 2)
                 .attr("y", height + margin.bottom)
                 .attr("text-anchor", "middle")
                 .text("Semana");
-    
-            // Añade título al eje Y
+
             svg.append("text")
                 .attr("text-anchor", "middle")
                 .attr("transform", `translate(${-margin.left + 10},${height / 2}) rotate(-90)`)
                 .text("Número de ocupantes");
         });
     </script>
-    
-    
 </body>
 </html>
-

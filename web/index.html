@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turismo en Granada</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3 nav-underline">
+      <div class="container">
+        <a href="index.html" class="logo navar-brand d-flex align-items-center">
+          <h1 class="sitename">ExploraGranada</h1> <span>.</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#analisis">Analisis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+   <!-- Banner Carousel -->
+  <div id="bannerCarousel" class="carousel slide banner-carousel mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/alhambra.jpg" class="d-block w-100" alt="Alhambra">
+      </div>
+      <div class="carousel-item">
+        <img src="img/paseo-tristes.jpg" class="d-block w-100" alt="Another Image">
+      </div>
+      <div class="carousel-item">
+        <img src="img/vistas-ciudad-de-granada.jpg" class="d-block w-100" alt="Yet Another Image">
+      </div>
+    </div>
+    <div class="carousel-caption">
+      <h2>Bienvenidos a Granada</h2>
+      <p>Granada es una ciudad en la región de Andalucía en el sur de España, en la ladera de las montañas de la Sierra Nevada. Es famosa por sus grandes ejemplos de arquitectura medieval que datan de la ocupación de los moros, en particular, la Alhambra.</p>
+      <a href="#get-started" class="btn btn-custom btn-lg">Conoce más</a>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- ======= About Section ======= -->
+
+  <section id="about" class="about mt-5">
+    <div class="container">
+      <div class="row gx-0">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <div class="content">
+            <h3>Quiénes Somos</h3>
+            <h2>Explora el Turismo en Granada</h2>
+            <p>
+              En nuestra página, ofrecemos una visión detallada del turismo en Granada, presentando información visual a través de gráficos interactivos. Descubre las tendencias, preferencias y estadísticas clave que muestran el impacto y la evolución del turismo en esta hermosa ciudad.
+            </p>
+            <p>
+              Utilizando datos actualizados, nuestros gráficos destacan los diferentes tipos de turismo que atraen a los visitantes a Granada. ¡Sumérgete en los datos y aprende más sobre lo que hace de Granada un destino único!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <img src="img/tursitas.jpg" class="img-fluid" alt="Turistas en Granada">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Main Content Area -->
+    <div id="analisis" class="container my-5 d-grid gap-5">
+      <div class="p-5">
+          <h1 class="text-center mt-5 mb-5">Streamgraph del análisis de la Ocupación Turística</h1>
+          <p class="mt-5">
+              Un Streamgraph es una variación del gráfico de áreas apiladas en el que las áreas se desplazan alrededor de una línea central, a menudo el eje x, lo que da como resultado un gráfico suave y ondulado. Este tipo de gráfico es útil para visualizar la evolución temporal de diferentes categorías.
+          </p>
+          <p>
+              En el siguiente gráfico, se muestra la evolución de la ocupación turística en diferentes tipos de alojamiento a lo largo del tiempo. Puedes seleccionar el tipo de alojamiento y el número de personas para ver cómo varían las tendencias.
+          </p>
+      </div>
+      <div>
+          <label for="tipo-alojamiento">Selecciona el tipo de alojamiento:</label>
+          <select id="tipo-alojamiento">
+              <option value="apartamento">Apartamento</option>
+              <option value="hotel">Hotel</option>
+          </select>
+      </div>
+      <div>
+          <label for="num-personas">Selecciona el número de personas:</label>
+          <select id="num-personas">
+              <option value="2">2 personas</option>
+              <option value="4">4 personas</option>
+              <option value="5">5 personas</option>
+              <option value="7">7 personas</option>
+          </select>
+      </div>
+      <div id="streamgraph" class="p-5 text-center"></div>
+  
+      <script>
+          var width = 900;
+          var height = 500;
+          var margin = { top: 40, right: 100, bottom: 60, left: 100 };
+          var tooltip = d3.select("body").append("div").attr("class", "tooltip").style("opacity", 0);
+  
+          var svg = d3.select("#streamgraph")
+              .append("svg")
+              .attr("width", width)
+              .attr("height", height);
+  
+          function cargarGrafico(tipoAlojamiento, numPersonas) {
+              var csvFile;
+              if (tipoAlojamiento === "apartamento") {
+                  switch (numPersonas) {
+                      case 2:
+                          csvFile = "../graficas/csv/datos_apartamentos.csv";
+                          break;
+                      case 4:
+                          csvFile = "../graficas/csv/datos_apartamentos_4.csv";
+                          break;
+                      case 5:
+                          csvFile = "../graficas/csv/datos_apartamentos_5.csv";
+                          break;
+                      case 7:
+                          csvFile = "../graficas/csv/datos_apartamentos_7.csv";
+                          break;
+                      default:
+                          console.log("Número de personas no válido.");
+                          return;
+                  }
+              } else if (tipoAlojamiento === "hotel") {
+                  switch (numPersonas) {
+                      case 2:
+                          csvFile = "../graficas/csv/datos_hoteles.csv";
+                          break;
+                      case 4:
+                          csvFile = "../graficas/csv/datos_hoteles_4.csv";
+                          break;
+                      case 5:
+                          csvFile = "../graficas/csv/datos_hoteles_5.csv";
+                          break;
+                      case 7:
+                          csvFile = "../graficas/csv/datos_hoteles_7.csv";
+                          break;
+                      default:
+                          console.log("Número de personas no válido.");
+                          return;
+                  }
+              }
+  
+              d3.csv(csvFile).then(function(data) {
+                  var keys = ["1", "6", "8", "13", "15", "20", "22", "27"];
+                  var filteredData = data.map(function(d) {
+                      var newData = { "check-in": d["check-in"] };
+                      keys.forEach(function(key) {
+                          newData[key] = +d[key];
+                      });
+                      return newData;
+                  });
+  
+                  var x = d3.scaleUtc()
+                      .domain(d3.extent(filteredData, d => new Date(d["check-in"])))
+                      .range([margin.left, width - margin.right]);
+  
+                  var y = d3.scaleLinear()
+                      .range([height - margin.bottom, margin.top]);
+  
+                  var color = d3.scaleOrdinal()
+                      .domain(keys)
+                      .range(d3.schemeCategory10);
+  
+                  var stack = d3.stack()
+                      .keys(keys)
+                      .order(d3.stackOrderNone)
+                      .offset(d3.stackOffsetSilhouette);
+  
+                  var series = stack(filteredData);
+  
+                  y.domain([
+                      d3.min(series, function(layer) { return d3.min(layer, function(d) { return d[0]; }); }),
+                      d3.max(series, function(layer) { return d3.max(layer, function(d) { return d[1]; }); })
+                  ]);
+  
+                  var area = d3.area()
+                      .x(function(d) { return x(new Date(d.data["check-in"])); })
+                      .y0(function(d) { return y(d[0]); })
+                      .y1(function(d) { return y(d[1]); });
+  
+                  svg.selectAll("*").remove();
+  
+                  svg.selectAll("path")
+                      .data(series)
+                      .enter().append("path")
+                      .attr("fill", function(d) { return color(d.key); })
+                      .attr("d", area)
+                      .on("mouseover", function(event, d) {
+                          tooltip.transition()
+                              .duration(200)
+                              .style("opacity", .9);
+                          tooltip.html("Categoria: " + d.key + " día/s de antelación")
+                              .style("left", (event.pageX + 5) + "px")
+                              .style("top", (event.pageY - 28) + "px");
+                      })
+                      .on("mouseout", function(d) {
+                          tooltip.transition()
+                              .duration(500)
+                              .style("opacity", 0);
+                      });
+  
+                  svg.append("g")
+                      .attr("transform", `translate(0,${height - margin.bottom})`)
+                      .call(d3.axisBottom(x));
+  
+                  svg.append("g")
+                      .attr("transform", `translate(${margin.left},0)`)
+                      .call(d3.axisLeft(y));
+  
+                  var legend = svg.selectAll(".legend")
+                      .data(keys.slice().reverse())
+                      .enter().append("g")
+                      .attr("class", "legend")
+                      .attr("transform", function(d, i) { return "translate(" + (width - margin.right + 20) + "," + (i * 20 + 20) + ")"; });
+  
+                  legend.append("rect")
+                      .attr("x", 0)
+                      .attr("width", 18)
+                      .attr("height", 18)
+                      .style("fill", color);
+  
+                  legend.append("text")
+                      .attr("x", 22)
+                      .attr("y", 9)
+                      .attr("dy", ".35em")
+                      .style("text-anchor", "start")
+                      .text(function(d) { return d; });
+              }).catch(function(error) {
+                  console.error('Error al cargar el archivo CSV:', error);
+              });
+          }
+  
+          var tipoAlojamiento = "apartamento";
+          var numPersonas = 2;
+          cargarGrafico(tipoAlojamiento, numPersonas);
+  
+          document.getElementById("tipo-alojamiento").addEventListener("change", function() {
+              tipoAlojamiento = this.value;
+              cargarGrafico(tipoAlojamiento, numPersonas);
+          });
+  
+          document.getElementById("num-personas").addEventListener("change", function() {
+              numPersonas = parseInt(this.value);
+              cargarGrafico(tipoAlojamiento, numPersonas);
+          });
+      </script>
+  </div>
+  <div class="p-5 text-center">
+      <a href="grafica.html" class="btn btn-custom btn-lg btn-unique">Conoce más</a>
+  </div>
+  
+  <script src="js/ejemplo.mjs"></script>
+  </div>
+  
+  
+
+    <!-- Footer -->
+<footer id="footer" class="footer">
+
+  <div class="container">
+    <div class="row gy-3">
+      <div class="col-lg-3 col-md-6 d-flex">
+        <i class="bi bi-geo-alt icon"></i>
+        <div>
+          <h4>Dirección</h4>
+          <p>
+            Dirección: Calle Gran Vía, 123 <br>
+            Granada, Andalucía - España<br>
+          </p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-telephone icon"></i>
+        <div>
+          <h4>Información</h4>
+          <p>
+            <strong>Teléfono:</strong> +34 123 456 789<br>
+            <strong>Email:</strong> info@exploragranada.com<br>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links d-flex">
+        <i class="bi bi-clock icon"></i>
+        <div>
+          <h4>Horarios</h4>
+          <p>
+            <strong>Lunes-Viernes:</strong> 9AM - 6PM<br>
+            Sábado-Domingo: Cerrado
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 footer-links">
+        <h4>Síguenos</h4>
+        <div class="social-links d-flex">
+          <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin">  <i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Derechos de autor <strong><span>ExploraGranada</span></strong>. Todos los derechos reservados
+    </div>
+  </div>
+
+</footer><!-- End Footer -->
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </body>
+</html>

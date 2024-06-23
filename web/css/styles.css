@@ -1,0 +1,553 @@
+/* styles.css */
+
+/* Fonts */
+:root {
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Roboto", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+  }
+  
+  /* Global Colors */
+  :root {
+    /* Background Color - This color is applied to the background of the entire website as well as individual sections. */
+    --background-color: #ffffff;
+  
+    /* Default Color - This is the default color used for the majority of the text content. */
+    --default-color: #364d59;
+  
+    /* Heading Color - This color is used for titles, headings and secondary elements. */
+    --heading-color: #52565e;
+  
+    /* Accent Color - This is the main accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out. */
+    --accent-color: #cc0000;
+  
+    /* Contrast Color - This is a color used for text when the background color is one of the heading, accent, or default colors. Its purpose is to ensure proper contrast and readability when placed over these more dominant colors. */
+    --contrast-color: #ffffff;
+  }
+  
+  /* Nav Menu Colors */
+  :root {
+    /* Nav Color - This is the default color of the main navmenu links. */
+    --nav-color: rgba(255, 255, 255, 0.55);
+  
+    /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
+    --nav-hover-color: #ffffff;
+  
+    /* Nav Dropdown Background Color - This color is used as the background for dropdown boxes that appear when hovering over primary navigation items. */
+    --nav-dropdown-background-color: #ffffff;
+  
+    /* Nav Dropdown Color - This color is used for navigation links of the dropdown items in the navigation menu. */
+    --nav-dropdown-color: #212529;
+  
+    /* Nav Dropdown Hover Color - Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+    --nav-dropdown-hover-color: #cc0000;
+  }
+  
+  /* Smooth scroll */
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  /*--------------------------------------------------------------
+  # General
+  --------------------------------------------------------------*/
+  body {
+    color: var(--default-color);
+    background-color: var(--background-color); 
+    font-family: var(--default-font);
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+  }
+  
+  /*--------------------------------------------------------------
+  # Logo
+  --------------------------------------------------------------*/
+  .logo img {
+    max-height: 32px;
+    margin-right: 8px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: var(--contrast-color);
+  }
+  
+  .logo span {
+    font-size: 24px;
+    padding-left: 1px;
+    font-family: var(--heading-font);
+    color: var(--color-primary);
+  }
+  
+  .scrolled .header {
+    box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn-custom {
+    border-radius: 20px; /* Hace que el botón sea redondeado */
+    background-color: transparent; /* Hace que el interior del botón sea transparente */
+    border: 2px solid var(--accent-color);
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Agrega una transición para el cambio de color de fondo y texto */
+  }
+  
+  .btn-custom:hover,
+  .btn-custom:focus {
+    background-color: var(--accent-color); /* Cambia el color de fondo a rojo cuando se pasa el cursor o se enfoca */
+    color: #ffffff; /* Cambia el color del texto a blanco cuando se pasa el cursor o se enfoca */
+  }
+  
+  .btn-custom:hover {
+    border: 2px solid var(--accent-color); /* Cambia el color del borde a rojo cuando se pasa el cursor */
+  }
+
+  .btn-unique {
+    border-radius: 20px; /* Hace que el botón sea redondeado */
+    background-color: transparent; /* Hace que el interior del botón sea transparente */
+    border: 2px solid var(--accent-color);
+    color: var(--accent-color); 
+    transition: background-color 0.3s ease, color 0.3s ease; /* Agrega una transición para el cambio de color de fondo y texto */
+  }
+  
+  /*--------------------------------------------------------------
+  # Carousel
+  --------------------------------------------------------------*/
+  .banner-carousel {
+    position: relative;
+    height: 700px;
+    overflow: hidden; /* Para ocultar cualquier desbordamiento */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: brightness(45%);
+  }
+  
+  .carousel-item {
+    position: relative;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    transition-duration: 0.4s;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .carousel-caption h2 {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 56px;
+    font-weight: 700;
+    position: relative;
+    color: white;
+  }
+  
+  .carousel-caption h2:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--accent-color);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+/* Ajustes adicionales para pantallas pequeñas y medianas */
+@media (max-width: 1020px) {
+  .banner-carousel {
+    height: 400px; /* Reducir la altura del carrusel para dispositivos medianos */
+  }
+
+  .carousel-caption h2 {
+    font-size: 28px; /* Reducir el tamaño del encabezado para dispositivos medianos */
+  }
+
+  .carousel-caption h2:after {
+    width: 40px; /* Reducir el ancho del subrayado para dispositivos medianos */
+  }
+
+  .carousel-caption p {
+    font-size: 13px; /* Reducir el tamaño del texto para dispositivos medianos */
+  }
+
+  .carousel-caption .btn-custom {
+    font-size: 14px; /* Reducir el tamaño del botón para dispositivos medianos */
+    padding: 8px 16px; /* Reducir el relleno del botón para dispositivos medianos */
+  }
+}
+
+/* Ajustes adicionales para pantallas pequeñas */
+@media (max-width: 767px) {
+  .banner-carousel {
+    height: 300px; /* Reducir aún más la altura del carrusel para dispositivos pequeños */
+  }
+
+  .carousel-caption h2 {
+    font-size: 24px; /* Reducir aún más el tamaño del encabezado para dispositivos pequeños */
+  }
+
+  .carousel-caption h2:after {
+    width: 30px; /* Reducir aún más el ancho del subrayado para dispositivos pequeños */
+  }
+
+  .carousel-caption p {
+    display: none; /* Ocultar el texto para dispositivos pequeños */
+  }
+
+  .carousel-caption .btn-custom {
+    font-size: 12px; /* Reducir el tamaño del botón para dispositivos pequeños */
+    padding: 6px 12px; /* Reducir el relleno del botón para dispositivos pequeños */
+  }
+
+}
+
+/* Ajustes adicionales para pantallas medianas */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption h2 {
+    margin-bottom: 15px; /* Reducir el margen inferior del h2 en pantallas medianas */
+  }
+  .carousel-caption p {
+    margin-top: 15px; /* Reducir el margen superior del p en pantallas medianas */
+  }
+
+  .carousel-caption {
+    width: 70%; /* Reducir el ancho del carousel-caption */
+    
+  }
+}
+
+
+/* Mover el subrayado al elemento seleccionado */
+nav .nav-link {
+    position: relative;
+  }
+  
+  nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: var(--accent-color);
+    transition: width 0.5s ease; /* Cambiamos la transición a la anchura */
+  }
+  
+  nav .nav-link:hover::after,
+  nav .nav-link:focus::after {
+    width: 100%; /* Expandimos la anchura al 100% */
+  }
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about .content {
+  background-color: #ffcccc; /* Cambia el color de fondo a una tonalidad de rojo claro */
+  padding: 40px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #b41313; /* Cambia el color del título a una tonalidad de rojo */
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent-color); 
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--accent-color); /* Cambia el color de fondo del botón a una tonalidad de rojo oscuro */
+  box-shadow: 0px 5px 25px rgba(204, 0, 0, 0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+  font-size: 14px;
+  background-color: #1f1f24;
+  padding: 50px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer .icon {
+  margin-right: 15px;
+  font-size: 24px;
+  line-height: 0;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 5px;
+  color: #fff;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-links ul a:hover {
+  color: #fff;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .credits {
+  padding-top: 4px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer .credits a {
+  color: #fff;
+}
+
+.social-links a {
+  transition: border-color 0.3s ease; /* Agrega una transición suave */
+}
+
+.social-links a:hover {
+  border-color: var(--accent-color); /* Cambia el color del borde al pasar el ratón */
+}
+
+/*--------------------------------------------------------------
+# Grafica
+--------------------------------------------------------------*/
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+select, #filters-container {
+  width: 100%;
+  margin-bottom: 20px;
+}
+select {
+  padding: 8px;
+}
+#chart-container {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  width: 80%;
+  height: 100%;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.legend {
+  font-size: 12px;
+}
+.legend-item {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.legend-item:hover {
+  opacity: 0.5;
+}
+.hidden {
+  display: none;
+}
+.filter-value-button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.filter-controls {
+  display: flex;
+  flex-direction: column;
+}
+.filter-value-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.filter-none-button {
+  margin-top: 5px;
+}
+.legend-box {
+  width: 80%;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: left;
+}
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.legend-color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+footer.footer {
+  clear: both;
+}
+
+.legend {
+  font-size: 12px;
+}
+.legend rect {
+  width: 10px;
+  height: 10px;
+  fill-opacity: 0.7;
+}
+.legend text {
+  fill: #000;
+  font-size: 12px;
+  padding: 2px;
+}
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 6px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
