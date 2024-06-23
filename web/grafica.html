@@ -909,6 +909,31 @@
     
             const tooltipBubble = d3.select(".tooltip");
     
+            let xBubble, yBubble, radiusBubble, colorBubble, xAxisBubble, yAxisBubble, bubbles;
+    
+            function updateChart() {
+                widthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
+                heightBubble = 700 - marginBubble.top - marginBubble.bottom;
+    
+                d3.select("#bubble-chart")
+                    .attr("width", widthBubble + marginBubble.left + marginBubble.right)
+                    .attr("height", heightBubble + marginBubble.top + marginBubble.bottom);
+    
+                xBubble.range([0, widthBubble]);
+                yBubble.range([heightBubble, 0]);
+    
+                svgBubble.select('.x-axis')
+                    .attr("transform", `translate(0,${heightBubble})`)
+                    .call(xAxisBubble);
+    
+                svgBubble.select('.y-axis').call(yAxisBubble);
+    
+                bubbles
+                    .attr("cx", d => xBubble(d.pax))
+                    .attr("cy", d => yBubble(d.precio))
+                    .attr("r", d => radiusBubble(d.precio));
+            }
+    
             // Cargar datos desde el archivo CSV
             d3.csv("../graficas/datos.csv").then(data => {
                 data.forEach(d => {
@@ -916,23 +941,23 @@
                     d.precio = +d.precio;
                 });
     
-                const xBubble = d3.scaleLinear()
+                xBubble = d3.scaleLinear()
                     .domain([0, d3.max(data, d => d.pax) * 1.1])
                     .range([0, widthBubble]);
     
-                const yBubble = d3.scaleLinear()
+                yBubble = d3.scaleLinear()
                     .domain([0, d3.max(data, d => d.precio)])
                     .range([heightBubble, 0]);
     
-                const colorBubble = d3.scaleOrdinal()
+                colorBubble = d3.scaleOrdinal()
                     .domain(["Apartamentos", "Hotel"])
                     .range(["#e41a1c", "#4daf4a"]);
     
-                const radiusBubble = d3.scaleSqrt()
+                radiusBubble = d3.scaleSqrt()
                     .domain([0, d3.max(data, d => d.precio)])
                     .range([5, 20]);
     
-                const bubbles = svgBubble.selectAll(".bubble")
+                bubbles = svgBubble.selectAll(".bubble")
                     .data(data)
                     .enter().append("circle")
                     .attr("class", "bubble")
@@ -954,17 +979,17 @@
                             .style("opacity", 0);
                     });
     
-                const xAxisBubble = d3.axisBottom(xBubble).ticks(10);
-                const yAxisBubble = d3.axisLeft(yBubble).ticks(10);
+                xAxisBubble = d3.axisBottom(xBubble).ticks(10);
+                yAxisBubble = d3.axisLeft(yBubble).ticks(10);
     
                 svgBubble.append("g")
+                    .attr("class", "x-axis")
                     .attr("transform", `translate(0,${heightBubble})`)
-                    .call(xAxisBubble)
-                    .attr("class", "x-axis");
+                    .call(xAxisBubble);
     
                 svgBubble.append("g")
-                    .call(yAxisBubble)
-                    .attr("class", "y-axis");
+                    .attr("class", "y-axis")
+                    .call(yAxisBubble);
     
                 svgBubble.append("text")
                     .attr("x", widthBubble / 2)
@@ -978,38 +1003,15 @@
                     .attr("y", -60)
                     .style("text-anchor", "middle")
                     .text("Precio");
+    
+                // Actualizar el gráfico cuando se redimensiona la ventana
+                window.addEventListener('resize', updateChart);
             }).catch(error => {
                 console.error('Error al cargar los datos:', error);
             });
-    
-            // Ajustar el tamaño del gráfico al cambiar el tamaño de la ventana
-            window.addEventListener('resize', () => {
-                widthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
-                heightBubble = 700 - marginBubble.top - marginBubble.bottom;
-    
-                const newWidthBubble = document.getElementById('bubble-chart').clientWidth - marginBubble.left - marginBubble.right;
-                const newHeightBubble = document.getElementById('bubble-chart').clientHeight - marginBubble.top - marginBubble.bottom;
-    
-                xBubble.range([0, newWidthBubble]);
-                yBubble.range([newHeightBubble, 0]);
-    
-                d3.select("#bubble-chart")
-                    .attr("width", newWidthBubble + marginBubble.left + marginBubble.right)
-                    .attr("height", newHeightBubble + marginBubble.top + marginBubble.bottom);
-    
-                svgBubble.select('.x-axis')
-                    .attr("transform", `translate(0,${newHeightBubble})`)
-                    .call(xAxisBubble);
-    
-                svgBubble.select('.y-axis').call(yAxisBubble);
-    
-                bubbles
-                    .attr("cx", d => xBubble(d.pax))
-                    .attr("cy", d => yBubble(d.precio))
-                    .attr("r", d => radiusBubble(d.precio));
-            });
         </script>
-    </div>         
+    </div>     
+           
     <footer id="footer" class="footer">
 
         <div class="container">

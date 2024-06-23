@@ -88,7 +88,7 @@ Para ejecutar la aplicación web localmente, sigue estos pasos:
 - `booking-oferta_scraper.py`: Script para scraping de oferta turística en Booking.com.
 - `web/`: Directorio que contiene los archivos de la aplicación web.
 - `resultados/`: Directorio donde se almacenan los datos recopilados de booking_scraper.py.
-- `parse/`: Directorio donde se almacenan los datos recopilados de booking-oferta_scraper.py
+- `parser/`: Directorio donde se almacenan los datos recopilados de booking-oferta_scraper.py
 - `graficas/`: Directorio donde se almacenan las gráficos de los distintos datos recopilados.
 - `requirements.txt`: Archivo con las dependencias de Python necesarias.
 
